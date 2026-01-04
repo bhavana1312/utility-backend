@@ -1,0 +1,110 @@
+
+1.0bhavana1312_utility-backendJavaFrontend"1767547264706*java2.Bû
+d
+_payment-service/src/main/java/com/utilitybilling/paymentservice/dto/InitiatePaymentRequest.java2
+	
+type3
+	
+MAIN4
+
+
+module-key5
+
+payment-service6
+
+package8
+:
+5payment-service:com.utilitybilling.paymentservice.dto9
+B
+<com.utilitybilling.paymentservice.dto.InitiatePaymentRequest11
+
+class12
+
+access13
+
+public14
+
+
+full-range15
+
+(5:1)-(8:2)16
+
+simple-name17
+
+InitiatePaymentRequest18
+
+lombok.Data20
+
+unknown21
+
+annotated by22
+
+
+uses23
+I
+Ccom.utilitybilling.paymentservice.dto.InitiatePaymentRequest.billId25
+
+field26
+
+private27
+
+(7:5)-(7:27)28
+
+billId29J%
+#
+1
+12
+
+3
+4
+
+5
+6 Z
+
+7
+7982
+
+
+5
+68j°
+J
+10D
+101112 *
+1 ($:7B$
+
+
+13
+14
+
+
+15
+16
+
+
+17
+18
+
+19
+192021
+N
+24H
+242526 *
+1 (210:7B$
+
+
+13
+27
+
+
+15
+28
+
+
+17
+29r6
+
+101922*
+1 (
+
+101923*
+1 (

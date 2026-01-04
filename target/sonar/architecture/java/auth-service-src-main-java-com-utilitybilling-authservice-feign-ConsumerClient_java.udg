@@ -1,0 +1,155 @@
+
+1.0bhavana1312_utility-backendJavaFrontend"1767547261564*java2.BË
+X
+Sauth-service/src/main/java/com/utilitybilling/authservice/feign/ConsumerClient.java2
+	
+type3
+	
+MAIN4
+
+
+module-key5
+
+auth-service6
+
+package8
+6
+1auth-service:com.utilitybilling.authservice.feign9
+9
+3com.utilitybilling.authservice.feign.ConsumerClient11
+
+	interface12
+
+access13
+
+public14
+
+
+full-range15
+
+(7:1)-(12:2)16
+
+simple-name17
+
+ConsumerClient18
+5
+/org.springframework.cloud.openfeign.FeignClient20
+
+unknown21
+
+annotated by22
+
+
+uses23
+A
+;com.utilitybilling.authservice.feign.ConsumerClientFallback25
+“
+Œcom.utilitybilling.authservice.feign.ConsumerClient#getByUsername(Ljava/lang/String;)Lcom/utilitybilling/authservice/feign/ConsumerResponse;27
+
+method28
+
+(10:2)-(11:76)29
+
+getByUsername30
+;
+5com.utilitybilling.authservice.feign.ConsumerResponse32
+
+returns33
+8
+2org.springframework.web.bind.annotation.GetMapping35
+:
+4org.springframework.web.bind.annotation.PathVariable37J%
+#
+1
+12
+
+3
+4
+
+5
+6 Z
+
+7
+7982
+
+
+5
+68j€
+
+36
+363721
+N
+26H
+262728 *
+1 ( 210:7B$
+
+
+13
+14
+
+
+15
+29
+
+
+17
+30
+
+31
+313221
+
+34
+343521
+J
+10D
+101112 *
+1 ( :7B$
+
+
+13
+14
+
+
+15
+16
+
+
+17
+18
+
+19
+192021
+
+24
+242521ró
+
+101922*
+1 (Q
+
+101923*
+1 (
+
+102423*
+14 (J
+
+263133*
+1 (
+
+263422*
+1
+ 
+(/
+
+263423*
+1
+ 
+(
+
+263123*
+1 (
+
+263622*
+1! (:
+
+263623*
+1" (.

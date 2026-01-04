@@ -1,0 +1,304 @@
+
+1.0bhavana1312_utility-backendJavaFrontend"1767547258700*java2.Bƒ
+e
+`consumer-service/src/main/java/com/utilitybilling/consumerservice/dto/CreateConsumerRequest.java2
+	
+type3
+	
+MAIN4
+
+
+module-key5
+
+consumer-service6
+
+package8
+<
+7consumer-service:com.utilitybilling.consumerservice.dto9
+B
+<com.utilitybilling.consumerservice.dto.CreateConsumerRequest11
+
+class12
+
+access13
+
+public14
+
+
+full-range15
+
+(6:1)-(30:2)16
+
+simple-name17
+
+CreateConsumerRequest18
+
+lombok.Data20
+
+unknown21
+
+annotated by22
+
+
+uses23
+K
+Ecom.utilitybilling.consumerservice.dto.CreateConsumerRequest.fullName25
+
+field26
+
+private27
+
+(9:2)-(10:26)28
+
+fullName29
+-
+'jakarta.validation.constraints.NotBlank31
+H
+Bcom.utilitybilling.consumerservice.dto.CreateConsumerRequest.email33
+
+(12:2)-(14:23)34
+
+email35
+*
+$jakarta.validation.constraints.Email37
+H
+Bcom.utilitybilling.consumerservice.dto.CreateConsumerRequest.phone39
+
+(16:2)-(17:23)40
+
+phone41
+O
+Icom.utilitybilling.consumerservice.dto.CreateConsumerRequest.addressLine143
+
+(19:2)-(20:30)44
+
+addressLine145
+G
+Acom.utilitybilling.consumerservice.dto.CreateConsumerRequest.city47
+
+(22:2)-(23:22)48
+
+
+city49
+H
+Bcom.utilitybilling.consumerservice.dto.CreateConsumerRequest.state51
+
+(25:2)-(26:23)52
+
+state53
+M
+Gcom.utilitybilling.consumerservice.dto.CreateConsumerRequest.postalCode55
+
+(28:2)-(29:28)56
+
+
+postalCode57J%
+#
+1
+12
+
+3
+4
+
+5
+6 Z
+
+7
+7982
+
+
+5
+68j¸
+N
+38H
+383926 *
+1 (210:7B$
+
+
+13
+27
+
+
+15
+40
+
+
+17
+41
+N
+46H
+464726 *
+1 (210:7B$
+
+
+13
+27
+
+
+15
+48
+
+
+17
+49
+J
+10D
+101112 *
+1 (#:7B$
+
+
+13
+14
+
+
+15
+16
+
+
+17
+18
+
+30
+303121
+
+36
+363721
+
+19
+192021
+N
+24H
+242526 *
+1
+ 
+(210:7B$
+
+
+13
+27
+
+
+15
+28
+
+
+17
+29
+N
+42H
+424326 *
+1 (210:7B$
+
+
+13
+27
+
+
+15
+44
+
+
+17
+45
+N
+50H
+505126 *
+1 (210:7B$
+
+
+13
+27
+
+
+15
+52
+
+
+17
+53
+N
+54H
+545526 *
+1 (210:7B$
+
+
+13
+27
+
+
+15
+56
+
+
+17
+57
+N
+32H
+323326 *
+1 (210:7B$
+
+
+13
+27
+
+
+15
+34
+
+
+17
+35ræ
+
+101922*
+1 (
+
+101923*
+1 (
+
+243022*
+1	 	(.
+
+243023*
+1	 	(
+
+323622*
+1 (#
+
+323623*
+1 (
+
+323022*
+1 (
+
+323023*
+1 (
+
+383022*
+1 (*
+
+383023*
+1 (
+
+423022*
+1 (
+
+423023*
+1 (
+
+463022*
+1 (
+
+463023*
+1 (
+
+503022*
+1 (
+
+503023*
+1 (
+
+543022*
+1 (
+
+543023*
+1 (

@@ -1,0 +1,435 @@
+
+1.0bhavana1312_utility-backendJavaFrontend"1767547264180*java2.BÂ
+\
+Wpayment-service/src/main/java/com/utilitybilling/paymentservice/dto/InvoicePdfData.java2
+	
+type3
+	
+MAIN4
+
+
+module-key5
+
+payment-service6
+
+package8
+:
+5payment-service:com.utilitybilling.paymentservice.dto9
+:
+4com.utilitybilling.paymentservice.dto.InvoicePdfData11
+
+class12
+
+access13
+
+public14
+
+
+full-range15
+
+(9:1)-(31:2)16
+
+simple-name17
+
+InvoicePdfData18
+
+lombok.Data20
+
+unknown21
+
+annotated by22
+
+
+uses23
+
+lombok.Builder25
+D
+>com.utilitybilling.paymentservice.dto.InvoicePdfData.invoiceId27
+
+field28
+
+private29
+
+(13:2)-(13:27)30
+
+	invoiceId31
+E
+?com.utilitybilling.paymentservice.dto.InvoicePdfData.consumerId33
+
+(14:2)-(14:28)34
+
+
+consumerId35
+F
+@com.utilitybilling.paymentservice.dto.InvoicePdfData.meterNumber37
+
+(15:2)-(15:29)38
+
+meterNumber39
+F
+@com.utilitybilling.paymentservice.dto.InvoicePdfData.utilityType41
+
+(16:2)-(16:29)42
+
+utilityType43
+J
+Dcom.utilitybilling.paymentservice.dto.InvoicePdfData.previousReading45
+
+(18:2)-(18:33)46
+
+previousReading47
+I
+Ccom.utilitybilling.paymentservice.dto.InvoicePdfData.currentReading49
+
+(19:2)-(19:32)50
+
+currentReading51
+H
+Bcom.utilitybilling.paymentservice.dto.InvoicePdfData.unitsConsumed53
+
+(20:2)-(20:31)54
+
+unitsConsumed55
+G
+Acom.utilitybilling.paymentservice.dto.InvoicePdfData.energyCharge57
+
+(22:2)-(22:34)58
+
+energyCharge59
+F
+@com.utilitybilling.paymentservice.dto.InvoicePdfData.fixedCharge61
+
+(23:2)-(23:33)62
+
+fixedCharge63
+D
+>com.utilitybilling.paymentservice.dto.InvoicePdfData.taxAmount65
+
+(24:2)-(24:31)66
+
+	taxAmount67
+H
+Bcom.utilitybilling.paymentservice.dto.InvoicePdfData.penaltyAmount69
+
+(25:2)-(25:35)70
+
+penaltyAmount71
+F
+@com.utilitybilling.paymentservice.dto.InvoicePdfData.totalAmount73
+
+(26:2)-(26:33)74
+
+totalAmount75
+J
+Dcom.utilitybilling.paymentservice.dto.InvoicePdfData.billGeneratedAt77
+
+(28:2)-(28:34)78
+
+billGeneratedAt79
+F
+@com.utilitybilling.paymentservice.dto.InvoicePdfData.billDueDate81
+
+(29:2)-(29:30)82
+
+billDueDate83
+F
+@com.utilitybilling.paymentservice.dto.InvoicePdfData.paymentDate85
+
+(30:2)-(30:30)86
+
+paymentDate87J%
+#
+1
+12
+
+3
+4
+
+5
+6 Z
+
+7
+7982
+
+
+5
+68j¤
+
+J
+10D
+101112 *
+1 (:7B$
+
+
+13
+14
+
+
+15
+16
+
+
+17
+18
+N
+26H
+262728 *
+1 (210:7B$
+
+
+13
+29
+
+
+15
+30
+
+
+17
+31
+N
+40H
+404128 *
+1 (210:7B$
+
+
+13
+29
+
+
+15
+42
+
+
+17
+43
+N
+32H
+323328 *
+1 (210:7B$
+
+
+13
+29
+
+
+15
+34
+
+
+17
+35
+N
+48H
+484928 *
+1 (210:7B$
+
+
+13
+29
+
+
+15
+50
+
+
+17
+51
+N
+68H
+686928 *
+1 ("210:7B$
+
+
+13
+29
+
+
+15
+70
+
+
+17
+71
+N
+72H
+727328 *
+1 ( 210:7B$
+
+
+13
+29
+
+
+15
+74
+
+
+17
+75
+N
+44H
+444528 *
+1 ( 210:7B$
+
+
+13
+29
+
+
+15
+46
+
+
+17
+47
+N
+76H
+767728 *
+1 (!210:7B$
+
+
+13
+29
+
+
+15
+78
+
+
+17
+79
+
+24
+242521
+N
+60H
+606128 *
+1 ( 210:7B$
+
+
+13
+29
+
+
+15
+62
+
+
+17
+63
+N
+84H
+848528 *
+1 (210:7B$
+
+
+13
+29
+
+
+15
+86
+
+
+17
+87
+N
+52H
+525328 *
+1 (210:7B$
+
+
+13
+29
+
+
+15
+54
+
+
+17
+55
+
+19
+192021
+N
+64H
+646528 *
+1 (210:7B$
+
+
+13
+29
+
+
+15
+66
+
+
+17
+67
+N
+36H
+363728 *
+1 (210:7B$
+
+
+13
+29
+
+
+15
+38
+
+
+17
+39
+N
+80H
+808128 *
+1 (210:7B$
+
+
+13
+29
+
+
+15
+82
+
+
+17
+83
+N
+56H
+565728 *
+1 (!210:7B$
+
+
+13
+29
+
+
+15
+58
+
+
+17
+59rl
+
+101922*
+1	 	(
+
+101923*
+1	 	(
+
+102422*
+1
+ 
+(	
+
+102423*
+1
+ 
+(	

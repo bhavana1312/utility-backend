@@ -1,0 +1,56 @@
+
+„com.utilitybilling.consumerservice.controller.ConsumerController#exists(Ljava/lang/String;)Lorg/springframework/http/ResponseEntity;
+„D:/weird/utility-billing-system/consumer-service/src/main/java/com/utilitybilling/consumerservice/controller/ConsumerController.java=' =(-"startingBlock*¤
+startingBlock=- =(L«
+¨
+=. =(A
+%3"
+__annotate*T
+
+__unknown_file (86
+4org.springframework.web.bind.annotation.PathVariable*4
+
+__unknown_file (
+
+idjava.lang.StringV
+T
+=I =(K
+idjava.lang.String"__annotation*"
+
+__unknown_file (
+
+%3*
+1*ý
+1>	 >(Ä
+Á
+>. >(5@
+%0:com.utilitybilling.consumerservice.service.ConsumerService"__id*m
+
+__unknown_file (Q*OB
+@com.utilitybilling.consumerservice.controller.ConsumerController"	
+service¦£
+>. >(@
+%1boolean"Vcom.utilitybilling.consumerservice.service.ConsumerService#exists(Ljava/lang/String;)Z*^
+
+__unknown_file (B
+@
+%0:com.utilitybilling.consumerservice.service.ConsumerService*4
+
+__unknown_file (
+
+idjava.lang.String2exists(Ljava/lang/String;)é
+æ
+>	 >(B
+%2"gorg.springframework.http.ResponseEntity#ok(Ljava/lang/Object;)Lorg/springframework/http/ResponseEntity;*G
+
+__unknown_file (+")
+'org.springframework.http.ResponseEntity*"
+
+__unknown_file (
+"""
+> >(C
+
+%2:"
+=. =(K
+idjava.lang.StringBDB
+@com.utilitybilling.consumerservice.controller.ConsumerControllerH

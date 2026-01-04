@@ -1,0 +1,1186 @@
+
+1.0bhavana1312_utility-backendJavaFrontend"1767547266026*java2.B¶2
+`
+[billing-service/src/main/java/com/utilitybilling/billingservice/service/BillingService.java2
+	
+type3
+	
+MAIN4
+
+
+module-key5
+
+billing-service6
+
+package8
+>
+9billing-service:com.utilitybilling.billingservice.service9
+>
+8com.utilitybilling.billingservice.service.BillingService11
+
+class12
+
+access13
+
+public14
+
+
+full-range15
+
+(18:1)-(166:2)16
+
+simple-name17
+
+BillingService18
+,
+&org.springframework.stereotype.Service20
+
+unknown21
+
+annotated by22
+
+
+uses23
+$
+lombok.RequiredArgsConstructor25
+J
+Dcom.utilitybilling.billingservice.service.BillingService.meterClient27
+
+field28
+
+private29
+
+(22:2)-(22:40)30
+
+meterClient31
+9
+3com.utilitybilling.billingservice.feign.MeterClient33
+
+is type34
+M
+Gcom.utilitybilling.billingservice.service.BillingService.consumerClient36
+
+(23:2)-(23:46)37
+
+consumerClient38
+<
+6com.utilitybilling.billingservice.feign.ConsumerClient40
+L
+Fcom.utilitybilling.billingservice.service.BillingService.tariffGateway42
+
+(24:2)-(24:44)43
+
+tariffGateway44
+=
+7com.utilitybilling.billingservice.service.TariffGateway46
+G
+Acom.utilitybilling.billingservice.service.BillingService.billRepo48
+
+(25:2)-(25:40)49
+
+billRepo50
+A
+;com.utilitybilling.billingservice.repository.BillRepository52
+Q
+Kcom.utilitybilling.billingservice.service.BillingService.notificationClient54
+
+(26:2)-(26:54)55
+
+notificationClient56
+@
+:com.utilitybilling.billingservice.feign.NotificationClient58
+π
+≤com.utilitybilling.billingservice.service.BillingService#generate(Lcom/utilitybilling/billingservice/dto/GenerateBillRequest;)Lcom/utilitybilling/billingservice/dto/BillResponse;60
+
+method61
+
+(28:2)-(88:3)62
+
+generate63
+8
+2com.utilitybilling.billingservice.dto.BillResponse65
+
+returns66
+?
+9com.utilitybilling.billingservice.dto.GenerateBillRequest68
+
+	has param69
+;
+5com.utilitybilling.billingservice.feign.MeterResponse71
+
+
+references72
+é
+ácom.utilitybilling.billingservice.feign.MeterClient#getMeter(Ljava/lang/String;)Lcom/utilitybilling/billingservice/feign/MeterResponse;74
+
+calls75
+>
+8com.utilitybilling.billingservice.feign.ConsumerResponse77
+è
+àcom.utilitybilling.billingservice.feign.ConsumerClient#get(Ljava/lang/String;)Lcom/utilitybilling/billingservice/feign/ConsumerResponse;79
+]
+Wcom.utilitybilling.billingservice.feign.MeterClient#getLastReading(Ljava/lang/String;)D81
+ï
+écom.utilitybilling.billingservice.repository.BillRepository#findTopByMeterNumberOrderByGeneratedAtDesc(Ljava/lang/String;)Ljava/util/Optional;83
+2
+,com.utilitybilling.billingservice.model.Bill85
+<
+6com.utilitybilling.billingservice.feign.TariffResponse87
+¶
+ücom.utilitybilling.billingservice.service.TariffGateway#getActive(Ljava/lang/String;Ljava/lang/String;)Lcom/utilitybilling/billingservice/feign/TariffResponse;89
+Å
+{com.utilitybilling.billingservice.service.BillingService#calculateEnergyCharge(DLjava/lang/Iterable;)Ljava/math/BigDecimal;91
+8
+2com.utilitybilling.billingservice.model.BillStatus93
+<
+6com.utilitybilling.billingservice.model.BillStatus.DUE95
+8
+2org.springframework.data.repository.CrudRepository97
+c
+]org.springframework.data.repository.CrudRepository#save(Ljava/lang/Object;)Ljava/lang/Object;99
+Ü
+com.utilitybilling.billingservice.feign.NotificationClient#send(Lcom/utilitybilling/billingservice/feign/NotificationRequest;)V101
+B
+;com.utilitybilling.billingservice.feign.NotificationRequest103
+®
+†com.utilitybilling.billingservice.service.BillingService#map(Lcom/utilitybilling/billingservice/model/Bill;)Lcom/utilitybilling/billingservice/dto/BillResponse;105
+ä
+Çcom.utilitybilling.billingservice.service.BillingService#consumerBills(Ljava/lang/String;II)Lorg/springframework/data/domain/Page;107
+
+(90:2)-(93:3)108
+
+consumerBills109
++
+$org.springframework.data.domain.Page111
+t
+morg.springframework.data.domain.Page#map(Ljava/util/function/Function;)Lorg/springframework/data/domain/Page;113
+Œ
+∆com.utilitybilling.billingservice.repository.BillRepository#findByConsumerIdOrderByGeneratedAtDesc(Ljava/lang/String;Lorg/springframework/data/domain/Pageable;)Lorg/springframework/data/domain/Page;115
+2
++org.springframework.data.domain.PageRequest117
+ç
+Öorg.springframework.data.domain.PageRequest#of(IILorg/springframework/data/domain/Sort;)Lorg/springframework/data/domain/PageRequest;119
++
+$org.springframework.data.domain.Sort121
+^
+Worg.springframework.data.domain.Sort#descending()Lorg/springframework/data/domain/Sort;123
+i
+borg.springframework.data.domain.Sort#by([Ljava/lang/String;)Lorg/springframework/data/domain/Sort;125
+¢
+öcom.utilitybilling.billingservice.service.BillingService#all(Lcom/utilitybilling/billingservice/model/BillStatus;II)Lorg/springframework/data/domain/Page;127
+
+(95:2)-(98:3)128
+
+
+all129
+/
+(org.springframework.data.domain.Pageable131
+ù
+ïcom.utilitybilling.billingservice.repository.BillRepository#findAll(Lorg/springframework/data/domain/Pageable;)Lorg/springframework/data/domain/Page;133
+÷
+Œcom.utilitybilling.billingservice.repository.BillRepository#findByStatus(Lcom/utilitybilling/billingservice/model/BillStatus;Lorg/springframework/data/domain/Pageable;)Lorg/springframework/data/domain/Page;135
+ä
+Çcom.utilitybilling.billingservice.service.BillingService#getById(Ljava/lang/String;)Lcom/utilitybilling/billingservice/model/Bill;137
+
+(100:2)-(102:3)138
+
+getById139
+j
+corg.springframework.data.repository.CrudRepository#findById(Ljava/lang/Object;)Ljava/util/Optional;141
+¢
+öcom.utilitybilling.billingservice.service.BillingService#outstanding(Ljava/lang/String;)Lcom/utilitybilling/billingservice/dto/OutstandingBalanceResponse;143
+
+(104:2)-(116:3)144
+
+outstanding145
+G
+@com.utilitybilling.billingservice.dto.OutstandingBalanceResponse147
+ì
+ãcom.utilitybilling.billingservice.repository.BillRepository#findByConsumerIdAndStatusIn(Ljava/lang/String;Ljava/util/List;)Ljava/util/List;149
+A
+:com.utilitybilling.billingservice.model.BillStatus.OVERDUE151
+]
+Vcom.utilitybilling.billingservice.service.BillingService#markPaid(Ljava/lang/String;)V153
+
+(118:2)-(123:3)154
+
+markPaid155
+>
+7com.utilitybilling.billingservice.model.BillStatus.PAID157
+
+(125:2)-(144:3)158
+
+calculateEnergyCharge159
+9
+2com.utilitybilling.billingservice.feign.TariffSlab161
+
+(146:2)-(165:3)162
+
+
+map163J%
+#
+1
+12
+
+3
+4
+
+5
+6 Z
+
+7
+7982
+
+
+5
+68jÎ
+
+24
+242521
+
+160
+16016121
+
+86
+868721
+
+150
+15015121
+
+156
+15615721
+
+67
+676821
+S
+152L
+15215361 *
+1v v(210:7B&
+
+
+13
+14
+
+15
+154
+
+17
+155
+
+120
+12012121
+
+130
+13013121
+
+148
+14814921
+
+98
+989921
+J
+10D
+101112 *
+1 (:7B$
+
+
+13
+14
+
+
+15
+16
+
+
+17
+18
+
+51
+515221
+
+92
+929321
+
+116
+11611721
+
+110
+11011121
+
+57
+575821
+
+76
+767721
+
+73
+737421
+
+32
+323321
+
+122
+12212321
+
+140
+14014121
+
+114
+11411521
+
+124
+12412521
+
+80
+808121
+
+82
+828321
+U
+104N
+10410561 *
+1í í(210:7B&
+
+
+13
+29
+
+15
+162
+
+17
+163
+
+78
+787921
+
+64
+646521
+S
+142L
+14214361 *
+1h$ h(/210:7B&
+
+
+13
+14
+
+15
+144
+
+17
+145
+P
+90J
+909161 *
+1} }(*210:7B&
+
+
+13
+29
+
+15
+158
+
+17
+159
+N
+35H
+353628 *
+1 (-210:7B$
+
+
+13
+29
+
+
+15
+37
+
+
+17
+38
+
+94
+949521
+S
+136L
+13613761 *
+1d d(210:7B&
+
+
+13
+14
+
+15
+138
+
+17
+139
+N
+59H
+596061 *
+1 (210:7B$
+
+
+13
+14
+
+
+15
+62
+
+
+17
+63
+
+84
+848521
+
+96
+969721
+
+19
+192021
+
+132
+13213321
+
+70
+707121
+N
+26H
+262728 *
+1 ('210:7B$
+
+
+13
+29
+
+
+15
+30
+
+
+17
+31
+
+100
+10010121
+S
+106L
+10610761 *
+1Z Z()210:7B&
+
+
+13
+14
+
+15
+108
+
+17
+109
+N
+47H
+474828 *
+1 ('210:7B$
+
+
+13
+29
+
+
+15
+49
+
+
+17
+50
+N
+41H
+414228 *
+1 (+210:7B$
+
+
+13
+29
+
+
+15
+43
+
+
+17
+44
+
+102
+10210321
+
+146
+14614721
+
+112
+11211321
+
+118
+11811921
+S
+126L
+12612761 *
+1_ _(210:7B&
+
+
+13
+14
+
+15
+128
+
+17
+129
+
+134
+13413521
+N
+53H
+535428 *
+1# (5210:7B$
+
+
+13
+29
+
+
+15
+55
+
+
+17
+56
+
+88
+888921
+
+45
+454621
+
+39
+394021rπ+
+
+101922*
+1 (	
+
+101923*
+1 (	
+
+102422*
+1 (
+
+102423*
+1 (
+
+263234*
+1 (
+
+263223*
+1 (
+
+263223*
+1 ('
+
+353934*
+1 (
+
+353923*
+1 (
+
+353923*
+1 (-
+
+414534*
+1 (
+
+414523*
+1 (
+
+414523*
+1 (+
+
+475134*
+1 (
+
+475123*
+1 (
+
+475123*
+1 ('
+
+535734*
+1 ("
+
+535723*
+1 ("
+
+535723*
+1# (5
+
+596466*
+1	 (
+
+596769*
+1 (2
+
+596423*
+1	 (
+
+596734*
+13 (:
+
+596723*
+1 (2
+
+597034*
+1 (
+
+597023*
+1 (
+
+597066*
+1 (-
+
+593272*
+1 (-
+
+597375*
+1% (-
+
+592672*
+1 ($
+
+593223*
+1 ($
+
+592672*
+1 ($
+
+597634*
+1# #(
+
+597623*
+1# #(
+
+597666*
+1# #(1
+
+593972*
+1# #(1
+
+597875*
+1#. #(1
+
+593572*
+1# #(-
+
+593923*
+1# #(-
+
+593572*
+1# #(-
+
+593272*
+1( ((4
+
+598075*
+1(& ((4
+
+592672*
+1( ((%
+
+593223*
+1( ((%
+
+592672*
+1( ((%
+
+595172*
+1* *(O
+
+598275*
+1*% *(O
+
+594772*
+1* *($
+
+595123*
+1* *($
+
+594772*
+1* *($
+
+598423*
+1+
+ +(
+
+598634*
+12 2(
+
+598623*
+12 2(
+
+598666*
+12 2(2
+
+594572*
+12 2(2
+
+598875*
+12) 2(2
+
+594172*
+12 2((
+
+594523*
+12 2((
+
+594172*
+12 2((
+
+591072*
+14 4(2
+
+599075*
+14 4(2
+
+598434*
+1< <(
+
+598423*
+1< <(
+
+598475*
+1< <(
+
+599223*
+1L L(
+
+599223*
+1L L( 
+
+599472*
+1L L( 
+
+598434*
+1N N(
+
+598423*
+1N N(
+
+598466*
+1N N(!
+
+599672*
+1N N(!
+
+599875*
+1N N(!
+
+594772*
+1N N(
+
+595123*
+1N N(
+
+594772*
+1N N(
+
+595772*
+1P P(
+
+5910075*
+1P P(
+
+595372*
+1P P(
+
+595723*
+1P P(
+
+595372*
+1P P(
+
+5910223*
+1P P(.
+
+596466*
+1W
+ W(
+
+591072*
+1W
+ W(
+
+5910475*
+1W
+ W(
+
+10611066*
+1Z	 Z(
+
+10611023*
+1Z	 Z(
+
+1066423*
+1Z Z(
+
+10611066*
+1[
+ \(I
+
+10611072*
+1[
+ \(I
+
+10611275*
+1\F \(I
+
+10611066*
+1[
+ [(9
+
+1065172*
+1[
+ [(9
+
+10611475*
+1[ [(9
+
+1064772*
+1[
+ [(
+
+1065123*
+1[
+ [(
+
+1064772*
+1[
+ [(
+
+10611666*
+1\ \(
+
+10611672*
+1\ \(
+
+10611875*
+1\ \(
+
+10611623*
+1\ \(
+
+10612066*
+1\  \(A
+
+10612072*
+1\  \(A
+
+10612275*
+1\7 \(A
+
+10612066*
+1\  \('
+
+10612072*
+1\  \('
+
+10612475*
+1\% \('
+
+10612023*
+1\  \($
+
+1061023*
+1\J \(N
+
+1061072*
+1\J \(N
+
+12611066*
+1_	 _(
+
+1269269*
+1_  _(*
+
+12611023*
+1_	 _(
+
+1266423*
+1_ _(
+
+1269234*
+1_+ _(1
+
+1269223*
+1_  _(*
+
+12613034*
+1` `(
+
+12613023*
+1` `(
+
+12611666*
+1` `(%
+
+12611672*
+1` `(%
+
+12611875*
+1`# `(%
+
+12611623*
+1` `("
+
+12612066*
+1`2 `(S
+
+12612072*
+1`2 `(S
+
+12612275*
+1`I `(S
+
+12612066*
+1`2 `(9
+
+12612072*
+1`2 `(9
+
+12612475*
+1`7 `(9
+
+12612023*
+1`2 `(6
+
+12611066*
+1a
+ a(e
+
+12611072*
+1a
+ a(e
+
+12611275*
+1ab a(e
+
+12611066*
+1a a(,
+
+1265172*
+1a a(,
+
+12613275*
+1a% a(,
+
+1264772*
+1a a($
+
+1265123*
+1a a($
+
+1264772*
+1a a($
+
+12611066*
+1a9 a(N
+
+1265172*
+1a9 a(N
+
+12613475*
+1aB a(N
+
+1264772*
+1a9 a(A
+
+1265123*
+1a9 a(A
+
+1264772*
+1a9 a(A
+
+1261023*
+1af a(j
+
+1261072*
+1af a(j
+
+1368466*
+1d	 d(
+
+1368423*
+1d	 d(
+
+1368466*
+1e
+ e(/
+
+1369672*
+1e
+ e(
+
+13614075*
+1e e(
+
+1364772*
+1e
+ e(
+
+1365123*
+1e
+ e(
+
+1364772*
+1e
+ e(
+
+14214666*
+1h	 h(#
+
+14214623*
+1h	 h(#
+
+1428423*
+1j j(
+
+1425172*
+1j j(:
+
+14214875*
+1j j(:
+
+1424772*
+1j j(
+
+1425123*
+1j j(
+
+1424772*
+1j j(
+
+1429223*
+1k k(
+
+1429223*
+1k k(
+
+1429472*
+1k k(
+
+1429223*
+1k k('
+
+1429223*
+1k( k(/
+
+14215072*
+1k( k(/
+
+1428423*
+1m4 m(8
+
+14214634*
+1o o(
+
+14214623*
+1o o(
+
+14214675*
+1o& o(@
+
+1528434*
+1w w(
+
+1528423*
+1w w(
+
+1528466*
+1w w(4
+
+1529672*
+1w w( 
+
+15214075*
+1w w( 
+
+1524772*
+1w w(
+
+1525123*
+1w w(
+
+1524772*
+1w w(
+
+1529223*
+1x x(
+
+1529223*
+1x x(!
+
+15215672*
+1x x(!
+
+1528466*
+1z z(
+
+1529672*
+1z z(
+
+1529875*
+1z z(
+
+1524772*
+1z z(
+
+1525123*
+1z z(
+
+1524772*
+1z z(
+
+9016023*
+1}B }(L
+
+9016034*
+1Ç Ç(
+
+9016023*
+1Ç Ç(
+
+1046466*
+1í
+ í(
+
+1048469*
+1í í(
+
+1046423*
+1í
+ í(
+
+1048434*
+1í  í($
+
+1048423*
+1í í(
+
+1046434*
+1ì ì(
+
+1046423*
+1ì ì(
+
+1046475*
+1ì ì($

@@ -1,0 +1,1540 @@
+
+1.0bhavana1312_utility-backendJavaFrontend"1767547260052*java2.B´<
+m
+hconsumer-service/src/test/java/com/utilitybilling/consumerservice/controller/ConsumerControllerTest.java2
+	
+type3
+	
+TEST4
+
+
+module-key5
+
+consumer-service6
+
+package8
+C
+>consumer-service:com.utilitybilling.consumerservice.controller9
+J
+Dcom.utilitybilling.consumerservice.controller.ConsumerControllerTest11
+
+class12
+
+access13
+
+	protected14
+
+
+full-range15
+
+(22:1)-(94:2)16
+
+simple-name17
+
+ConsumerControllerTest18
+H
+Borg.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest20
+
+unknown21
+
+annotated by22
+
+
+uses23
+F
+@com.utilitybilling.consumerservice.controller.ConsumerController25
+R
+Lorg.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc27
+R
+Lcom.utilitybilling.consumerservice.controller.ConsumerControllerTest.mockMvc29
+
+field30
+
+private31
+
+(26:2)-(27:26)32
+
+mockMvc33
+2
+,org.springframework.test.web.servlet.MockMvc35
+
+is type36
+<
+6org.springframework.beans.factory.annotation.Autowired38
+R
+Lcom.utilitybilling.consumerservice.controller.ConsumerControllerTest.service40
+
+(29:2)-(30:34)41
+
+service42
+@
+:com.utilitybilling.consumerservice.service.ConsumerService44
+9
+3org.springframework.boot.test.mock.mockito.MockBean46
+Q
+Kcom.utilitybilling.consumerservice.controller.ConsumerControllerTest.mapper48
+
+(32:2)-(33:30)49
+
+mapper50
+1
++com.fasterxml.jackson.databind.ObjectMapper52
+X
+Rcom.utilitybilling.consumerservice.controller.ConsumerControllerTest#approve_ok()V54
+
+method55
+
+(35:2)-(40:3)56
+
+
+approve_ok57
+ 
+org.junit.jupiter.api.Test59
+*
+$org.mockito.stubbing.OngoingStubbing61
+
+returns62
+
+
+references63
+o
+iorg.mockito.stubbing.OngoingStubbing#thenReturn(Ljava/lang/Object;)Lorg/mockito/stubbing/OngoingStubbing;65
+
+calls66
+
+org.mockito.Mockito68
+X
+Rorg.mockito.Mockito#when(Ljava/lang/Object;)Lorg/mockito/stubbing/OngoingStubbing;70
+=
+7com.utilitybilling.consumerservice.dto.ConsumerResponse72
+–
+com.utilitybilling.consumerservice.service.ConsumerService#approve(Ljava/lang/String;)Lcom/utilitybilling/consumerservice/dto/ConsumerResponse;74
+U
+Ocom.utilitybilling.consumerservice.dto.ConsumerResponse$ConsumerResponseBuilder76
+—
+com.utilitybilling.consumerservice.dto.ConsumerResponse$ConsumerResponseBuilder#build()Lcom/utilitybilling/consumerservice/dto/ConsumerResponse;78
+¾
+·com.utilitybilling.consumerservice.dto.ConsumerResponse$ConsumerResponseBuilder#id(Ljava/lang/String;)Lcom/utilitybilling/consumerservice/dto/ConsumerResponse$ConsumerResponseBuilder;80
+™
+’com.utilitybilling.consumerservice.dto.ConsumerResponse#builder()Lcom/utilitybilling/consumerservice/dto/ConsumerResponse$ConsumerResponseBuilder;82
+8
+2org.springframework.test.web.servlet.ResultActions84
+­
+¦org.springframework.test.web.servlet.ResultActions#andExpect(Lorg/springframework/test/web/servlet/ResultMatcher;)Lorg/springframework/test/web/servlet/ResultActions;86
+¦
+Ÿorg.springframework.test.web.servlet.MockMvc#perform(Lorg/springframework/test/web/servlet/RequestBuilder;)Lorg/springframework/test/web/servlet/ResultActions;88
+P
+Jorg.springframework.test.web.servlet.request.MockHttpServletRequestBuilder90
+I
+Corg.springframework.test.web.servlet.request.MockMvcRequestBuilders92
+Â
+»org.springframework.test.web.servlet.request.MockMvcRequestBuilders#post(Ljava/lang/String;[Ljava/lang/Object;)Lorg/springframework/test/web/servlet/request/MockHttpServletRequestBuilder;94
+8
+2org.springframework.test.web.servlet.ResultMatcher96
+F
+@org.springframework.test.web.servlet.result.StatusResultMatchers98
+ˆ
+€org.springframework.test.web.servlet.result.StatusResultMatchers#isCreated()Lorg/springframework/test/web/servlet/ResultMatcher;100
+H
+Aorg.springframework.test.web.servlet.result.MockMvcResultMatchers102
+”
+Œorg.springframework.test.web.servlet.result.MockMvcResultMatchers#status()Lorg/springframework/test/web/servlet/result/StatusResultMatchers;104
+U
+Ncom.utilitybilling.consumerservice.controller.ConsumerControllerTest#get_ok()V106
+
+(42:2)-(47:3)107
+
+get_ok108
+—
+com.utilitybilling.consumerservice.service.ConsumerService#getById(Ljava/lang/String;)Lcom/utilitybilling/consumerservice/dto/ConsumerResponse;110
+Â
+ºorg.springframework.test.web.servlet.request.MockMvcRequestBuilders#get(Ljava/lang/String;[Ljava/lang/Object;)Lorg/springframework/test/web/servlet/request/MockHttpServletRequestBuilder;112
+‚
+{org.springframework.test.web.servlet.result.StatusResultMatchers#isOk()Lorg/springframework/test/web/servlet/ResultMatcher;114
+_
+Xcom.utilitybilling.consumerservice.controller.ConsumerControllerTest#getAll_paginated()V116
+
+(49:2)-(57:3)117
+
+getAll_paginated118
++
+$org.springframework.data.domain.Page120
+/
+(org.springframework.data.domain.PageImpl122
+r
+kcom.utilitybilling.consumerservice.service.ConsumerService#getAll(II)Lorg/springframework/data/domain/Page;124
+I
+Borg.springframework.test.web.servlet.result.JsonPathResultMatchers126
+ˆ
+€org.springframework.test.web.servlet.result.JsonPathResultMatchers#isArray()Lorg/springframework/test/web/servlet/ResultMatcher;128
+½
+µorg.springframework.test.web.servlet.result.MockMvcResultMatchers#jsonPath(Ljava/lang/String;[Ljava/lang/Object;)Lorg/springframework/test/web/servlet/result/JsonPathResultMatchers;130
+X
+Qcom.utilitybilling.consumerservice.controller.ConsumerControllerTest#update_ok()V132
+
+(59:2)-(73:3)133
+
+	update_ok134
+Ô
+Ìcom.utilitybilling.consumerservice.service.ConsumerService#update(Ljava/lang/String;Lcom/utilitybilling/consumerservice/dto/UpdateConsumerRequest;)Lcom/utilitybilling/consumerservice/dto/ConsumerResponse;136
+#
+org.mockito.ArgumentMatchers138
+;
+4org.mockito.ArgumentMatchers#any()Ljava/lang/Object;140
+C
+<com.utilitybilling.consumerservice.dto.UpdateConsumerRequest142
+º
+²org.springframework.test.web.servlet.request.MockHttpServletRequestBuilder#content(Ljava/lang/String;)Lorg/springframework/test/web/servlet/request/MockHttpServletRequestBuilder;144
+Ð
+Èorg.springframework.test.web.servlet.request.MockHttpServletRequestBuilder#contentType(Lorg/springframework/http/MediaType;)Lorg/springframework/test/web/servlet/request/MockHttpServletRequestBuilder;146
+Â
+ºorg.springframework.test.web.servlet.request.MockMvcRequestBuilders#put(Ljava/lang/String;[Ljava/lang/Object;)Lorg/springframework/test/web/servlet/request/MockHttpServletRequestBuilder;148
+)
+"org.springframework.http.MediaType150
+:
+3org.springframework.http.MediaType.APPLICATION_JSON152
+\
+Ucom.utilitybilling.consumerservice.controller.ConsumerControllerTest#deactivate_ok()V154
+
+(75:2)-(78:3)155
+
+deactivate_ok156
+Å
+½org.springframework.test.web.servlet.request.MockMvcRequestBuilders#delete(Ljava/lang/String;[Ljava/lang/Object;)Lorg/springframework/test/web/servlet/request/MockHttpServletRequestBuilder;158
+Š
+‚org.springframework.test.web.servlet.result.StatusResultMatchers#isNoContent()Lorg/springframework/test/web/servlet/ResultMatcher;160
+X
+Qcom.utilitybilling.consumerservice.controller.ConsumerControllerTest#exists_ok()V162
+
+(80:2)-(86:3)163
+
+	exists_ok164
+]
+Vcom.utilitybilling.consumerservice.service.ConsumerService#exists(Ljava/lang/String;)Z166
+˜
+org.springframework.test.web.servlet.result.JsonPathResultMatchers#value(Ljava/lang/Object;)Lorg/springframework/test/web/servlet/ResultMatcher;168
+_
+Xcom.utilitybilling.consumerservice.controller.ConsumerControllerTest#getByUsername_ok()V170
+
+(88:2)-(93:3)171
+
+getByUsername_ok172
+
+•com.utilitybilling.consumerservice.service.ConsumerService#getByUsername(Ljava/lang/String;)Lcom/utilitybilling/consumerservice/dto/ConsumerResponse;174J%
+#
+1
+12
+
+3
+4
+
+5
+6 Z
+
+7
+7982
+
+
+5
+68jú
+J
+10D
+101112 *
+1 (:7B$
+
+
+13
+14
+
+
+15
+16
+
+
+17
+18
+
+87
+878821
+
+137
+13713821
+
+139
+13914021
+
+37
+373821
+
+93
+939421
+
+89
+899021
+
+83
+838421
+S
+169L
+16917055 *
+1Y Y(210:7B&
+
+
+13
+14
+
+15
+171
+
+17
+172
+
+81
+818221
+
+45
+454621
+
+71
+717221
+
+149
+14915021
+
+127
+12712821
+
+101
+10110221
+
+119
+11912021
+
+64
+646521
+
+58
+585921
+
+145
+14514621
+
+19
+192021
+S
+115L
+11511655 *
+12 2(210:7B&
+
+
+13
+14
+
+15
+117
+
+17
+118
+
+165
+16516621
+S
+161L
+16116255 *
+1Q Q(210:7B&
+
+
+13
+14
+
+15
+163
+
+17
+164
+N
+53H
+535455 *
+1$ $(210:7B$
+
+
+13
+14
+
+
+15
+56
+
+
+17
+57
+
+121
+12112221
+
+69
+697021
+
+75
+757621
+
+167
+16716821
+
+77
+777821
+
+123
+12312421
+
+95
+959621
+
+97
+979821
+
+99
+9910021
+
+109
+10911021
+
+157
+15715821
+
+34
+343521
+
+125
+12512621
+
+24
+242521
+
+173
+17317421
+
+129
+12913021
+
+143
+14314421
+
+151
+15115221
+
+147
+14714821
+S
+105L
+10510655 *
+1+ +(210:7B&
+
+
+13
+14
+
+15
+107
+
+17
+108
+S
+131L
+13113255 *
+1< <(210:7B&
+
+
+13
+14
+
+15
+133
+
+17
+134
+
+103
+10310421
+
+60
+606121
+
+51
+515221
+N
+28H
+282930 *
+1 (210:7B$
+
+
+13
+31
+
+
+15
+32
+
+
+17
+33
+
+159
+15916021
+
+73
+737421
+
+141
+14114221
+
+91
+919221
+
+67
+676821
+
+85
+858621
+
+26
+262721
+
+79
+798021
+
+111
+11111221
+N
+39H
+394030 *
+1 (!210:7B$
+
+
+13
+31
+
+
+15
+41
+
+
+17
+42
+N
+47H
+474830 *
+1! !(210:7B$
+
+
+13
+31
+
+
+15
+49
+
+
+17
+50
+
+113
+11311421
+S
+153L
+15315455 *
+1L L(210:7B&
+
+
+13
+14
+
+15
+155
+
+17
+156
+
+43
+434421
+
+135
+13513621r¥E
+
+101922*
+1 (&
+
+101923*
+1 (
+
+102423*
+1 (
+
+102622*
+1 (*
+
+102623*
+1 (
+
+283436*
+1
+ (
+
+283722*
+1 (
+
+283723*
+1 (
+
+283423*
+1
+ (
+
+283423*
+1 (
+
+394336*
+1
+ (
+
+394522*
+1 (
+
+394523*
+1 (
+
+394323*
+1
+ (
+
+394323*
+1 (!
+
+475136*
+1!
+ !(
+
+473722*
+1   (
+
+473723*
+1   (
+
+475123*
+1!
+ !(
+
+475123*
+1! !(
+
+535822*
+1# #(
+
+535823*
+1# #(
+
+536062*
+1% %((
+
+536063*
+1% %((
+
+536466*
+1% %((
+
+536062*
+1% %(
+
+536763*
+1% %(
+
+536966*
+1% %(
+
+537162*
+1% %(
+
+534363*
+1% %(
+
+537366*
+1% %(
+
+533963*
+1% %(
+
+534323*
+1% %(
+
+533963*
+1% %(
+
+537162*
+1%) %(Q
+
+537563*
+1%) %(Q
+
+537766*
+1%L %(Q
+
+537562*
+1%) %(F
+
+537563*
+1%) %(F
+
+537966*
+1%D %(F
+
+537562*
+1%) %(A
+
+537163*
+1%) %(A
+
+538166*
+1%: %(A
+
+537123*
+1%) %(9
+
+538362*
+1' '(?
+
+538363*
+1' '(?
+
+538566*
+1'6 '(?
+
+538362*
+1' '(
+
+533463*
+1' '(
+
+538766*
+1' '(
+
+532863*
+1' '(
+
+
+533423*
+1' '(
+
+
+532863*
+1' '(
+
+
+538962*
+1' '(
+
+539163*
+1' '(
+
+539366*
+1' '(
+
+539562*
+1'@ '(R
+
+539763*
+1'@ '(R
+
+539966*
+1'I '(R
+
+539762*
+1'@ '(F
+
+5310163*
+1'@ '(F
+
+5310366*
+1'@ '(F
+
+1055822*
+1* *(
+
+1055823*
+1* *(
+
+1056062*
+1, ,((
+
+1056063*
+1, ,((
+
+1056466*
+1, ,((
+
+1056062*
+1, ,(
+
+1056763*
+1, ,(
+
+1056966*
+1, ,(
+
+1057162*
+1, ,(
+
+1054363*
+1, ,(
+
+10510966*
+1, ,(
+
+1053963*
+1, ,(
+
+1054323*
+1, ,(
+
+1053963*
+1, ,(
+
+1057162*
+1,) ,(Q
+
+1057563*
+1,) ,(Q
+
+1057766*
+1,L ,(Q
+
+1057562*
+1,) ,(F
+
+1057563*
+1,) ,(F
+
+1057966*
+1,D ,(F
+
+1057562*
+1,) ,(A
+
+1057163*
+1,) ,(A
+
+1058166*
+1,: ,(A
+
+1057123*
+1,) ,(9
+
+1058362*
+1. .(1
+
+1058363*
+1. .(1
+
+1058566*
+1.( .(1
+
+1058362*
+1. .(
+
+1053463*
+1. .(
+
+1058766*
+1. .(
+
+1052863*
+1. .(
+
+
+1053423*
+1. .(
+
+
+1052863*
+1. .(
+
+
+1058962*
+1. .(
+
+1059163*
+1. .(
+
+10511166*
+1. .(
+
+1059562*
+1.2 .(?
+
+1059763*
+1.2 .(?
+
+10511366*
+1.; .(?
+
+1059762*
+1.2 .(8
+
+10510163*
+1.2 .(8
+
+10510366*
+1.2 .(8
+
+1155822*
+11 1(
+
+1155823*
+11 1(
+
+11511936*
+13 3(
+
+11511923*
+13 3(
+
+1157123*
+13 3(
+
+11512166*
+13% 3(-
+
+1157162*
+138 3(`
+
+1157563*
+138 3(`
+
+1157766*
+13[ 3(`
+
+1157562*
+138 3(U
+
+1157563*
+138 3(U
+
+1157966*
+13S 3(U
+
+1157562*
+138 3(P
+
+1157163*
+138 3(P
+
+1158166*
+13I 3(P
+
+1157123*
+138 3(H
+
+1156062*
+15 5()
+
+1156063*
+15 5()
+
+1156466*
+15 5()
+
+1156062*
+15 5(
+
+1156763*
+15 5(
+
+1156966*
+15 5(
+
+11511962*
+15 5(
+
+1154363*
+15 5(
+
+11512366*
+15 5(
+
+1153963*
+15 5(
+
+1154323*
+15 5(
+
+1153963*
+15 5(
+
+1158362*
+17 8(
+
+1158363*
+17 8(
+
+1158566*
+18 8(
+
+1158362*
+17 7(>
+
+1158363*
+17 7(>
+
+1158566*
+175 7(>
+
+1158362*
+17 7(
+
+1153463*
+17 7(
+
+1158766*
+17 7(
+
+1152863*
+17 7(
+
+
+1153423*
+17 7(
+
+
+1152863*
+17 7(
+
+
+1158962*
+17 7(
+
+1159163*
+17 7(
+
+11511166*
+17 7(
+
+1159562*
+17? 7(L
+
+1159763*
+17? 7(L
+
+11511366*
+17H 7(L
+
+1159762*
+17? 7(E
+
+11510163*
+17? 7(E
+
+11510366*
+17? 7(E
+
+1159562*
+18 8(-
+
+11512563*
+18 8(-
+
+11512766*
+18& 8(-
+
+11512562*
+18 8(
+
+11510163*
+18 8(
+
+11512966*
+18 8(
+
+1315822*
+1; ;(
+
+1315823*
+1; ;(
+
+1316062*
+1= =(0
+
+1316063*
+1= =(0
+
+1316466*
+1=& =(0
+
+1316062*
+1= =(
+
+1316763*
+1= =(
+
+1316966*
+1= =(
+
+1317162*
+1= =(
+
+1314363*
+1= =(
+
+13113566*
+1= =(
+
+1313963*
+1= =(
+
+1314323*
+1= =(
+
+1313963*
+1= =(
+
+13113763*
+1= =(
+
+13113966*
+1= =(
+
+13114162*
+1= =(!
+
+13113763*
+1= =(!
+
+13113966*
+1= =(!
+
+1317162*
+1=1 =(Y
+
+1317563*
+1=1 =(Y
+
+1317766*
+1=T =(Y
+
+1317562*
+1=1 =(N
+
+1317563*
+1=1 =(N
+
+1317966*
+1=L =(N
+
+1317562*
+1=1 =(I
+
+1317163*
+1=1 =(I
+
+1318166*
+1=B =(I
+
+1317123*
+1=1 =(A
+
+1318362*
+1? H(
+
+1318363*
+1? H(
+
+1318566*
+1H H(
+
+1318362*
+1? ?(
+
+1313463*
+1? ?(
+
+1318766*
+1? ?(
+
+1312863*
+1? ?(
+
+
+1313423*
+1? ?(
+
+
+1312863*
+1? ?(
+
+
+1318962*
+1? ?(V
+
+1318963*
+1? ?(V
+
+13114366*
+1?O ?(V
+
+1318962*
+1? ?(2
+
+1318963*
+1? ?(2
+
+13114566*
+1?' ?(2
+
+1318962*
+1? ?(
+
+1319163*
+1? ?(
+
+13114766*
+1? ?(
+
+13114923*
+1?3 ?(<
+
+13114923*
+1?= ?(M
+
+13115163*
+1?= ?(M
+
+1319562*
+1H H("
+
+1319763*
+1H H("
+
+13111366*
+1H H("
+
+1319762*
+1H H(
+
+13110163*
+1H H(
+
+13110366*
+1H H(
+
+1535822*
+1K K(
+
+1535823*
+1K K(
+
+1538362*
+1M M(4
+
+1538363*
+1M M(4
+
+1538566*
+1M+ M(4
+
+1538362*
+1M M(
+
+1533463*
+1M M(
+
+1538766*
+1M M(
+
+1532863*
+1M M(
+
+
+1533423*
+1M M(
+
+
+1532863*
+1M M(
+
+
+1538962*
+1M M(
+
+1539163*
+1M M(
+
+15315766*
+1M M(
+
+1539562*
+1M5 M(I
+
+1539763*
+1M5 M(I
+
+15315966*
+1M> M(I
+
+1539762*
+1M5 M(;
+
+15310163*
+1M5 M(;
+
+15310366*
+1M5 M(;
+
+1615822*
+1P P(
+
+1615823*
+1P P(
+
+1616062*
+1R R('
+
+1616063*
+1R R('
+
+1616466*
+1R R('
+
+1616062*
+1R R(
+
+1616763*
+1R R(
+
+1616966*
+1R R(
+
+1614363*
+1R R(
+
+16116566*
+1R R(
+
+1613963*
+1R R(
+
+1614323*
+1R R(
+
+1613963*
+1R R(
+
+1618362*
+1T U(
+
+1618363*
+1T U(
+
+1618566*
+1U U(
+
+1618362*
+1T T(8
+
+1618363*
+1T T(8
+
+1618566*
+1T/ T(8
+
+1618362*
+1T T(
+
+1613463*
+1T T(
+
+1618766*
+1T T(
+
+1612863*
+1T T(
+
+
+1613423*
+1T T(
+
+
+1612863*
+1T T(
+
+
+1618962*
+1T T(
+
+1619163*
+1T T(
+
+16111166*
+1T T(
+
+1619562*
+1T9 T(F
+
+1619763*
+1T9 T(F
+
+16111366*
+1TB T(F
+
+1619762*
+1T9 T(?
+
+16110163*
+1T9 T(?
+
+16110366*
+1T9 T(?
+
+1619562*
+1U U(*
+
+16112563*
+1U U(*
+
+16116766*
+1U% U(*
+
+16112562*
+1U U(
+
+16110163*
+1U U(
+
+16112966*
+1U U(
+
+1695822*
+1X X(
+
+1695823*
+1X X(
+
+1696062*
+1Z Z(.
+
+1696063*
+1Z Z(.
+
+1696466*
+1Z$ Z(.
+
+1696062*
+1Z Z(
+
+1696763*
+1Z Z(
+
+1696966*
+1Z Z(
+
+1697162*
+1Z Z(
+
+1694363*
+1Z Z(
+
+16917366*
+1Z Z(
+
+1693963*
+1Z Z(
+
+1694323*
+1Z Z(
+
+1693963*
+1Z Z(
+
+1697162*
+1Z/ Z(W
+
+1697563*
+1Z/ Z(W
+
+1697766*
+1ZR Z(W
+
+1697562*
+1Z/ Z(L
+
+1697563*
+1Z/ Z(L
+
+1697966*
+1ZJ Z(L
+
+1697562*
+1Z/ Z(G
+
+1697163*
+1Z/ Z(G
+
+1698166*
+1Z@ Z(G
+
+1697123*
+1Z/ Z(?
+
+1698362*
+1\ \(:
+
+1698363*
+1\ \(:
+
+1698566*
+1\1 \(:
+
+1698362*
+1\ \(
+
+1693463*
+1\ \(
+
+1698766*
+1\ \(
+
+1692863*
+1\ \(
+
+
+1693423*
+1\ \(
+
+
+1692863*
+1\ \(
+
+
+1698962*
+1\ \(
+
+1699163*
+1\ \(
+
+16911166*
+1\ \(
+
+1699562*
+1\; \(H
+
+1699763*
+1\; \(H
+
+16911366*
+1\D \(H
+
+1699762*
+1\; \(A
+
+16910163*
+1\; \(A
+
+16910366*
+1\; \(A

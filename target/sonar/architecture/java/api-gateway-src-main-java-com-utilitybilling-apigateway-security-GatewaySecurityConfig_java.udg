@@ -1,0 +1,1538 @@
+
+1.0bhavana1312_utility-backendJavaFrontend"1767547258025*java2.Bˇ4
+`
+[api-gateway/src/main/java/com/utilitybilling/apigateway/security/GatewaySecurityConfig.java2
+	
+type3
+	
+MAIN4
+
+
+module-key5
+
+api-gateway6
+
+package8
+7
+2api-gateway:com.utilitybilling.apigateway.security9
+B
+<com.utilitybilling.apigateway.security.GatewaySecurityConfig11
+
+class12
+
+access13
+
+public14
+
+
+full-range15
+
+(11:1)-(84:2)16
+
+simple-name17
+
+GatewaySecurityConfig18
+:
+4org.springframework.context.annotation.Configuration20
+
+unknown21
+
+annotated by22
+
+
+uses23
+M
+Gcom.utilitybilling.apigateway.security.GatewaySecurityConfig.ROLE_ADMIN25
+
+field26
+
+private27
+
+(14:2)-(14:51)28
+
+
+ROLE_ADMIN29
+W
+Qcom.utilitybilling.apigateway.security.GatewaySecurityConfig.ROLE_BILLING_OFFICER31
+
+(15:2)-(15:71)32
+
+ROLE_BILLING_OFFICER33
+X
+Rcom.utilitybilling.apigateway.security.GatewaySecurityConfig.ROLE_ACCOUNTS_OFFICER35
+
+(16:2)-(16:73)36
+
+ROLE_ACCOUNTS_OFFICER37
+L
+Fcom.utilitybilling.apigateway.security.GatewaySecurityConfig.ROLE_USER39
+
+(17:2)-(17:49)40
+
+	ROLE_USER41
+T
+Ncom.utilitybilling.apigateway.security.GatewaySecurityConfig.UTILITIES_TARIFFS43
+
+(19:2)-(19:74)44
+
+UTILITIES_TARIFFS45
+P
+Jcom.utilitybilling.apigateway.security.GatewaySecurityConfig.CONSUMERS_ALL47
+
+(20:2)-(20:62)48
+
+CONSUMERS_ALL49
+L
+Fcom.utilitybilling.apigateway.security.GatewaySecurityConfig.jwtFilter51
+
+(22:2)-(22:50)52
+
+	jwtFilter53
+D
+>com.utilitybilling.apigateway.security.JwtAuthenticationFilter55
+
+is type56
+ç
+Ücom.utilitybilling.apigateway.security.GatewaySecurityConfig#<init>(Lcom/utilitybilling/apigateway/security/JwtAuthenticationFilter;)V58
+
+method59
+
+(24:2)-(26:3)60
+
+	has param61
+
+calls62
+
+
+references63
+÷
+œcom.utilitybilling.apigateway.security.GatewaySecurityConfig#actuatorSecurity(Lorg/springframework/security/config/annotation/web/builders/HttpSecurity;)Lorg/springframework/security/web/SecurityFilterChain;65
+
+(28:2)-(33:3)66
+
+actuatorSecurity67
+:
+4org.springframework.security.web.SecurityFilterChain69
+
+returns70
+N
+Horg.springframework.security.config.annotation.web.builders.HttpSecurity72
+1
++org.springframework.context.annotation.Bean74
+/
+)org.springframework.core.annotation.Order76
+A
+;org.springframework.security.web.DefaultSecurityFilterChain78
+L
+Forg.springframework.security.config.annotation.AbstractSecurityBuilder80
+f
+`org.springframework.security.config.annotation.AbstractSecurityBuilder#build()Ljava/lang/Object;82
+·
+⁄org.springframework.security.config.annotation.web.builders.HttpSecurity#authorizeHttpRequests(Lorg/springframework/security/config/Customizer;)Lorg/springframework/security/config/annotation/web/builders/HttpSecurity;84
+–
+…org.springframework.security.config.annotation.web.builders.HttpSecurity#csrf(Lorg/springframework/security/config/Customizer;)Lorg/springframework/security/config/annotation/web/builders/HttpSecurity;86
+æ
+∑org.springframework.security.config.annotation.web.builders.HttpSecurity#securityMatcher([Ljava/lang/String;)Lorg/springframework/security/config/annotation/web/builders/HttpSecurity;88
+S
+Morg.springframework.security.config.annotation.web.configurers.CsrfConfigurer90
+[
+Uorg.springframework.security.config.annotation.web.configurers.AbstractHttpConfigurer92
+Æ
+ßorg.springframework.security.config.annotation.web.configurers.AbstractHttpConfigurer#disable()Lorg/springframework/security/config/annotation/web/HttpSecurityBuilder;94
+ê
+âorg.springframework.security.config.annotation.web.configurers.AuthorizeHttpRequestsConfigurer$AuthorizationManagerRequestMatcherRegistry96
+r
+lorg.springframework.security.config.annotation.web.configurers.AuthorizeHttpRequestsConfigurer$AuthorizedUrl98
+ã
+Éorg.springframework.security.config.annotation.web.configurers.AuthorizeHttpRequestsConfigurer$AuthorizedUrl#permitAll()Lorg/springframework/security/config/annotation/web/configurers/AuthorizeHttpRequestsConfigurer$AuthorizationManagerRequestMatcherRegistry;100
+X
+Qorg.springframework.security.config.annotation.web.AbstractRequestMatcherRegistry102
+w
+porg.springframework.security.config.annotation.web.AbstractRequestMatcherRegistry#anyRequest()Ljava/lang/Object;104
+“
+ com.utilitybilling.apigateway.security.GatewaySecurityConfig#apiSecurity(Lorg/springframework/security/config/annotation/web/builders/HttpSecurity;)Lorg/springframework/security/web/SecurityFilterChain;106
+
+(35:2)-(82:3)107
+
+apiSecurity108
+’
+Õorg.springframework.security.config.annotation.web.builders.HttpSecurity#addFilterBefore(Ljakarta/servlet/Filter;Ljava/lang/Class;)Lorg/springframework/security/config/annotation/web/builders/HttpSecurity;110
+O
+Horg.springframework.security.config.annotation.SecurityConfigurerAdapter112
+ñ
+éorg.springframework.security.config.annotation.SecurityConfigurerAdapter#and()Lorg/springframework/security/config/annotation/SecurityBuilder;114
+T
+Morg.springframework.security.config.annotation.web.configurers.CorsConfigurer116
+¶
+ûorg.springframework.security.config.annotation.web.builders.HttpSecurity#cors()Lorg/springframework/security/config/annotation/web/configurers/CorsConfigurer;118
+è
+áorg.springframework.security.config.annotation.web.configurers.AuthorizeHttpRequestsConfigurer$AuthorizedUrl#authenticated()Lorg/springframework/security/config/annotation/web/configurers/AuthorizeHttpRequestsConfigurer$AuthorizationManagerRequestMatcherRegistry;120
+µ
+≠org.springframework.security.config.annotation.web.AbstractRequestMatcherRegistry#requestMatchers(Lorg/springframework/http/HttpMethod;[Ljava/lang/String;)Ljava/lang/Object;122
+ü
+óorg.springframework.security.config.annotation.web.configurers.AuthorizeHttpRequestsConfigurer$AuthorizedUrl#hasAnyRole([Ljava/lang/String;)Lorg/springframework/security/config/annotation/web/configurers/AuthorizeHttpRequestsConfigurer$AuthorizationManagerRequestMatcherRegistry;124
+õ
+ìorg.springframework.security.config.annotation.web.configurers.AuthorizeHttpRequestsConfigurer$AuthorizedUrl#hasRole(Ljava/lang/String;)Lorg/springframework/security/config/annotation/web/configurers/AuthorizeHttpRequestsConfigurer$AuthorizationManagerRequestMatcherRegistry;126
+ê
+àorg.springframework.security.config.annotation.web.AbstractRequestMatcherRegistry#requestMatchers([Ljava/lang/String;)Ljava/lang/Object;128
+*
+#org.springframework.http.HttpMethod130
+2
++org.springframework.http.HttpMethod.OPTIONS132
+.
+'org.springframework.http.HttpMethod.GET134
+/
+(org.springframework.http.HttpMethod.POST136
+.
+'org.springframework.http.HttpMethod.PUT138
+1
+*org.springframework.http.HttpMethod.DELETE140
+[
+Torg.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter142J%
+#
+1
+12
+
+3
+4
+
+5
+6 Z
+
+7
+7982
+
+
+5
+68jè
+N
+57H
+575859 *
+1	 (210:7B$
+
+
+13
+14
+
+
+15
+60
+
+
+17
+18
+
+97
+979821
+
+85
+858621
+
+101
+10110221
+N
+30H
+303126 *
+1 (2210:7B$
+
+
+13
+27
+
+
+15
+32
+
+
+17
+33
+
+117
+11711821
+
+133
+13313421
+
+77
+777821
+
+71
+717221
+
+91
+919221
+
+121
+12112221
+
+139
+13914021
+
+89
+899021
+N
+38H
+383926 *
+1 ('210:7B$
+
+
+13
+27
+
+
+15
+40
+
+
+17
+41
+
+99
+9910021
+
+103
+10310421
+N
+50H
+505126 *
+1( (1210:7B$
+
+
+13
+27
+
+
+15
+52
+
+
+17
+53
+
+123
+12312421
+N
+46H
+464726 *
+1 (+210:7B$
+
+
+13
+27
+
+
+15
+48
+
+
+17
+49
+
+131
+13113221
+
+137
+13713821
+
+119
+11912021
+
+75
+757621
+
+113
+11311421
+
+135
+13513621
+
+129
+12913021
+N
+34H
+343526 *
+1 (3210:7B$
+
+
+13
+27
+
+
+15
+36
+
+
+17
+37
+
+81
+818221
+
+111
+11111221
+
+54
+545521
+
+109
+10911021
+
+125
+12512621
+N
+64H
+646559 *
+1 (-210:7B$
+
+
+13
+14
+
+
+15
+66
+
+
+17
+67
+
+68
+686921
+
+19
+192021
+
+87
+878821
+
+141
+14114221
+J
+10D
+101112 *
+1 (#:7B$
+
+
+13
+14
+
+
+15
+16
+
+
+17
+18
+
+95
+959621
+S
+105L
+10510659 *
+1% %((210:7B&
+
+
+13
+14
+
+15
+107
+
+17
+108
+
+83
+838421
+
+115
+11511621
+N
+42H
+424326 *
+1 (/210:7B$
+
+
+13
+27
+
+
+15
+44
+
+
+17
+45
+
+79
+798021
+N
+24H
+242526 *
+1 ((210:7B$
+
+
+13
+27
+
+
+15
+28
+
+
+17
+29
+
+73
+737421
+
+127
+12712821
+
+93
+939421r–K
+
+101922*
+1 (
+
+101923*
+1 (
+
+505456*
+1 ('
+
+505423*
+1 ('
+
+505423*
+1( (1
+
+575461*
+1 (6
+
+571062*
+1	 (
+
+575456*
+17 (@
+
+575423*
+1 (6
+
+571023*
+1 (
+
+571063*
+1 (
+
+575423*
+1 (
+
+575063*
+1 (
+
+646870*
+1	 (
+
+647161*
+1. (:
+
+647322*
+1 (
+
+647323*
+1 (
+
+647522*
+1 (
+
+647523*
+1 (
+
+646823*
+1	 (
+
+647156*
+1; (?
+
+647123*
+1. (:
+
+647770*
+1
+  (H
+
+647963*
+1
+  (H
+
+648162*
+1 C  (H
+
+647170*
+1
+  (
+
+647163*
+1
+  (
+
+648362*
+1   (
+
+647170*
+1
+ (3
+
+647163*
+1
+ (3
+
+648562*
+1/ (3
+
+647170*
+1
+ (
+
+647163*
+1
+ (
+
+648762*
+1 (
+
+648956*
+14 (8
+
+647170*
+1< (H
+
+649163*
+1< (H
+
+649362*
+1A (H
+
+649556*
+1   ( 
+
+649570*
+1 $  (?
+
+649763*
+1 $  (?
+
+649962*
+1 6  (?
+
+649770*
+1 $  (3
+
+6410163*
+1 $  (3
+
+6410362*
+1 )  (3
+
+1056870*
+1%	 %(
+
+1057161*
+1%) %(5
+
+1057322*
+1# #(
+
+1057323*
+1# #(
+
+1057522*
+1$ $(
+
+1057523*
+1$ $(
+
+1056823*
+1%	 %(
+
+1057156*
+1%6 %(:
+
+1057123*
+1%) %(5
+
+1057770*
+1&
+ Q(
+
+1057963*
+1&
+ Q(
+
+1058162*
+1Q Q(
+
+1057170*
+1&
+ P(3
+
+1057163*
+1&
+ P(3
+
+10510962*
+1P$ P(3
+
+1057170*
+1&
+ &(N
+
+1057163*
+1&
+ &(N
+
+1058362*
+1&9 &(N
+
+1057170*
+1&
+ &( 
+
+1057163*
+1&
+ &( 
+
+1058562*
+1& &( 
+
+1057170*
+1&
+ &(
+
+10511163*
+1&
+ &(
+
+10511362*
+1& &(
+
+10511570*
+1&
+ &(
+
+1057163*
+1&
+ &(
+
+10511762*
+1& &(
+
+1058956*
+1&! &(%
+
+1057170*
+1&) &(5
+
+1059163*
+1&) &(5
+
+1059362*
+1&. &(5
+
+1059556*
+1&O &(S
+
+1059570*
+1&W P( 
+
+1059763*
+1&W P( 
+
+10511962*
+1P P( 
+
+1059770*
+1&W P(
+
+10510163*
+1&W P(
+
+10510362*
+1P P(
+
+1059570*
+1&W N(A
+
+1059763*
+1&W N(A
+
+10511962*
+1N4 N(A
+
+1059770*
+1&W N(
+
+10510163*
+1&W N(
+
+10512162*
+1N N(
+
+1059570*
+1&W L(
+
+1059763*
+1&W L(
+
+10512362*
+1L L(
+
+1059770*
+1&W K(
+
+10510163*
+1&W K(
+
+10512162*
+1K K(
+
+1059570*
+1&W J(C
+
+1059763*
+1&W J(C
+
+10512562*
+1J< J(C
+
+1059770*
+1&W J(
+
+10510163*
+1&W J(
+
+10512162*
+1J J(
+
+1059570*
+1&W I(C
+
+1059763*
+1&W I(C
+
+10512562*
+1I< I(C
+
+1059770*
+1&W I(
+
+10510163*
+1&W I(
+
+10512162*
+1I I(
+
+1059570*
+1&W H(D
+
+1059763*
+1&W H(D
+
+10512562*
+1H= H(D
+
+1059770*
+1&W H(
+
+10510163*
+1&W H(
+
+10512162*
+1H H(
+
+1059570*
+1&W F(
+
+1059763*
+1&W F(
+
+10512362*
+1F F(
+
+1059770*
+1&W E(
+
+10510163*
+1&W E(
+
+10512162*
+1E E(
+
+1059570*
+1&W D(C
+
+1059763*
+1&W D(C
+
+10512562*
+1D< D(C
+
+1059770*
+1&W D(
+
+10510163*
+1&W D(
+
+10512162*
+1D D(
+
+1059570*
+1&W B(B
+
+1059763*
+1&W B(B
+
+10512562*
+1B; B(B
+
+1059770*
+1&W B(
+
+10510163*
+1&W B(
+
+10512162*
+1B B(
+
+1059570*
+1&W @(
+
+1059763*
+1&W @(
+
+10512362*
+1@ @(
+
+1059770*
+1&W ?(
+
+10510163*
+1&W ?(
+
+10512162*
+1? ?(
+
+1059570*
+1&W >(P
+
+1059763*
+1&W >(P
+
+10512562*
+1>I >(P
+
+1059770*
+1&W >(
+
+10510163*
+1&W >(
+
+10512162*
+1> >(
+
+1059570*
+1&W =(O
+
+1059763*
+1&W =(O
+
+1059962*
+1=F =(O
+
+1059770*
+1&W =(
+
+10510163*
+1&W =(
+
+10512162*
+1= =(
+
+1059570*
+1&W ;(F
+
+1059763*
+1&W ;(F
+
+10512562*
+1;? ;(F
+
+1059770*
+1&W ;(
+
+10510163*
+1&W ;(
+
+10512162*
+1; ;(
+
+1059570*
+1&W :(F
+
+1059763*
+1&W :(F
+
+10512562*
+1:? :(F
+
+1059770*
+1&W :(
+
+10510163*
+1&W :(
+
+10512162*
+1: :(
+
+1059570*
+1&W 8(
+
+1059763*
+1&W 8(
+
+10512362*
+18 8(
+
+1059770*
+1&W 7(
+
+10510163*
+1&W 7(
+
+10512162*
+17 7(
+
+1059570*
+1&W 5(?
+
+1059763*
+1&W 5(?
+
+10512562*
+158 5(?
+
+1059770*
+1&W 5(
+
+10510163*
+1&W 5(
+
+10512162*
+15 5(
+
+1059570*
+1&W 4(<
+
+1059763*
+1&W 4(<
+
+10512562*
+145 4(<
+
+1059770*
+1&W 4(
+
+10510163*
+1&W 4(
+
+10512162*
+14 4(
+
+1059570*
+1&W 3(L
+
+1059763*
+1&W 3(L
+
+10512562*
+13E 3(L
+
+1059770*
+1&W 3(
+
+10510163*
+1&W 3(
+
+10512162*
+13 3(
+
+1059570*
+1&W 1(C
+
+1059763*
+1&W 1(C
+
+10512562*
+11< 1(C
+
+1059770*
+1&W 1(
+
+10510163*
+1&W 1(
+
+10512162*
+11 1(
+
+1059570*
+1&W 0(@
+
+1059763*
+1&W 0(@
+
+10512562*
+109 0(@
+
+1059770*
+1&W 0(
+
+10510163*
+1&W 0(
+
+10512162*
+10 0(
+
+1059570*
+1&W /(A
+
+1059763*
+1&W /(A
+
+10512562*
+1/: /(A
+
+1059770*
+1&W /(
+
+10510163*
+1&W /(
+
+10512162*
+1/ /(
+
+1059570*
+1&W -(F
+
+1059763*
+1&W -(F
+
+1059962*
+1-= -(F
+
+1059770*
+1&W -(
+
+10510163*
+1&W -(
+
+10512162*
+1- -(
+
+1059570*
+1&W ,(B
+
+1059763*
+1&W ,(B
+
+1059962*
+1,9 ,(B
+
+1059770*
+1&W ,(
+
+10510163*
+1&W ,(
+
+10512162*
+1, ,(
+
+1059570*
+1&W *(W
+
+1059763*
+1&W *(W
+
+1059962*
+1*N *(W
+
+1059770*
+1&W *(=
+
+10510163*
+1&W *(=
+
+10512762*
+1*. *(=
+
+1059570*
+1&W *(+
+
+1059763*
+1&W *(+
+
+1059962*
+1*" *(+
+
+1059770*
+1&W *(
+
+10510163*
+1&W *(
+
+10512762*
+1* *(
+
+1059570*
+1&W ((:
+
+1059763*
+1&W ((:
+
+1059962*
+1(1 ((:
+
+1059770*
+1&W ((
+
+10510163*
+1&W ((
+
+10512162*
+1( ((
+
+10512923*
+1( (( 
+
+10512923*
+1(! (((
+
+10513163*
+1(! (((
+
+10512923*
+1, ,( 
+
+10512923*
+1,! ,($
+
+10513363*
+1,! ,($
+
+1054263*
+1,& ,(7
+
+10512923*
+1- -( 
+
+10512923*
+1-! -(%
+
+10513563*
+1-! -(%
+
+10512923*
+1/ /( 
+
+10512923*
+1/! /(%
+
+10513563*
+1/! /(%
+
+1054263*
+1/' /(8
+
+1052463*
+1/B /(L
+
+10512923*
+10 0( 
+
+10512923*
+10! 0($
+
+10513763*
+10! 0($
+
+1054263*
+10& 0(7
+
+1052463*
+10A 0(K
+
+10512923*
+11 1( 
+
+10512923*
+11! 1('
+
+10513963*
+11! 1('
+
+1054263*
+11) 1(:
+
+1052463*
+11D 1(N
+
+10512923*
+13 3( 
+
+10512923*
+13! 3(%
+
+10513563*
+13! 3(%
+
+1052463*
+13M 3(W
+
+10512923*
+14 4( 
+
+10512923*
+14! 4($
+
+10513763*
+14! 4($
+
+1054663*
+14& 4(3
+
+1052463*
+14= 4(G
+
+10512923*
+15 5( 
+
+10512923*
+15! 5('
+
+10513963*
+15! 5('
+
+1054663*
+15) 5(6
+
+1052463*
+15@ 5(J
+
+10512923*
+17 7( 
+
+10512923*
+17! 7($
+
+10513363*
+17! 7($
+
+1054663*
+17& 7(3
+
+1053863*
+18 8(
+
+1052463*
+18 8(&
+
+1053063*
+18( 8(<
+
+1053463*
+18> 8(S
+
+10512923*
+1: :( 
+
+10512923*
+1:! :($
+
+10513363*
+1:! :($
+
+1052463*
+1:G :(Q
+
+10512923*
+1; ;( 
+
+10512923*
+1;! ;($
+
+10513763*
+1;! ;($
+
+1052463*
+1;G ;(Q
+
+10512923*
+1= =( 
+
+10512923*
+1=! =(%
+
+10513563*
+1=! =(%
+
+10512923*
+1> >( 
+
+10512923*
+1>! >(%
+
+10513563*
+1>! >(%
+
+1052463*
+1>Q >([
+
+10512923*
+1? ?( 
+
+10512923*
+1?! ?($
+
+10513363*
+1?! ?($
+
+1053863*
+1@ @(
+
+1052463*
+1@ @(&
+
+1053063*
+1@( @(<
+
+1053463*
+1@> @(S
+
+10512923*
+1B B( 
+
+10512923*
+1B! B(%
+
+10513563*
+1B! B(%
+
+1053063*
+1BC B(W
+
+10512923*
+1D D( 
+
+10512923*
+1D! D(%
+
+10513563*
+1D! D(%
+
+1053063*
+1DD D(X
+
+10512923*
+1E E( 
+
+10512923*
+1E! E($
+
+10513363*
+1E! E($
+
+1053863*
+1F F(
+
+1052463*
+1F F(&
+
+1053063*
+1F( F(<
+
+1053463*
+1F> F(S
+
+10512923*
+1H H( 
+
+10512923*
+1H! H(%
+
+10513563*
+1H! H(%
+
+1053863*
+1HE H(N
+
+10512923*
+1I I( 
+
+10512923*
+1I! I(%
+
+10513563*
+1I! I(%
+
+1053863*
+1ID I(M
+
+10512923*
+1J J( 
+
+10512923*
+1J! J(%
+
+10513563*
+1J! J(%
+
+1053463*
+1JD J(Y
+
+10512923*
+1K K( 
+
+10512923*
+1K! K($
+
+10513363*
+1K! K($
+
+1053863*
+1L L(
+
+1052463*
+1L L(&
+
+1053063*
+1L( L(<
+
+1053463*
+1L> L(S
+
+10512923*
+1N N( 
+
+10512923*
+1N! N($
+
+10513363*
+1N! N($
+
+1055423*
+1P4 P(=
+
+1055063*
+1P4 P(=
+
+10514123*
+1P? P(c

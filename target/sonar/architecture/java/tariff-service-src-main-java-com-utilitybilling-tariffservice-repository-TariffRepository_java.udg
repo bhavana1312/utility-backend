@@ -1,0 +1,146 @@
+
+1.0bhavana1312_utility-backendJavaFrontend"1767547256723*java2.B‘
+c
+^tariff-service/src/main/java/com/utilitybilling/tariffservice/repository/TariffRepository.java2
+	
+type3
+	
+MAIN4
+
+
+module-key5
+
+tarrif-service6
+
+package8
+?
+:tarrif-service:com.utilitybilling.tariffservice.repository9
+B
+<com.utilitybilling.tariffservice.repository.TariffRepository11
+
+	interface12
+
+access13
+
+public14
+
+
+full-range15
+
+(10:1)-(13:2)16
+
+simple-name17
+
+TariffRepository18
+A
+;org.springframework.data.mongodb.repository.MongoRepository20
+
+unknown21
+
+
+implements22
+
+
+uses23
+3
+-com.utilitybilling.tariffservice.model.Tariff25
+Ÿ
+˜com.utilitybilling.tariffservice.repository.TariffRepository#findByUtilityType(Lcom/utilitybilling/tariffservice/model/UtilityType;)Ljava/util/Optional;27
+
+method28
+
+(12:2)-(12:62)29
+
+findByUtilityType30
+8
+2com.utilitybilling.tariffservice.model.UtilityType32
+
+	has param33
+
+is type34J%
+#
+1
+12
+
+3
+4
+
+5
+6 Z
+
+7
+7982
+
+
+5
+68jØ
+
+31
+313221
+
+24
+242521
+J
+10D
+101112 *
+1
+ 
+(":7B$
+
+
+13
+14
+
+
+15
+16
+
+
+17
+18
+
+19
+192021
+N
+26H
+262728 *
+1 ($210:7B$
+
+
+13
+14
+
+
+15
+29
+
+
+17
+30r½
+
+101922*
+1
++ 
+(J
+
+101923*
+1
++ 
+(:
+
+102423*
+1
+; 
+(A
+
+263133*
+1% (0
+
+262423*
+1 (
+
+263134*
+11 (<
+
+263123*
+1% (0

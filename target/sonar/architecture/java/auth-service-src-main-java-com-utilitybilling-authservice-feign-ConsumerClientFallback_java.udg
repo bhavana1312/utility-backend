@@ -1,0 +1,145 @@
+
+1.0bhavana1312_utility-backendJavaFrontend"1767547261343*java2.BË
+`
+[auth-service/src/main/java/com/utilitybilling/authservice/feign/ConsumerClientFallback.java2
+	
+type3
+	
+MAIN4
+
+
+module-key5
+
+auth-service6
+
+package8
+6
+1auth-service:com.utilitybilling.authservice.feign9
+A
+;com.utilitybilling.authservice.feign.ConsumerClientFallback11
+
+class12
+
+access13
+
+public14
+
+
+full-range15
+
+(7:1)-(14:2)16
+
+simple-name17
+
+ConsumerClientFallback18
+9
+3com.utilitybilling.authservice.feign.ConsumerClient20
+
+unknown21
+
+
+implements22
+.
+(org.springframework.stereotype.Component24
+
+annotated by25
+
+
+uses26
+›
+”com.utilitybilling.authservice.feign.ConsumerClientFallback#getByUsername(Ljava/lang/String;)Lcom/utilitybilling/authservice/feign/ConsumerResponse;28
+
+method29
+
+(10:2)-(13:3)30
+
+getByUsername31
+;
+5com.utilitybilling.authservice.feign.ConsumerResponse33
+
+returns34
+I
+Ccom.utilitybilling.authservice.exception.DownstreamServiceException36
+
+calls37J%
+#
+1
+12
+
+3
+4
+
+5
+6 Z
+
+7
+7982
+
+
+5
+68jì
+
+35
+353621
+
+23
+232421
+N
+27H
+272829 *
+1 ('210:7B$
+
+
+13
+14
+
+
+15
+30
+
+
+17
+31
+
+32
+323321
+
+19
+192021
+J
+10D
+101112 *
+1 ($:7B$
+
+
+13
+14
+
+
+15
+16
+
+
+17
+18r½
+
+101922*
+10 (>
+
+102325*
+1 (
+
+102326*
+1 (
+
+101926*
+10 (>
+
+273234*
+1	 (
+
+273226*
+1	 (
+
+273537*
+1 ('

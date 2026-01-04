@@ -1,0 +1,36 @@
+
+Jcom.utilitybilling.meterservice.model.ConnectionRequest#%field_initializer
+__unknown_file ("1*¤	
+1 (à
+Ý
+‚
+xD:/weird/utility-billing-system/meter-service/src/main/java/com/utilitybilling/meterservice/model/ConnectionRequest.java$ (<<
+%06com.utilitybilling.meterservice.model.ConnectionStatus"__id*
+ (
+""¡
+ž
+‚
+xD:/weird/utility-billing-system/meter-service/src/main/java/com/utilitybilling/meterservice/model/ConnectionRequest.java (=E9
+7com.utilitybilling.meterservice.model.ConnectionRequest"
+status"__id*J
+ (>
+<
+%06com.utilitybilling.meterservice.model.ConnectionStatusð
+í
+‚
+xD:/weird/utility-billing-system/meter-service/src/main/java/com/utilitybilling/meterservice/model/ConnectionRequest.java (+
+%1java.time.Instant"*java.time.Instant#now()Ljava/time/Instant;*!
+ ("
+java.time.Instantÿ
+ü
+‚
+xD:/weird/utility-billing-system/meter-service/src/main/java/com/utilitybilling/meterservice/model/ConnectionRequest.java (,H9
+7com.utilitybilling.meterservice.model.ConnectionRequest"
+	createdAt"__id*%
+ (
+
+%1java.time.Instant"˜
+€
+xD:/weird/utility-billing-system/meter-service/src/main/java/com/utilitybilling/meterservice/model/ConnectionRequest.java	 (
+implicit returnB;9
+7com.utilitybilling.meterservice.model.ConnectionRequest

@@ -1,0 +1,171 @@
+
+1.0bhavana1312_utility-backendJavaFrontend"1767547262449*java2.BÓ
+`
+[meter-service/src/main/java/com/utilitybilling/meterservice/repository/MeterRepository.java2
+	
+type3
+	
+MAIN4
+
+
+module-key5
+
+meter-service6
+
+package8
+=
+8meter-service:com.utilitybilling.meterservice.repository9
+@
+:com.utilitybilling.meterservice.repository.MeterRepository11
+
+	interface12
+
+access13
+
+public14
+
+
+full-range15
+
+(10:1)-(15:2)16
+
+simple-name17
+
+MeterRepository18
+A
+;org.springframework.data.mongodb.repository.MongoRepository20
+
+unknown21
+
+
+implements22
+
+
+uses23
+1
++com.utilitybilling.meterservice.model.Meter25
+»
+¡com.utilitybilling.meterservice.repository.MeterRepository#findByConsumerIdAndUtilityTypeAndActiveTrue(Ljava/lang/String;Lcom/utilitybilling/meterservice/model/UtilityType;)Ljava/util/Optional;27
+
+method28
+
+(12:2)-(12:106)29
+1
++findByConsumerIdAndUtilityTypeAndActiveTrue30
+7
+1com.utilitybilling.meterservice.model.UtilityType32
+
+	has param33
+
+is type34
+u
+ocom.utilitybilling.meterservice.repository.MeterRepository#findByConsumerId(Ljava/lang/String;)Ljava/util/List;36
+
+(14:2)-(14:50)37
+
+findByConsumerId38J%
+#
+1
+12
+
+3
+4
+
+5
+6 Z
+
+7
+7982
+
+
+5
+68j®
+
+24
+242521
+
+31
+313221
+J
+10D
+101112 *
+1
+ 
+(!:7B$
+
+
+13
+14
+
+
+15
+16
+
+
+17
+18
+N
+35H
+353628 *
+1 (210:7B$
+
+
+13
+14
+
+
+15
+37
+
+
+17
+38
+
+19
+192021
+N
+26H
+262728 *
+1 (=210:7B$
+
+
+13
+14
+
+
+15
+29
+
+
+17
+30rÿ
+
+101922*
+1
+* 
+(H
+
+101923*
+1
+* 
+(9
+
+102423*
+1
+: 
+(?
+
+263133*
+1Q (\
+
+262423*
+1 (
+
+263134*
+1] (h
+
+263123*
+1Q (\
+
+352423*
+1 (

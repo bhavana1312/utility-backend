@@ -1,0 +1,99 @@
+
+­com.utilitybilling.billingservice.controller.BillingController#generate(Lcom/utilitybilling/billingservice/dto/GenerateBillRequest;)Lorg/springframework/http/ResponseEntity;Œ
+D:/weird/utility-billing-system/billing-service/src/main/java/com/utilitybilling/billingservice/controller/BillingController.java% (-"startingBlock*•
+startingBlock- (^ž
+›
+
+__unknown_file (
+%5"__id*s
+
+__unknown_file (W*U
+D
+request9com.utilitybilling.billingservice.dto.GenerateBillRequest"
+meterNumber|
+z
+. (4
+%6"
+__annotate*8
+
+__unknown_file (
+jakarta.validation.Valid*"
+
+__unknown_file (
+
+%5˜
+•
+5 (A
+%7"
+__annotate*S
+
+__unknown_file (75
+3org.springframework.web.bind.annotation.RequestBody*"
+
+__unknown_file (
+
+%5º
+·
+V (]U
+D
+request9com.utilitybilling.billingservice.dto.GenerateBillRequest"
+meterNumber"__annotation*"
+
+__unknown_file (
+
+%6*"
+
+__unknown_file (
+
+%7*
+1*î
+1	 (a
+_
+ (1)
+%0#org.springframework.http.HttpStatus"__id*"
+
+__unknown_file (
+""ë
+è
+	 (29
+%13org.springframework.http.ResponseEntity$BodyBuilder"Žorg.springframework.http.ResponseEntity#status(Lorg/springframework/http/HttpStatusCode;)Lorg/springframework/http/ResponseEntity$BodyBuilder;*G
+
+__unknown_file (+")
+'org.springframework.http.ResponseEntity*G
+
+__unknown_file (+
+)
+%0#org.springframework.http.HttpStatusÇ
+Ä
+8 (F>
+%28com.utilitybilling.billingservice.service.BillingService"__id*r
+
+__unknown_file (V*T@
+>com.utilitybilling.billingservice.controller.BillingController"
+billingService…‚
+8 (X8
+%32com.utilitybilling.billingservice.dto.BillResponse"²com.utilitybilling.billingservice.service.BillingService#generate(Lcom/utilitybilling/billingservice/dto/GenerateBillRequest;)Lcom/utilitybilling/billingservice/dto/BillResponse;*\
+
+__unknown_file (@
+>
+%28com.utilitybilling.billingservice.service.BillingService*b
+
+__unknown_file (F
+D
+request9com.utilitybilling.billingservice.dto.GenerateBillRequest2Egenerate(Lcom/utilitybilling/billingservice/dto/GenerateBillRequest;)þû
+	 (Y-
+%4'org.springframework.http.ResponseEntity"uorg.springframework.http.ResponseEntity$BodyBuilder#body(Ljava/lang/Object;)Lorg/springframework/http/ResponseEntity;*W
+
+__unknown_file (;
+9
+%13org.springframework.http.ResponseEntity$BodyBuilder*V
+
+__unknown_file (:
+8
+%32com.utilitybilling.billingservice.dto.BillResponse2body(Ljava/lang/Object;)";
+ (Z/
+-
+%4'org.springframework.http.ResponseEntity:P
+. (]D
+request9com.utilitybilling.billingservice.dto.GenerateBillRequestBB@
+>com.utilitybilling.billingservice.controller.BillingControllerH

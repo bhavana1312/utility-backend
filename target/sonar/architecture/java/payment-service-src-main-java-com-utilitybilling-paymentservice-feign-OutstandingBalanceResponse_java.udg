@@ -1,0 +1,133 @@
+
+1.0bhavana1312_utility-backendJavaFrontend"1767547264760*java2.B¤
+j
+epayment-service/src/main/java/com/utilitybilling/paymentservice/feign/OutstandingBalanceResponse.java2
+	
+type3
+	
+MAIN4
+
+
+module-key5
+
+payment-service6
+
+package8
+<
+7payment-service:com.utilitybilling.paymentservice.feign9
+H
+Bcom.utilitybilling.paymentservice.feign.OutstandingBalanceResponse11
+
+class12
+
+access13
+
+public14
+
+
+full-range15
+
+(5:1)-(9:2)16
+
+simple-name17
+ 
+OutstandingBalanceResponse18
+
+lombok.Data20
+
+unknown21
+
+annotated by22
+
+
+uses23
+S
+Mcom.utilitybilling.paymentservice.feign.OutstandingBalanceResponse.consumerId25
+
+field26
+
+private27
+
+(7:2)-(7:28)28
+
+
+consumerId29
+Z
+Tcom.utilitybilling.paymentservice.feign.OutstandingBalanceResponse.outstandingAmount31
+
+(8:2)-(8:35)32
+
+outstandingAmount33J%
+#
+1
+12
+
+3
+4
+
+5
+6 Z
+
+7
+7982
+
+
+5
+68j€
+J
+10D
+101112 *
+1 ((:7B$
+
+
+13
+14
+
+
+15
+16
+
+
+17
+18
+N
+30H
+303126 *
+1 ("210:7B$
+
+
+13
+27
+
+
+15
+32
+
+
+17
+33
+
+19
+192021
+N
+24H
+242526 *
+1 (210:7B$
+
+
+13
+27
+
+
+15
+28
+
+
+17
+29r6
+
+101922*
+1 (
+
+101923*
+1 (

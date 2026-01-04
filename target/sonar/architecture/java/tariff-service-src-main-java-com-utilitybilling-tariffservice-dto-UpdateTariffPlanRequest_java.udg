@@ -1,0 +1,282 @@
+
+1.0bhavana1312_utility-backendJavaFrontend"1767547255772*java2.BÁ
+c
+^tariff-service/src/main/java/com/utilitybilling/tariffservice/dto/UpdateTariffPlanRequest.java2
+	
+type3
+	
+MAIN4
+
+
+module-key5
+
+tarrif-service6
+
+package8
+8
+3tarrif-service:com.utilitybilling.tariffservice.dto9
+B
+<com.utilitybilling.tariffservice.dto.UpdateTariffPlanRequest11
+
+class12
+
+access13
+
+public14
+
+
+full-range15
+
+(11:1)-(29:2)16
+
+simple-name17
+
+UpdateTariffPlanRequest18
+
+lombok.Data20
+
+unknown21
+
+annotated by22
+
+
+uses23
+H
+Bcom.utilitybilling.tariffservice.dto.UpdateTariffPlanRequest.slabs25
+
+field26
+
+private27
+
+(14:2)-(15:40)28
+
+slabs29
+-
+'jakarta.validation.constraints.NotEmpty31
+7
+1com.utilitybilling.tariffservice.model.TariffSlab33
+
+jakarta.validation.Valid35
+N
+Hcom.utilitybilling.tariffservice.dto.UpdateTariffPlanRequest.fixedCharge37
+
+(17:2)-(18:29)38
+
+fixedCharge39
+(
+"jakarta.validation.constraints.Min41
+P
+Jcom.utilitybilling.tariffservice.dto.UpdateTariffPlanRequest.taxPercentage43
+
+(20:2)-(22:31)44
+
+taxPercentage45
+(
+"jakarta.validation.constraints.Max47
+V
+Pcom.utilitybilling.tariffservice.dto.UpdateTariffPlanRequest.overduePenaltySlabs49
+
+(24:2)-(25:55)50
+
+overduePenaltySlabs51
+?
+9com.utilitybilling.tariffservice.model.OverduePenaltySlab53
+P
+Jcom.utilitybilling.tariffservice.dto.UpdateTariffPlanRequest.effectiveFrom55
+
+(27:2)-(28:34)56
+
+effectiveFrom57
+,
+&jakarta.validation.constraints.NotNull59J%
+#
+1
+12
+
+3
+4
+
+5
+6 Z
+
+7
+7982
+
+
+5
+68jü
+N
+36H
+363726 *
+1 (210:7B$
+
+
+13
+27
+
+
+15
+38
+
+
+17
+39
+J
+10D
+101112 *
+1 (%:7B$
+
+
+13
+14
+
+
+15
+16
+
+
+17
+18
+N
+48H
+484926 *
+1# (6210:7B$
+
+
+13
+27
+
+
+15
+50
+
+
+17
+51
+N
+24H
+242526 *
+1" ('210:7B$
+
+
+13
+27
+
+
+15
+28
+
+
+17
+29
+
+32
+323321
+
+34
+343521
+
+58
+585921
+N
+42H
+424326 *
+1 (210:7B$
+
+
+13
+27
+
+
+15
+44
+
+
+17
+45
+
+46
+464721
+
+52
+525321
+N
+54H
+545526 *
+1 (!210:7B$
+
+
+13
+27
+
+
+15
+56
+
+
+17
+57
+
+19
+192021
+
+30
+303121
+
+40
+404121ræ
+
+101922*
+1 (
+
+101923*
+1 (
+
+243022*
+1 (
+
+243023*
+1 (
+
+243223*
+1 ( 
+
+243422*
+1 (
+
+243423*
+1 (
+
+364022*
+1 (	
+
+364023*
+1 (
+
+424022*
+1 (	
+
+424023*
+1 (
+
+424622*
+1 (
+
+424623*
+1 (
+
+483022*
+1 (
+
+483023*
+1 (
+
+485223*
+1 (!
+
+545822*
+1 (
+
+
+545823*
+1 (

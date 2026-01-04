@@ -1,0 +1,23 @@
+
+…com.utilitybilling.authservice.config.AccountsOfficerDataInitializer#seedBillinfOfficer()Lorg/springframework/boot/CommandLineRunner;
+„D:/weird/utility-billing-system/auth-service/src/main/java/com/utilitybilling/authservice/config/AccountsOfficerDataInitializer.java (,"1*
+1	 &(Ê
+Ç
+	 &(0
+%0*org.springframework.boot.CommandLineRunner"__declareFunction*v
+
+__unknown_file (ZX
+V__sonar_lambda_25$com.utilitybilling.authservice.config.AccountsOfficerDataInitializerä
+á
+
+__unknown_file (Y
+0
+%0*org.springframework.boot.CommandLineRunner"%
+#AccountsOfficerDataInitializer.this"__id*d
+
+__unknown_file (HF
+Dcom.utilitybilling.authservice.config.AccountsOfficerDataInitializer">
+ &(2
+0
+%0*org.springframework.boot.CommandLineRunnerBHF
+Dcom.utilitybilling.authservice.config.AccountsOfficerDataInitializerH

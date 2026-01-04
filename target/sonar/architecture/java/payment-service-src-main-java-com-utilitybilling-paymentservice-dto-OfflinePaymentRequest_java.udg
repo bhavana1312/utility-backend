@@ -1,0 +1,149 @@
+
+1.0bhavana1312_utility-backendJavaFrontend"1767547264467*java2.Bª
+c
+^payment-service/src/main/java/com/utilitybilling/paymentservice/dto/OfflinePaymentRequest.java2
+	
+type3
+	
+MAIN4
+
+
+module-key5
+
+payment-service6
+
+package8
+:
+5payment-service:com.utilitybilling.paymentservice.dto9
+A
+;com.utilitybilling.paymentservice.dto.OfflinePaymentRequest11
+
+class12
+
+access13
+
+public14
+
+
+full-range15
+
+(6:1)-(10:2)16
+
+simple-name17
+
+OfflinePaymentRequest18
+
+lombok.Data20
+
+unknown21
+
+annotated by22
+
+
+uses23
+H
+Bcom.utilitybilling.paymentservice.dto.OfflinePaymentRequest.billId25
+
+field26
+
+private27
+
+(8:5)-(8:27)28
+
+billId29
+F
+@com.utilitybilling.paymentservice.dto.OfflinePaymentRequest.mode31
+
+(9:5)-(9:30)32
+
+
+mode33
+9
+3com.utilitybilling.paymentservice.model.PaymentMode35
+
+is type36J%
+#
+1
+12
+
+3
+4
+
+5
+6 Z
+
+7
+7982
+
+
+5
+68j”
+N
+30H
+303126 *
+1	 	(210:7B$
+
+
+13
+27
+
+
+15
+32
+
+
+17
+33
+
+34
+343521
+
+19
+192021
+N
+24H
+242526 *
+1 (210:7B$
+
+
+13
+27
+
+
+15
+28
+
+
+17
+29
+J
+10D
+101112 *
+1 (#:7B$
+
+
+13
+14
+
+
+15
+16
+
+
+17
+18r‡
+
+101922*
+1 (
+
+101923*
+1 (
+
+303436*
+1	 	(
+
+303423*
+1	 	(
+
+303423*
+1	 	(

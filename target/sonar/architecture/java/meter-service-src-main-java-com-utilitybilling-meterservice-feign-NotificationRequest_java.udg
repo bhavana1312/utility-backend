@@ -1,0 +1,219 @@
+
+1.0bhavana1312_utility-backendJavaFrontend"1767547262693*java2.B
+_
+Zmeter-service/src/main/java/com/utilitybilling/meterservice/feign/NotificationRequest.java2
+	
+type3
+	
+MAIN4
+
+
+module-key5
+
+meter-service6
+
+package8
+8
+3meter-service:com.utilitybilling.meterservice.feign9
+?
+9com.utilitybilling.meterservice.feign.NotificationRequest11
+
+class12
+
+access13
+
+public14
+
+
+full-range15
+
+(5:1)-(15:2)16
+
+simple-name17
+
+NotificationRequest18
+
+lombok.Getter20
+
+unknown21
+
+annotated by22
+
+
+uses23
+
+lombok.Setter25
+
+lombok.NoArgsConstructor27
+
+lombok.AllArgsConstructor29
+
+lombok.Builder31
+E
+?com.utilitybilling.meterservice.feign.NotificationRequest.email33
+
+field34
+
+private35
+
+(11:5)-(11:26)36
+
+email37
+D
+>com.utilitybilling.meterservice.feign.NotificationRequest.type39
+
+(12:5)-(12:25)40
+G
+Acom.utilitybilling.meterservice.feign.NotificationRequest.subject42
+
+(13:5)-(13:28)43
+
+subject44
+G
+Acom.utilitybilling.meterservice.feign.NotificationRequest.message46
+
+(14:5)-(14:28)47
+
+message48J%
+#
+1
+12
+
+3
+4
+
+5
+6 Z
+
+7
+7982
+
+
+5
+68jï
+M
+38G
+383934 *
+1 (210:7B#
+
+
+13
+35
+
+
+15
+40
+	
+17
+3
+
+24
+242521
+N
+45H
+454634 *
+1 (210:7B$
+
+
+13
+35
+
+
+15
+47
+
+
+17
+48
+
+19
+192021
+
+30
+303121
+N
+41H
+414234 *
+1 (210:7B$
+
+
+13
+35
+
+
+15
+43
+
+
+17
+44
+N
+32H
+323334 *
+1 (210:7B$
+
+
+13
+35
+
+
+15
+36
+
+
+17
+37
+
+28
+282921
+J
+10D
+101112 *
+1
+ 
+(!:7B$
+
+
+13
+14
+
+
+15
+16
+
+
+17
+18
+
+26
+262721rŽ
+
+101922*
+1 (
+
+101923*
+1 (
+
+102422*
+1 (
+
+102423*
+1 (
+
+102622*
+1 (
+
+102623*
+1 (
+
+102822*
+1 (
+
+102823*
+1 (
+
+103022*
+1	 	(	
+
+103023*
+1	 	(	

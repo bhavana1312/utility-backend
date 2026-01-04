@@ -1,0 +1,860 @@
+
+1.0bhavana1312_utility-backendJavaFrontend"1767547258975*java2.BØ%
+i
+dconsumer-service/src/main/java/com/utilitybilling/consumerservice/controller/ConsumerController.java2
+	
+type3
+	
+MAIN4
+
+
+module-key5
+
+consumer-service6
+
+package8
+C
+>consumer-service:com.utilitybilling.consumerservice.controller9
+F
+@com.utilitybilling.consumerservice.controller.ConsumerController11
+
+class12
+
+access13
+
+public14
+
+
+full-range15
+
+(24:1)-(70:2)16
+
+simple-name17
+
+ConsumerController18
+<
+6org.springframework.web.bind.annotation.RestController20
+
+unknown21
+
+annotated by22
+
+
+uses23
+<
+6org.springframework.web.bind.annotation.RequestMapping25
+$
+lombok.RequiredArgsConstructor27
+N
+Hcom.utilitybilling.consumerservice.controller.ConsumerController.service29
+
+field30
+
+private31
+
+(29:2)-(29:40)32
+
+service33
+@
+:com.utilitybilling.consumerservice.service.ConsumerService35
+
+is type36
+Œ
+…com.utilitybilling.consumerservice.controller.ConsumerController#approve(Ljava/lang/String;)Lorg/springframework/http/ResponseEntity;38
+
+method39
+
+(31:2)-(34:3)40
+
+approve41
+-
+'org.springframework.http.ResponseEntity43
+
+returns44
+9
+3org.springframework.web.bind.annotation.PostMapping46
+=
+7com.utilitybilling.consumerservice.dto.ConsumerResponse48
+:
+4org.springframework.web.bind.annotation.PathVariable50
+9
+3org.springframework.http.ResponseEntity$BodyBuilder52
+
+
+references53
+{
+uorg.springframework.http.ResponseEntity$BodyBuilder#body(Ljava/lang/Object;)Lorg/springframework/http/ResponseEntity;55
+
+calls56
+•
+Žorg.springframework.http.ResponseEntity#status(Lorg/springframework/http/HttpStatusCode;)Lorg/springframework/http/ResponseEntity$BodyBuilder;58
+)
+#org.springframework.http.HttpStatus60
+1
++org.springframework.http.HttpStatus.CREATED62
+–
+com.utilitybilling.consumerservice.service.ConsumerService#approve(Ljava/lang/String;)Lcom/utilitybilling/consumerservice/dto/ConsumerResponse;64
+ˆ
+com.utilitybilling.consumerservice.controller.ConsumerController#get(Ljava/lang/String;)Lorg/springframework/http/ResponseEntity;66
+
+(36:2)-(39:3)67
+	
+get68
+8
+2org.springframework.web.bind.annotation.GetMapping70
+m
+gorg.springframework.http.ResponseEntity#ok(Ljava/lang/Object;)Lorg/springframework/http/ResponseEntity;72
+–
+com.utilitybilling.consumerservice.service.ConsumerService#getById(Ljava/lang/String;)Lcom/utilitybilling/consumerservice/dto/ConsumerResponse;74
+z
+tcom.utilitybilling.consumerservice.controller.ConsumerController#getAll(II)Lorg/springframework/http/ResponseEntity;76
+
+(41:2)-(46:3)77
+
+getAll78
+*
+$org.springframework.data.domain.Page80
+:
+4org.springframework.web.bind.annotation.RequestParam82
+q
+kcom.utilitybilling.consumerservice.service.ConsumerService#getAll(II)Lorg/springframework/data/domain/Page;84
+É
+Âcom.utilitybilling.consumerservice.controller.ConsumerController#update(Ljava/lang/String;Lcom/utilitybilling/consumerservice/dto/UpdateConsumerRequest;)Lorg/springframework/http/ResponseEntity;86
+
+(48:2)-(52:3)87
+
+update88
+B
+<com.utilitybilling.consumerservice.dto.UpdateConsumerRequest90
+
+	has param91
+8
+2org.springframework.web.bind.annotation.PutMapping93
+
+jakarta.validation.Valid95
+9
+3org.springframework.web.bind.annotation.RequestBody97
+Ó
+Ìcom.utilitybilling.consumerservice.service.ConsumerService#update(Ljava/lang/String;Lcom/utilitybilling/consumerservice/dto/UpdateConsumerRequest;)Lcom/utilitybilling/consumerservice/dto/ConsumerResponse;99
+
+ˆcom.utilitybilling.consumerservice.controller.ConsumerController#deactivate(Ljava/lang/String;)Lorg/springframework/http/ResponseEntity;101
+
+(54:2)-(58:3)102
+
+
+deactivate103
+<
+5org.springframework.web.bind.annotation.DeleteMapping105
+a
+Zcom.utilitybilling.consumerservice.service.ConsumerService#deactivate(Ljava/lang/String;)V107
+=
+6org.springframework.http.ResponseEntity$HeadersBuilder109
+n
+gorg.springframework.http.ResponseEntity$HeadersBuilder#build()Lorg/springframework/http/ResponseEntity;111
+r
+korg.springframework.http.ResponseEntity#noContent()Lorg/springframework/http/ResponseEntity$HeadersBuilder;113
+Œ
+„com.utilitybilling.consumerservice.controller.ConsumerController#exists(Ljava/lang/String;)Lorg/springframework/http/ResponseEntity;115
+
+(60:2)-(63:3)116
+
+exists117
+<
+5com.utilitybilling.consumerservice.dto.ExistsResponse119
+]
+Vcom.utilitybilling.consumerservice.service.ConsumerService#exists(Ljava/lang/String;)Z121
+“
+‹com.utilitybilling.consumerservice.controller.ConsumerController#getByUsername(Ljava/lang/String;)Lorg/springframework/http/ResponseEntity;123
+
+(65:2)-(68:3)124
+
+getByUsername125
+
+•com.utilitybilling.consumerservice.service.ConsumerService#getByUsername(Ljava/lang/String;)Lcom/utilitybilling/consumerservice/dto/ConsumerResponse;127J%
+#
+1
+12
+
+3
+4
+
+5
+6 Z
+
+7
+7982
+
+
+5
+68j‡
+
+49
+495021
+N
+75H
+757639 *
+1*0 *(6210:7B$
+
+
+13
+14
+
+
+15
+77
+
+
+17
+78
+
+61
+616221
+
+81
+818221
+S
+114L
+11411539 *
+1=( =(.210:7B&
+
+
+13
+14
+
+15
+116
+
+17
+117
+N
+28H
+282930 *
+1  ('210:7B$
+
+
+13
+31
+
+
+15
+32
+
+
+17
+33
+N
+37H
+373839 *
+1 *  (1210:7B$
+
+
+13
+14
+
+
+15
+40
+
+
+17
+41
+
+26
+262721
+
+24
+242521
+
+83
+838421
+
+110
+11011121
+
+51
+515221
+
+94
+949521
+
+73
+737421
+S
+122L
+12212339 *
+1B* B(7210:7B&
+
+
+13
+14
+
+15
+124
+
+17
+125
+
+96
+969721
+
+71
+717221
+J
+10D
+101112 *
+1 ( :7B$
+
+
+13
+14
+
+
+15
+16
+
+
+17
+18
+
+92
+929321
+
+112
+11211321
+
+126
+12612721
+
+54
+545521
+
+69
+697021
+
+104
+10410521
+S
+100L
+10010139 *
+17 7((210:7B&
+
+
+13
+14
+
+15
+102
+
+17
+103
+
+57
+575821
+
+45
+454621
+
+47
+474821
+N
+85H
+858639 *
+11* 1(0210:7B$
+
+
+13
+14
+
+
+15
+87
+
+
+17
+88
+
+118
+11811921
+
+63
+636421
+N
+65H
+656639 *
+1%* %(-210:7B$
+
+
+13
+14
+
+
+15
+67
+
+
+17
+68
+
+79
+798021
+
+89
+899021
+
+19
+192021
+
+59
+596021
+
+120
+12012121
+
+42
+424321
+
+108
+10810921
+
+106
+10610721
+
+34
+343521
+
+98
+989921r­
+
+101922*
+1 (
+
+101923*
+1 (
+
+102422*
+1 (
+
+102423*
+1 (
+
+102622*
+1 (
+
+102623*
+1 (
+
+283436*
+1 (
+
+283423*
+1 (
+
+283423*
+1  ('
+
+374244*
+1 	  ()
+
+374522*
+1 ($
+
+374523*
+1 (
+
+374223*
+1 	  (
+
+374723*
+1   ((
+
+374922*
+1 2  (E
+
+374923*
+1 3  (?
+
+374244*
+1!
+ !(8
+
+375153*
+1!
+ !(8
+
+375456*
+1!4 !(8
+
+375144*
+1!
+ !(
+
+374253*
+1!
+ !(
+
+375756*
+1! !(
+
+375923*
+1!  !(*
+
+375923*
+1!+ !(2
+
+376153*
+1!+ !(2
+
+374744*
+1!9 !(H
+
+373453*
+1!9 !(H
+
+376356*
+1!A !(H
+
+372853*
+1!9 !(@
+
+373423*
+1!9 !(@
+
+372853*
+1!9 !(@
+
+654244*
+1%	 %()
+
+656922*
+1$ $(
+
+656923*
+1$ $(
+
+654223*
+1%	 %(
+
+654723*
+1% %((
+
+654922*
+1%. %(A
+
+654923*
+1%/ %(;
+
+654244*
+1&
+ &(
+
+654253*
+1&
+ &(
+
+657156*
+1& &(
+
+654744*
+1& &(+
+
+653453*
+1& &(+
+
+657356*
+1&$ &(+
+
+652853*
+1& &(#
+
+653423*
+1& &(#
+
+652853*
+1& &(#
+
+754244*
+1*	 *(/
+
+756922*
+1) )(
+
+756923*
+1) )(
+
+754223*
+1*	 *(
+
+757923*
+1* *(
+
+754723*
+1* *(-
+
+758122*
+1+ +(4
+
+758123*
+1+ +(
+
+758122*
+1, ,(5
+
+758123*
+1, ,(
+
+754244*
+1-
+ -(
+
+754253*
+1-
+ -(
+
+757156*
+1- -(
+
+757944*
+1- -(*
+
+753453*
+1- -(*
+
+758356*
+1-$ -(*
+
+752853*
+1- -(#
+
+753423*
+1- -(#
+
+752853*
+1- -(#
+
+854244*
+11	 1()
+
+858991*
+12 2(-
+
+859222*
+10 0(
+
+859223*
+10 0(
+
+854223*
+11	 1(
+
+854723*
+11 1((
+
+854922*
+111 1(D
+
+854923*
+112 1(>
+
+858936*
+12. 2(/
+
+859422*
+12 2(
+
+
+859423*
+12 2(
+
+
+859622*
+12 2(
+
+859623*
+12 2(
+
+858923*
+12 2(-
+
+854244*
+13
+ 3(
+
+854253*
+13
+ 3(
+
+857156*
+13 3(
+
+854744*
+13 3(*
+
+853453*
+13 3(*
+
+859856*
+13$ 3(*
+
+852853*
+13 3(#
+
+853423*
+13 3(#
+
+852853*
+13 3(#
+
+1004244*
+17	 7(
+
+10010422*
+16 6(
+
+10010423*
+16 6(
+
+1004223*
+17	 7(
+
+1004922*
+17) 7(<
+
+1004923*
+17* 7(6
+
+1003453*
+18 8(
+
+10010656*
+18 8(
+
+1002853*
+18 8(
+
+
+1003423*
+18 8(
+
+
+1002853*
+18 8(
+
+
+1004244*
+19
+ 9(*
+
+10010853*
+19
+ 9(*
+
+10011056*
+19% 9(*
+
+10010844*
+19
+ 9("
+
+1004253*
+19
+ 9("
+
+10011256*
+19 9("
+
+1144244*
+1=	 =('
+
+1146922*
+1< <(
+
+1146923*
+1< <(
+
+1144223*
+1=	 =(
+
+11411823*
+1= =(&
+
+1144922*
+1=/ =(B
+
+1144923*
+1=0 =(<
+
+1144244*
+1>
+ >(
+
+1144253*
+1>
+ >(
+
+1147156*
+1> >(
+
+1143453*
+1>/ >(=
+
+11412056*
+1>7 >(=
+
+1142853*
+1>/ >(6
+
+1143423*
+1>/ >(6
+
+1142853*
+1>/ >(6
+
+1224244*
+1B	 B()
+
+1226922*
+1A A(%
+
+1226923*
+1A A(
+
+1224223*
+1B	 B(
+
+1224723*
+1B B((
+
+1224922*
+1B8 B(Q
+
+1224923*
+1B9 B(E
+
+1224244*
+1C
+ C(
+
+1224253*
+1C
+ C(
+
+1227156*
+1C C(
+
+1224744*
+1C C(1
+
+1223453*
+1C C(1
+
+12212656*
+1C$ C(1
+
+1222853*
+1C C(#
+
+1223423*
+1C C(#
+
+1222853*
+1C C(#

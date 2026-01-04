@@ -1,0 +1,405 @@
+
+1.0bhavana1312_utility-backendJavaFrontend"1767547266388*java2.BŽ
+n
+ibilling-service/src/main/java/com/utilitybilling/billingservice/controller/InternalBillingController.java2
+	
+type3
+	
+MAIN4
+
+
+module-key5
+
+billing-service6
+
+package8
+A
+<billing-service:com.utilitybilling.billingservice.controller9
+L
+Fcom.utilitybilling.billingservice.controller.InternalBillingController11
+
+class12
+
+access13
+
+public14
+
+
+full-range15
+
+(9:1)-(31:2)16
+
+simple-name17
+
+InternalBillingController18
+<
+6org.springframework.web.bind.annotation.RestController20
+
+unknown21
+
+annotated by22
+
+
+uses23
+<
+6org.springframework.web.bind.annotation.RequestMapping25
+$
+lombok.RequiredArgsConstructor27
+[
+Ucom.utilitybilling.billingservice.controller.InternalBillingController.billingService29
+
+field30
+
+private31
+
+(14:5)-(14:49)32
+
+billingService33
+>
+8com.utilitybilling.billingservice.service.BillingService35
+
+is type36
+z
+tcom.utilitybilling.billingservice.controller.InternalBillingController#getBill(Ljava/lang/String;)Ljava/lang/Object;38
+
+method39
+
+(16:5)-(19:6)40
+
+getBill41
+8
+2org.springframework.web.bind.annotation.GetMapping43
+:
+4org.springframework.web.bind.annotation.PathVariable45
+2
+,com.utilitybilling.billingservice.model.Bill47
+
+returns48
+
+
+references49
+‰
+‚com.utilitybilling.billingservice.service.BillingService#getById(Ljava/lang/String;)Lcom/utilitybilling/billingservice/model/Bill;51
+
+calls52
+“
+Œcom.utilitybilling.billingservice.controller.InternalBillingController#markPaid(Ljava/lang/String;)Lorg/springframework/http/ResponseEntity;54
+
+(21:5)-(25:6)55
+
+markPaid56
+-
+'org.springframework.http.ResponseEntity58
+8
+2org.springframework.web.bind.annotation.PutMapping60
+\
+Vcom.utilitybilling.billingservice.service.BillingService#markPaid(Ljava/lang/String;)V62
+<
+6org.springframework.http.ResponseEntity$HeadersBuilder64
+m
+gorg.springframework.http.ResponseEntity$HeadersBuilder#build()Lorg/springframework/http/ResponseEntity;66
+q
+korg.springframework.http.ResponseEntity#noContent()Lorg/springframework/http/ResponseEntity$HeadersBuilder;68
+¯
+¨com.utilitybilling.billingservice.controller.InternalBillingController#outstanding(Ljava/lang/String;)Lcom/utilitybilling/billingservice/dto/OutstandingBalanceResponse;70
+
+(27:5)-(30:6)71
+
+outstanding72
+F
+@com.utilitybilling.billingservice.dto.OutstandingBalanceResponse74
+¡
+šcom.utilitybilling.billingservice.service.BillingService#outstanding(Ljava/lang/String;)Lcom/utilitybilling/billingservice/dto/OutstandingBalanceResponse;76J%
+#
+1
+12
+
+3
+4
+
+5
+6 Z
+
+7
+7982
+
+
+5
+68jÌ
+
+44
+444521
+
+75
+757621
+N
+53H
+535439 *
+1! ()210:7B$
+
+
+13
+14
+
+
+15
+55
+
+
+17
+56
+
+34
+343521
+N
+69H
+697039 *
+1' (2210:7B$
+
+
+13
+14
+
+
+15
+71
+
+
+17
+72
+
+26
+262721
+
+24
+242521
+
+65
+656621
+
+50
+505121
+J
+10D
+101112 *
+1 (':7B$
+
+
+13
+14
+
+
+15
+16
+
+
+17
+18
+
+73
+737421
+
+46
+464721
+
+19
+192021
+N
+28H
+282930 *
+1" (0210:7B$
+
+
+13
+31
+
+
+15
+32
+
+
+17
+33
+
+59
+596021
+
+67
+676821
+N
+37H
+373839 *
+1 (210:7B$
+
+
+13
+14
+
+
+15
+40
+
+
+17
+41
+
+42
+424321
+
+61
+616221
+
+57
+575821
+
+63
+636421r
+
+
+101922*
+1	 	(
+
+101923*
+1	 	(
+
+102422*
+1
+ 
+(%
+
+102423*
+1
+ 
+(
+
+102622*
+1 (
+
+102623*
+1 (
+
+283436*
+1 (!
+
+283423*
+1 (!
+
+283423*
+1" (0
+
+374222*
+1 (
+
+374223*
+1 (
+
+374422*
+1 (2
+
+374423*
+1 ((
+
+374648*
+1 (&
+
+373449*
+1 (&
+
+375052*
+1 (&
+
+372849*
+1 (
+
+373423*
+1 (
+
+372849*
+1 (
+
+535748*
+1 ( 
+
+535922*
+1 ('
+
+535923*
+1 (
+
+535723*
+1 (
+
+534422*
+1* (A
+
+534423*
+1+ (7
+
+533449*
+1	 ( 
+
+536152*
+1 ( 
+
+532849*
+1	 (
+
+533423*
+1	 (
+
+532849*
+1	 (
+
+535748*
+1 (0
+
+536349*
+1 (0
+
+536552*
+1+ (0
+
+536348*
+1 ((
+
+535749*
+1 ((
+
+536752*
+1 ((
+
+697348*
+1 (&
+
+694222*
+1 (6
+
+694223*
+1 (
+
+697323*
+1 (&
+
+694422*
+13 (N
+
+694423*
+14 (@
+
+697348*
+1 (*
+
+693449*
+1 (*
+
+697552*
+1 (*
+
+692849*
+1 (
+
+693423*
+1 (
+
+692849*
+1 (

@@ -1,0 +1,228 @@
+
+1.0bhavana1312_utility-backendJavaFrontend"1767547257873*java2.Bð
+S
+Napi-gateway/src/main/java/com/utilitybilling/apigateway/config/CorsConfig.java2
+	
+type3
+	
+MAIN4
+
+
+module-key5
+
+api-gateway6
+
+package8
+5
+0api-gateway:com.utilitybilling.apigateway.config9
+5
+/com.utilitybilling.apigateway.config.CorsConfig11
+
+class12
+
+access13
+
+public14
+
+
+full-range15
+
+(11:1)-(28:2)16
+
+simple-name17
+
+
+CorsConfig18
+:
+4org.springframework.context.annotation.Configuration20
+
+unknown21
+
+annotated by22
+
+
+uses23
+…
+com.utilitybilling.apigateway.config.CorsConfig#corsConfigurationSource()Lorg/springframework/web/cors/CorsConfigurationSource;25
+
+method26
+
+(14:2)-(27:3)27
+
+corsConfigurationSource28
+:
+4org.springframework.web.cors.CorsConfigurationSource30
+
+returns31
+1
++org.springframework.context.annotation.Bean33
+4
+.org.springframework.web.cors.CorsConfiguration35
+
+is type36
+
+calls37
+
+
+references38
+Y
+Sorg.springframework.web.cors.CorsConfiguration#setAllowedOrigins(Ljava/util/List;)V40
+Y
+Sorg.springframework.web.cors.CorsConfiguration#setAllowedMethods(Ljava/util/List;)V42
+Y
+Sorg.springframework.web.cors.CorsConfiguration#setAllowedHeaders(Ljava/util/List;)V44
+^
+Xorg.springframework.web.cors.CorsConfiguration#setAllowCredentials(Ljava/lang/Boolean;)V46
+B
+<org.springframework.web.cors.UrlBasedCorsConfigurationSource48
+¢
+›org.springframework.web.cors.UrlBasedCorsConfigurationSource#registerCorsConfiguration(Ljava/lang/String;Lorg/springframework/web/cors/CorsConfiguration;)V50J%
+#
+1
+12
+
+3
+4
+
+5
+6 Z
+
+7
+7982
+
+
+5
+68jä
+
+19
+192021
+
+29
+293021
+
+39
+394021
+
+43
+434421
+
+45
+454621
+N
+24H
+242526 *
+1! (8210:7B$
+
+
+13
+14
+
+
+15
+27
+
+
+17
+28
+
+47
+474821
+
+49
+495021
+
+34
+343521
+
+41
+414221
+
+32
+323321
+J
+10D
+101112 *
+1 (:7B$
+
+
+13
+14
+
+
+15
+16
+
+
+17
+18rÒ
+
+101922*
+1 (
+
+101923*
+1 (
+
+242931*
+1	 ( 
+
+243222*
+1 (
+
+243223*
+1 (
+
+242923*
+1	 ( 
+
+243436*
+1 (
+
+243423*
+1 (
+
+243437*
+1" (3
+
+243438*
+1 (
+
+243937*
+1
+ (
+
+243438*
+1 (
+
+244137*
+1
+ (
+
+243438*
+1 (
+
+244337*
+1
+ (
+
+243438*
+1 (
+
+244537*
+1
+ (
+
+244736*
+1# ()
+
+244723*
+1 ("
+
+244737*
+10 (O
+
+244738*
+1 (#
+
+244937*
+1
+ (#

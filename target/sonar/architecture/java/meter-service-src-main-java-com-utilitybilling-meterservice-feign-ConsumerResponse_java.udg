@@ -1,0 +1,154 @@
+
+1.0bhavana1312_utility-backendJavaFrontend"1767547262303*java2.B¦
+\
+Wmeter-service/src/main/java/com/utilitybilling/meterservice/feign/ConsumerResponse.java2
+	
+type3
+	
+MAIN4
+
+
+module-key5
+
+meter-service6
+
+package8
+8
+3meter-service:com.utilitybilling.meterservice.feign9
+<
+6com.utilitybilling.meterservice.feign.ConsumerResponse11
+
+class12
+
+access13
+
+public14
+
+
+full-range15
+
+(5:1)-(10:2)16
+
+simple-name17
+
+ConsumerResponse18
+
+lombok.Data20
+
+unknown21
+
+annotated by22
+
+
+uses23
+?
+9com.utilitybilling.meterservice.feign.ConsumerResponse.id25
+
+field26
+
+private27
+
+(7:2)-(7:20)28
+
+id29
+E
+?com.utilitybilling.meterservice.feign.ConsumerResponse.fullName31
+
+(8:2)-(8:26)32
+
+fullName33
+B
+<com.utilitybilling.meterservice.feign.ConsumerResponse.email35
+
+(9:2)-(9:23)36
+
+email37J%
+#
+1
+12
+
+3
+4
+
+5
+6 Z
+
+7
+7982
+
+
+5
+68jÐ
+N
+24H
+242526 *
+1 (210:7B$
+
+
+13
+27
+
+
+15
+28
+
+
+17
+29
+J
+10D
+101112 *
+1 (:7B$
+
+
+13
+14
+
+
+15
+16
+
+
+17
+18
+
+19
+192021
+N
+30H
+303126 *
+1 (210:7B$
+
+
+13
+27
+
+
+15
+32
+
+
+17
+33
+N
+34H
+343526 *
+1	 	(210:7B$
+
+
+13
+27
+
+
+15
+36
+
+
+17
+37r6
+
+101922*
+1 (
+
+101923*
+1 (

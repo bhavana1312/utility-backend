@@ -1,0 +1,7 @@
+organization=bhavana1312
+projectKey=bhavana1312_utility-backend
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.78018
+dashboardUrl=https://sonarcloud.io/dashboard?id=bhavana1312_utility-backend
+ceTaskId=AZuKB1ayFAG6_EyJL2MZ
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AZuKB1ayFAG6_EyJL2MZ

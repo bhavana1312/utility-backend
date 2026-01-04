@@ -1,0 +1,23 @@
+
+Bcom.utilitybilling.paymentservice.model.Invoice#%field_initializer
+__unknown_file ("1*‰
+1 (é
+æ
+|
+rD:/weird/utility-billing-system/payment-service/src/main/java/com/utilitybilling/paymentservice/model/Invoice.java(& ((3
+%0java.time.Instant"*java.time.Instant#now()Ljava/time/Instant;*!
+ ("
+java.time.Instantù
+ö
+|
+rD:/weird/utility-billing-system/payment-service/src/main/java/com/utilitybilling/paymentservice/model/Invoice.java( ((4I1
+/com.utilitybilling.paymentservice.model.Invoice"
+invoiceGeneratedAt"__id*%
+ (
+
+%0java.time.Instant"‘
+z
+rD:/weird/utility-billing-system/payment-service/src/main/java/com/utilitybilling/paymentservice/model/Invoice.java
+ )(
+implicit returnB31
+/com.utilitybilling.paymentservice.model.Invoice

@@ -1,0 +1,281 @@
+
+1.0bhavana1312_utility-backendJavaFrontend"1767547265756*java2.BŸ
+_
+Zbilling-service/src/main/java/com/utilitybilling/billingservice/service/TariffGateway.java2
+	
+type3
+	
+MAIN4
+
+
+module-key5
+
+billing-service6
+
+package8
+>
+9billing-service:com.utilitybilling.billingservice.service9
+=
+7com.utilitybilling.billingservice.service.TariffGateway11
+
+class12
+
+access13
+
+public14
+
+
+full-range15
+
+(8:1)-(25:2)16
+
+simple-name17
+
+TariffGateway18
+,
+&org.springframework.stereotype.Service20
+
+unknown21
+
+annotated by22
+
+
+uses23
+D
+>com.utilitybilling.billingservice.service.TariffGateway.client25
+
+field26
+
+private27
+
+(11:2)-(11:36)28
+
+client29
+:
+4com.utilitybilling.billingservice.feign.TariffClient31
+
+is type32
+}
+wcom.utilitybilling.billingservice.service.TariffGateway#<init>(Lcom/utilitybilling/billingservice/feign/TariffClient;)V34
+
+method35
+
+(13:2)-(15:3)36
+
+	has param37
+
+calls38
+
+
+references39
+¦
+Ÿcom.utilitybilling.billingservice.service.TariffGateway#getActive(Ljava/lang/String;Ljava/lang/String;)Lcom/utilitybilling/billingservice/feign/TariffResponse;41
+
+(17:2)-(20:3)42
+
+	getActive43
+<
+6com.utilitybilling.billingservice.feign.TariffResponse45
+
+returns46
+E
+?io.github.resilience4j.circuitbreaker.annotation.CircuitBreaker48
+£
+œcom.utilitybilling.billingservice.feign.TariffClient#getActive(Ljava/lang/String;Ljava/lang/String;)Lcom/utilitybilling/billingservice/feign/TariffResponse;50
+Ã
+¼com.utilitybilling.billingservice.service.TariffGateway#getActiveFallback(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)Lcom/utilitybilling/billingservice/feign/TariffResponse;52
+
+(22:2)-(24:3)53
+
+getActiveFallback54J%
+#
+1
+12
+
+3
+4
+
+5
+6 Z
+
+7
+7982
+
+
+5
+68jð
+
+44
+444521
+N
+33H
+333435 *
+1	 (210:7B$
+
+
+13
+14
+
+
+15
+36
+
+
+17
+18
+
+19
+192021
+N
+51H
+515235 *
+1 ()210:7B$
+
+
+13
+14
+
+
+15
+53
+
+
+17
+54
+N
+40H
+404135 *
+1 (!210:7B$
+
+
+13
+14
+
+
+15
+42
+
+
+17
+43
+
+30
+303121
+
+47
+474821
+J
+10D
+101112 *
+1	 	(:7B$
+
+
+13
+14
+
+
+15
+16
+
+
+17
+18
+N
+24H
+242526 *
+1 (#210:7B$
+
+
+13
+27
+
+
+15
+28
+
+
+17
+29
+
+49
+495021r£
+
+101922*
+1 (	
+
+101923*
+1 (	
+
+243032*
+1 (
+
+243023*
+1 (
+
+243023*
+1 (#
+
+333037*
+1 (#
+
+331038*
+1	 (
+
+333032*
+1$ (*
+
+333023*
+1 (#
+
+331023*
+1 (
+
+331039*
+1 (
+
+333023*
+1 (
+
+332439*
+1 (
+
+404446*
+1	 (
+
+404722*
+1 (P
+
+404723*
+1 (
+
+404423*
+1	 (
+
+404446*
+1
+ (
+
+403039*
+1
+ (
+
+404938*
+1 (
+
+402439*
+1
+ (
+
+403023*
+1
+ (
+
+402439*
+1
+ (
+
+514446*
+1	 (
+
+514423*
+1	 (

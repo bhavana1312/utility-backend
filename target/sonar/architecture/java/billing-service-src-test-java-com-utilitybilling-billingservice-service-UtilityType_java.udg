@@ -1,0 +1,201 @@
+
+1.0bhavana1312_utility-backendJavaFrontend"1767547266623*java2.B	
+]
+Xbilling-service/src/test/java/com/utilitybilling/billingservice/service/UtilityType.java2
+	
+type3
+	
+TEST4
+
+
+module-key5
+
+billing-service6
+
+package8
+>
+9billing-service:com.utilitybilling.billingservice.service9
+;
+5com.utilitybilling.billingservice.service.UtilityType11
+
+
+enum12
+
+access13
+
+public14
+
+
+full-range15
+
+(3:1)-(5:2)16
+
+simple-name17
+
+UtilityType18
+|
+vcom.utilitybilling.billingservice.service.UtilityType#values()[Lcom/utilitybilling/billingservice/service/UtilityType;20
+
+method21
+
+values22
+
+ˆcom.utilitybilling.billingservice.service.UtilityType#valueOf(Ljava/lang/String;)Lcom/utilitybilling/billingservice/service/UtilityType;24
+
+valueOf25
+G
+Acom.utilitybilling.billingservice.service.UtilityType.ELECTRICITY27
+
+field28
+
+(4:2)-(4:14)29
+
+ELECTRICITY30
+
+calls31
+A
+;com.utilitybilling.billingservice.service.UtilityType.WATER33
+
+(4:15)-(4:21)34
+
+WATER35
+?
+9com.utilitybilling.billingservice.service.UtilityType.GAS37
+
+(4:22)-(4:26)38
+	
+GAS39
+D
+>com.utilitybilling.billingservice.service.UtilityType.INTERNET41
+
+(4:27)-(4:35)42
+
+INTERNET43J%
+#
+1
+12
+
+3
+4
+
+5
+6 Z
+
+7
+7982
+
+
+5
+68jä
+B
+36<
+363728 *
+1 (210:7B
+
+
+15
+38
+
+
+17
+39
+B
+26<
+262728 *
+1 (210:7B
+
+
+15
+29
+
+
+17
+30
+B
+40<
+404128 *
+1 (#210:7B
+
+
+15
+42
+
+
+17
+43
+J
+10D
+101112 *
+1 (:7B$
+
+
+13
+14
+
+
+15
+16
+
+
+17
+18
+B
+19<
+192021 *
+1 (210:7B
+
+
+15
+16
+
+
+17
+22
+B
+32<
+323328 *
+1 (210:7B
+
+
+15
+34
+
+
+17
+35
+B
+23<
+232421 *
+1 (210:7B
+
+
+15
+16
+
+
+17
+25rØ
+
+261031*
+1 (
+
+261031*
+1 (
+
+321031*
+1 (
+
+321031*
+1 (
+
+361031*
+1 (
+
+361031*
+1 (
+
+401031*
+1 (#
+
+401031*
+1 (#

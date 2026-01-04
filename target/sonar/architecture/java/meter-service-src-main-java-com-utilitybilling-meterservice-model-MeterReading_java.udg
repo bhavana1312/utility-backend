@@ -1,0 +1,203 @@
+
+1.0bhavana1312_utility-backendJavaFrontend"1767547262769*java2.BÉ
+X
+Smeter-service/src/main/java/com/utilitybilling/meterservice/model/MeterReading.java2
+	
+type3
+	
+MAIN4
+
+
+module-key5
+
+meter-service6
+
+package8
+8
+3meter-service:com.utilitybilling.meterservice.model9
+8
+2com.utilitybilling.meterservice.model.MeterReading11
+
+class12
+
+access13
+
+public14
+
+
+full-range15
+
+(9:1)-(21:2)16
+
+simple-name17
+
+MeterReading18
+
+lombok.Data20
+
+unknown21
+
+annotated by22
+
+
+uses23
+<
+6org.springframework.data.mongodb.core.mapping.Document25
+;
+5com.utilitybilling.meterservice.model.MeterReading.id27
+
+field28
+
+private29
+
+(13:2)-(14:20)30
+
+id31
+,
+&org.springframework.data.annotation.Id33
+D
+>com.utilitybilling.meterservice.model.MeterReading.meterNumber35
+
+(16:2)-(16:29)36
+
+meterNumber37
+E
+?com.utilitybilling.meterservice.model.MeterReading.readingValue39
+
+(18:2)-(18:30)40
+
+readingValue41
+D
+>com.utilitybilling.meterservice.model.MeterReading.readingDate43
+
+(20:2)-(20:46)44
+
+readingDate45J%
+#
+1
+12
+
+3
+4
+
+5
+6 Z
+
+7
+7982
+
+
+5
+68j»
+N
+26H
+262728 *
+1 (210:7B$
+
+
+13
+29
+
+
+15
+30
+
+
+17
+31
+N
+34H
+343528 *
+1 (210:7B$
+
+
+13
+29
+
+
+15
+36
+
+
+17
+37
+J
+10D
+101112 *
+1 (:7B$
+
+
+13
+14
+
+
+15
+16
+
+
+17
+18
+
+19
+192021
+N
+42H
+424328 *
+1 (210:7B$
+
+
+13
+29
+
+
+15
+44
+
+
+17
+45
+
+32
+323321
+N
+38H
+383928 *
+1 (210:7B$
+
+
+13
+29
+
+
+15
+40
+
+
+17
+41
+
+24
+242521r¢
+
+101922*
+1	 	(
+
+101923*
+1	 	(
+
+102422*
+1
+ 
+()
+
+102423*
+1
+ 
+(
+
+
+263222*
+1 (
+
+263223*
+1 (

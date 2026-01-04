@@ -1,0 +1,22 @@
+
+Ecom.utilitybilling.meterservice.model.MeterReading#%field_initializer
+__unknown_file ("1*ˆ
+1 (ê
+ç
+}
+sD:/weird/utility-billing-system/meter-service/src/main/java/com/utilitybilling/meterservice/model/MeterReading.java (,
+%0java.time.Instant"*java.time.Instant#now()Ljava/time/Instant;*!
+ ("
+java.time.Instantö
+ó
+}
+sD:/weird/utility-billing-system/meter-service/src/main/java/com/utilitybilling/meterservice/model/MeterReading.java (-E4
+2com.utilitybilling.meterservice.model.MeterReading"
+readingDate"__id*%
+ (
+
+%0java.time.Instant"’
+{
+sD:/weird/utility-billing-system/meter-service/src/main/java/com/utilitybilling/meterservice/model/MeterReading.java	 (
+implicit returnB64
+2com.utilitybilling.meterservice.model.MeterReading

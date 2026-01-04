@@ -1,0 +1,141 @@
+
+1.0bhavana1312_utility-backendJavaFrontend"1767547261663*java2.B˙
+d
+_auth-service/src/main/java/com/utilitybilling/authservice/feign/NotificationClientFallback.java2
+	
+type3
+	
+MAIN4
+
+
+module-key5
+
+auth-service6
+
+package8
+6
+1auth-service:com.utilitybilling.authservice.feign9
+E
+?com.utilitybilling.authservice.feign.NotificationClientFallback11
+
+class12
+
+access13
+
+public14
+
+
+full-range15
+
+(5:1)-(13:2)16
+
+simple-name17
+ 
+NotificationClientFallback18
+=
+7com.utilitybilling.authservice.feign.NotificationClient20
+
+unknown21
+
+
+implements22
+.
+(org.springframework.stereotype.Component24
+
+annotated by25
+
+
+uses26
+à
+Åcom.utilitybilling.authservice.feign.NotificationClientFallback#send(Lcom/utilitybilling/authservice/feign/NotificationRequest;)V28
+
+method29
+
+(8:2)-(12:3)30
+
+
+send31
+>
+8com.utilitybilling.authservice.feign.NotificationRequest33
+
+	has param34
+
+is type35J%
+#
+1
+12
+
+3
+4
+
+5
+6 Z
+
+7
+7982
+
+
+5
+68jÿ
+
+23
+232421
+
+19
+192021
+N
+27H
+272829 *
+1	 	(210:7B$
+
+
+13
+14
+
+
+15
+30
+
+
+17
+31
+J
+10D
+101112 *
+1 ((:7B$
+
+
+13
+14
+
+
+15
+16
+
+
+17
+18
+
+32
+323321rΩ
+
+101922*
+14 (F
+
+102325*
+1 (
+
+102326*
+1 (
+
+101926*
+14 (F
+
+273234*
+1	 	(&
+
+273235*
+1	' 	(.
+
+273226*
+1	 	(&

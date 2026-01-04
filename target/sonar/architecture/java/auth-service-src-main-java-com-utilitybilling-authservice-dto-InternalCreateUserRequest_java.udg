@@ -1,0 +1,233 @@
+
+1.0bhavana1312_utility-backendJavaFrontend"1767547261265*java2.Bü
+a
+\auth-service/src/main/java/com/utilitybilling/authservice/dto/InternalCreateUserRequest.java2
+	
+type3
+	
+MAIN4
+
+
+module-key5
+
+auth-service6
+
+package8
+4
+/auth-service:com.utilitybilling.authservice.dto9
+B
+<com.utilitybilling.authservice.dto.InternalCreateUserRequest11
+
+class12
+
+access13
+
+public14
+
+
+full-range15
+
+(11:1)-(27:2)16
+
+simple-name17
+
+InternalCreateUserRequest18
+
+lombok.Data20
+
+unknown21
+
+annotated by22
+
+
+uses23
+K
+Ecom.utilitybilling.authservice.dto.InternalCreateUserRequest.username25
+
+field26
+
+private27
+
+(14:5)-(15:29)28
+
+username29
+-
+'jakarta.validation.constraints.NotBlank31
+H
+Bcom.utilitybilling.authservice.dto.InternalCreateUserRequest.email33
+
+(17:5)-(19:26)34
+
+email35
+*
+$jakarta.validation.constraints.Email37
+K
+Ecom.utilitybilling.authservice.dto.InternalCreateUserRequest.password39
+
+(21:5)-(23:29)40
+
+password41
+)
+#jakarta.validation.constraints.Size43
+H
+Bcom.utilitybilling.authservice.dto.InternalCreateUserRequest.roles45
+
+(25:5)-(26:32)46
+
+roles47
+-
+'jakarta.validation.constraints.NotEmpty49J%
+#
+1
+12
+
+3
+4
+
+5
+6 Z
+
+7
+7982
+
+
+5
+68jð
+J
+10D
+101112 *
+1 (':7B$
+
+
+13
+14
+
+
+15
+16
+
+
+17
+18
+
+30
+303121
+N
+24H
+242526 *
+1 (210:7B$
+
+
+13
+27
+
+
+15
+28
+
+
+17
+29
+
+36
+363721
+
+42
+424321
+
+19
+192021
+N
+44H
+444526 *
+1 (210:7B$
+
+
+13
+27
+
+
+15
+46
+
+
+17
+47
+
+48
+484921
+N
+38H
+383926 *
+1 (210:7B$
+
+
+13
+27
+
+
+15
+40
+
+
+17
+41
+N
+32H
+323326 *
+1 (210:7B$
+
+
+13
+27
+
+
+15
+34
+
+
+17
+35rú
+
+101922*
+1 (
+
+101923*
+1 (
+
+243022*
+1 (
+
+243023*
+1 (
+
+323622*
+1 (
+
+323623*
+1 (
+
+323022*
+1 (
+
+323023*
+1 (
+
+383022*
+1 (
+
+383023*
+1 (
+
+384222*
+1 (
+
+384223*
+1 (
+
+
+444822*
+1 (
+
+444823*
+1 (

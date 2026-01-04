@@ -1,0 +1,336 @@
+
+1.0bhavana1312_utility-backendJavaFrontend"1767547266171*java2.B…
+j
+ebilling-service/src/main/java/com/utilitybilling/billingservice/exception/GlobalExceptionHandler.java2
+	
+type3
+	
+MAIN4
+
+
+module-key5
+
+billing-service6
+
+package8
+@
+;billing-service:com.utilitybilling.billingservice.exception9
+:
+4com.utilitybilling.billingservice.exception.ApiError11
+
+class12
+
+access13
+
+	protected14
+
+
+full-range15
+
+(8:1)-(12:2)16
+
+simple-name17
+
+ApiError18
+
+lombok.Data20
+
+unknown21
+
+annotated by22
+
+
+uses23
+
+lombok.AllArgsConstructor25
+B
+<com.utilitybilling.billingservice.exception.ApiError.message27
+
+field28
+
+private29
+
+(11:5)-(11:28)30
+
+message31
+H
+Bcom.utilitybilling.billingservice.exception.GlobalExceptionHandler33
+
+public34
+
+(14:1)-(28:2)35
+
+GlobalExceptionHandler36
+B
+<org.springframework.web.bind.annotation.RestControllerAdvice38
+£
+œcom.utilitybilling.billingservice.exception.GlobalExceptionHandler#badRequest(Ljava/lang/IllegalArgumentException;)Lorg/springframework/http/ResponseEntity;40
+
+method41
+
+(17:5)-(21:6)42
+
+
+badRequest43
+-
+'org.springframework.http.ResponseEntity45
+
+returns46
+>
+8org.springframework.web.bind.annotation.ExceptionHandler48
+9
+3org.springframework.http.ResponseEntity$BodyBuilder50
+
+
+references51
+{
+uorg.springframework.http.ResponseEntity$BodyBuilder#body(Ljava/lang/Object;)Lorg/springframework/http/ResponseEntity;53
+
+calls54
+•
+Žorg.springframework.http.ResponseEntity#status(Lorg/springframework/http/HttpStatusCode;)Lorg/springframework/http/ResponseEntity$BodyBuilder;56
+)
+#org.springframework.http.HttpStatus58
+5
+/org.springframework.http.HttpStatus.BAD_REQUEST60
+ž
+—com.utilitybilling.billingservice.exception.GlobalExceptionHandler#conflict(Ljava/lang/IllegalStateException;)Lorg/springframework/http/ResponseEntity;62
+
+(23:5)-(27:6)63
+
+conflict64
+2
+,org.springframework.http.HttpStatus.CONFLICT66J%
+#
+1
+12
+
+3
+4
+
+5
+6 Z
+
+7
+7982
+
+
+5
+68jä
+J
+10D
+101112 *
+1
+ 
+(:7B$
+
+
+13
+14
+
+
+15
+16
+
+
+17
+18
+N
+26H
+262728 *
+1 (210:7B$
+
+
+13
+29
+
+
+15
+30
+
+
+17
+31
+
+59
+596021
+
+49
+495021
+J
+32D
+323312 *
+1 ($:7B$
+
+
+13
+34
+
+
+15
+35
+
+
+17
+36
+
+57
+575821
+
+37
+373821
+
+65
+656621
+
+19
+192021
+
+52
+525321
+
+47
+474821
+
+44
+444521
+
+24
+242521
+N
+61H
+616241 *
+1% (-232:7B$
+
+
+13
+34
+
+
+15
+63
+
+
+17
+64
+N
+39H
+394041 *
+1% (/232:7B$
+
+
+13
+34
+
+
+15
+42
+
+
+17
+43
+
+55
+555621r–
+
+101922*
+1 (
+
+101923*
+1 (
+
+102422*
+1	 	(
+
+102423*
+1	 	(
+
+323722*
+1 (
+
+323723*
+1 (
+
+394446*
+1 ($
+
+394722*
+1 (6
+
+394723*
+1 (
+
+394423*
+1 (
+
+391023*
+1 (#
+
+394446*
+1 (
+
+394951*
+1 (
+
+395254*
+1 (
+
+394946*
+1 (%
+
+394451*
+1 (%
+
+395554*
+1 (%
+
+395723*
+1& (0
+
+395723*
+11 (<
+
+395951*
+11 (<
+
+614446*
+1 ($
+
+614722*
+1 (3
+
+614723*
+1 (
+
+614423*
+1 (
+
+611023*
+1 (#
+
+614446*
+1 (
+
+614951*
+1 (
+
+615254*
+1 (
+
+614946*
+1 (%
+
+614451*
+1 (%
+
+615554*
+1 (%
+
+615723*
+1& (0
+
+615723*
+11 (9
+
+616551*
+11 (9

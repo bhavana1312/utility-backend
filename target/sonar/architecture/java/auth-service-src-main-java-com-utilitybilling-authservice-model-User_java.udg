@@ -1,0 +1,447 @@
+
+1.0bhavana1312_utility-backendJavaFrontend"1767547261459*java2.BÂ
+N
+Iauth-service/src/main/java/com/utilitybilling/authservice/model/User.java2
+	
+type3
+	
+MAIN4
+
+
+module-key5
+
+auth-service6
+
+package8
+6
+1auth-service:com.utilitybilling.authservice.model9
+/
+)com.utilitybilling.authservice.model.User11
+
+class12
+
+access13
+
+public14
+
+
+full-range15
+
+(11:1)-(46:2)16
+
+simple-name17
+
+
+User18
+<
+6org.springframework.data.mongodb.core.mapping.Document20
+
+unknown21
+
+annotated by22
+
+
+uses23
+
+lombok.Data25
+
+lombok.Builder27
+
+lombok.NoArgsConstructor29
+
+lombok.AllArgsConstructor31
+2
+,com.utilitybilling.authservice.model.User.id33
+
+field34
+
+private35
+
+(18:5)-(19:23)36
+
+id37
+,
+&org.springframework.data.annotation.Id39
+8
+2com.utilitybilling.authservice.model.User.username41
+
+(21:5)-(23:29)42
+
+username43
+-
+'jakarta.validation.constraints.NotBlank45
+)
+#jakarta.validation.constraints.Size47
+5
+/com.utilitybilling.authservice.model.User.email49
+
+(25:5)-(27:26)50
+
+email51
+*
+$jakarta.validation.constraints.Email53
+8
+2com.utilitybilling.authservice.model.User.password55
+
+(29:5)-(31:29)56
+
+password57
+5
+/com.utilitybilling.authservice.model.User.roles59
+
+(33:5)-(34:42)60
+
+roles61
+-
+'jakarta.validation.constraints.NotEmpty63
+7
+1com.utilitybilling.authservice.model.User.enabled65
+
+(36:5)-(36:29)66
+
+enabled67
+:
+4com.utilitybilling.authservice.model.User.resetToken69
+
+(38:5)-(38:31)70
+
+
+resetToken71
+@
+:com.utilitybilling.authservice.model.User.resetTokenExpiry73
+
+(40:5)-(40:38)74
+
+resetTokenExpiry75
+A
+;com.utilitybilling.authservice.model.User.passwordUpdatedAt77
+
+(42:5)-(42:39)78
+
+passwordUpdatedAt79
+9
+3com.utilitybilling.authservice.model.User.createdAt81
+
+(44:5)-(45:31)82
+
+	createdAt83
+,
+&jakarta.validation.constraints.NotNull85J%
+#
+1
+12
+
+3
+4
+
+5
+6 Z
+
+7
+7982
+
+
+5
+68jÈ
+N
+80H
+808134 *
+1- -(210:7B$
+
+
+13
+35
+
+
+15
+82
+
+
+17
+83
+
+46
+464721
+
+52
+525321
+N
+76H
+767734 *
+1* *(&210:7B$
+
+
+13
+35
+
+
+15
+78
+
+
+17
+79
+N
+64H
+646534 *
+1$ $(210:7B$
+
+
+13
+35
+
+
+15
+66
+
+
+17
+67
+
+84
+848521
+
+19
+192021
+N
+32H
+323334 *
+1 (210:7B$
+
+
+13
+35
+
+
+15
+36
+
+
+17
+37
+N
+54H
+545534 *
+1 (210:7B$
+
+
+13
+35
+
+
+15
+56
+
+
+17
+57
+J
+10D
+101112 *
+1 (:7B$
+
+
+13
+14
+
+
+15
+16
+
+
+17
+18
+N
+68H
+686934 *
+1& &(210:7B$
+
+
+13
+35
+
+
+15
+70
+
+
+17
+71
+N
+58H
+585934 *
+1"$ "()210:7B$
+
+
+13
+35
+
+
+15
+60
+
+
+17
+61
+N
+72H
+727334 *
+1( ((%210:7B$
+
+
+13
+35
+
+
+15
+74
+
+
+17
+75
+
+26
+262721
+
+44
+444521
+N
+40H
+404134 *
+1 (210:7B$
+
+
+13
+35
+
+
+15
+42
+
+
+17
+43
+
+24
+242521
+N
+48H
+484934 *
+1 (210:7B$
+
+
+13
+35
+
+
+15
+50
+
+
+17
+51
+
+62
+626321
+
+30
+303121
+
+38
+383921
+
+28
+282921rª
+
+101922*
+1 (
+
+101923*
+1 (
+
+
+102422*
+1 (
+
+102423*
+1 (
+
+102622*
+1 (	
+
+102623*
+1 (	
+
+102822*
+1 (
+
+102823*
+1 (
+
+103022*
+1 (
+
+103023*
+1 (
+
+323822*
+1 (
+
+323823*
+1 (
+
+404422*
+1 (.
+
+404423*
+1 (
+
+404622*
+1 (O
+
+404623*
+1 (
+
+
+484422*
+1 (+
+
+484423*
+1 (
+
+485222*
+1 (+
+
+485223*
+1 (
+
+544422*
+1 (.
+
+544423*
+1 (
+
+544622*
+1 (B
+
+544623*
+1 (
+
+
+586222*
+1! !(7
+
+586223*
+1! !(
+
+584422*
+1" "(
+
+584423*
+1" "(
+
+808422*
+1, ,(
+
+808423*
+1, ,(

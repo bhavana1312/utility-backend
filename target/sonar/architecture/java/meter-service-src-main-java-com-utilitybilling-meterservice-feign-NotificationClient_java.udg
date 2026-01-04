@@ -1,0 +1,154 @@
+
+1.0bhavana1312_utility-backendJavaFrontend"1767547262428*java2.Bî
+^
+Ymeter-service/src/main/java/com/utilitybilling/meterservice/feign/NotificationClient.java2
+	
+type3
+	
+MAIN4
+
+
+module-key5
+
+meter-service6
+
+package8
+8
+3meter-service:com.utilitybilling.meterservice.feign9
+>
+8com.utilitybilling.meterservice.feign.NotificationClient11
+
+	interface12
+
+access13
+
+public14
+
+
+full-range15
+
+(7:1)-(12:2)16
+
+simple-name17
+
+NotificationClient18
+5
+/org.springframework.cloud.openfeign.FeignClient20
+
+unknown21
+
+annotated by22
+
+
+uses23
+Å
+{com.utilitybilling.meterservice.feign.NotificationClient#send(Lcom/utilitybilling/meterservice/feign/NotificationRequest;)V25
+
+method26
+
+(10:5)-(11:57)27
+
+
+send28
+?
+9com.utilitybilling.meterservice.feign.NotificationRequest30
+
+	has param31
+9
+3org.springframework.web.bind.annotation.PostMapping33
+
+is type34
+9
+3org.springframework.web.bind.annotation.RequestBody36J%
+#
+1
+12
+
+3
+4
+
+5
+6 Z
+
+7
+7982
+
+
+5
+68jÏ
+
+35
+353621
+
+32
+323321
+J
+10D
+101112 *
+1 ($:7B$
+
+
+13
+14
+
+
+15
+16
+
+
+17
+18
+N
+24H
+242526 *
+1
+ (210:7B$
+
+
+13
+14
+
+
+15
+27
+
+
+17
+28
+
+19
+192021
+
+29
+293021rÛ
+
+101922*
+1 (*
+
+101923*
+1 (
+
+242931*
+1 (/
+
+243222*
+1
+ 
+((
+
+243223*
+1
+ 
+(
+
+242934*
+10 (7
+
+243522*
+1 (
+
+243523*
+1 (
+
+242923*
+1 (/

@@ -1,0 +1,259 @@
+
+1.0bhavana1312_utility-backendJavaFrontend"1767547262992*java2.B«
+
+^
+Ymeter-service/src/main/java/com/utilitybilling/meterservice/dto/MeterDetailsResponse.java2
+	
+type3
+	
+MAIN4
+
+
+module-key5
+
+meter-service6
+
+package8
+6
+1meter-service:com.utilitybilling.meterservice.dto9
+>
+8com.utilitybilling.meterservice.dto.MeterDetailsResponse11
+
+class12
+
+access13
+
+public14
+
+
+full-range15
+
+(7:1)-(15:2)16
+
+simple-name17
+
+MeterDetailsResponse18
+
+lombok.Data20
+
+unknown21
+
+annotated by22
+
+
+uses23
+J
+Dcom.utilitybilling.meterservice.dto.MeterDetailsResponse.meterNumber25
+
+field26
+
+private27
+
+(9:2)-(9:29)28
+
+meterNumber29
+I
+Ccom.utilitybilling.meterservice.dto.MeterDetailsResponse.consumerId31
+
+(10:2)-(10:28)32
+
+
+consumerId33
+J
+Dcom.utilitybilling.meterservice.dto.MeterDetailsResponse.utilityType35
+
+(11:2)-(11:34)36
+
+utilityType37
+7
+1com.utilitybilling.meterservice.model.UtilityType39
+
+is type40
+I
+Ccom.utilitybilling.meterservice.dto.MeterDetailsResponse.tariffPlan42
+
+(12:2)-(12:32)43
+
+
+tariffPlan44
+6
+0com.utilitybilling.meterservice.model.TariffPlan46
+E
+?com.utilitybilling.meterservice.dto.MeterDetailsResponse.active48
+
+(13:2)-(13:25)49
+
+active50
+J
+Dcom.utilitybilling.meterservice.dto.MeterDetailsResponse.lastReading52
+
+(14:2)-(14:29)53
+
+lastReading54J%
+#
+1
+12
+
+3
+4
+
+5
+6 Z
+
+7
+7982
+
+
+5
+68jè
+J
+10D
+101112 *
+1 (":7B$
+
+
+13
+14
+
+
+15
+16
+
+
+17
+18
+N
+24H
+242526 *
+1	 	(210:7B$
+
+
+13
+27
+
+
+15
+28
+
+
+17
+29
+
+45
+454621
+N
+47H
+474826 *
+1 (210:7B$
+
+
+13
+27
+
+
+15
+49
+
+
+17
+50
+N
+34H
+343526 *
+1 (!210:7B$
+
+
+13
+27
+
+
+15
+36
+
+
+17
+37
+
+38
+383921
+N
+30H
+303126 *
+1
+ 
+(210:7B$
+
+
+13
+27
+
+
+15
+32
+
+
+17
+33
+N
+41H
+414226 *
+1 (210:7B$
+
+
+13
+27
+
+
+15
+43
+
+
+17
+44
+
+19
+192021
+N
+51H
+515226 *
+1 (210:7B$
+
+
+13
+27
+
+
+15
+53
+
+
+17
+54rØ
+
+101922*
+1 (
+
+101923*
+1 (
+
+343840*
+1
+ (
+
+343823*
+1
+ (
+
+343823*
+1 (!
+
+414540*
+1
+ (
+
+414523*
+1
+ (
+
+414523*
+1 (

@@ -1,0 +1,63 @@
+
+ˆcom.utilitybilling.billingservice.controller.BillingController#consumerBills(Ljava/lang/String;II)Lorg/springframework/data/domain/Page;Œ
+D:/weird/utility-billing-system/billing-service/src/main/java/com/utilitybilling/billingservice/controller/BillingController.java (("startingBlock*´
+startingBlock( (>³
+°
+) (D
+%2"
+__annotate*T
+
+__unknown_file (86
+4org.springframework.web.bind.annotation.PathVariable*<
+
+__unknown_file ( 
+
+
+consumerIdjava.lang.String^
+\
+L (V
+
+consumerIdjava.lang.String"__annotation*"
+
+__unknown_file (
+
+%2*
+1*Û
+1	 (Ç
+Ä
+	 (>
+%08com.utilitybilling.billingservice.service.BillingService"__id*r
+
+__unknown_file (V*T@
+>com.utilitybilling.billingservice.controller.BillingController"
+billingServiceÇÄ
+	 (=*
+%1$org.springframework.data.domain.Page"‚com.utilitybilling.billingservice.service.BillingService#consumerBills(Ljava/lang/String;II)Lorg/springframework/data/domain/Page;*\
+
+__unknown_file (@
+>
+%08com.utilitybilling.billingservice.service.BillingService*<
+
+__unknown_file ( 
+
+
+consumerIdjava.lang.String*"
+
+__unknown_file (
+""*"
+
+__unknown_file (
+""2#consumerBills(Ljava/lang/String;II)"8
+ (>,
+*
+%1$org.springframework.data.domain.Page:*
+) (W
+
+consumerIdjava.lang.String: 
+
+__unknown_file (
+"": 
+
+__unknown_file (
+""BB@
+>com.utilitybilling.billingservice.controller.BillingControllerH

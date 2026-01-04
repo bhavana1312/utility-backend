@@ -1,0 +1,51 @@
+
+mcom.utilitybilling.paymentservice.controller.PaymentController#invoices(Ljava/lang/String;)Ljava/lang/Object;å
+ÅD:/weird/utility-billing-system/payment-service/src/main/java/com/utilitybilling/paymentservice/controller/PaymentController.java- -("startingBlock*¥
+startingBlock- -(F≥
+∞
+- -(3
+%2"
+__annotate*T
+
+__unknown_file (86
+4org.springframework.web.bind.annotation.PathVariable*<
+
+__unknown_file ( 
+
+
+consumerIdjava.lang.String^
+\
+-; -(E
+
+consumerIdjava.lang.String"__annotation*"
+
+__unknown_file (
+
+%2*
+1*ª
+1.	 .(¿
+Ω
+.	 .(>
+%08com.utilitybilling.paymentservice.service.PaymentService"__id*k
+
+__unknown_file (O*M@
+>com.utilitybilling.paymentservice.controller.PaymentController"	
+serviceƒ¡
+.	 .(%
+%1java.util.List"ecom.utilitybilling.paymentservice.service.PaymentService#invoices(Ljava/lang/String;)Ljava/util/List;*\
+
+__unknown_file (@
+>
+%08com.utilitybilling.paymentservice.service.PaymentService*<
+
+__unknown_file ( 
+
+
+consumerIdjava.lang.String2invoices(Ljava/lang/String;)""
+. .(&
+
+%1java.util.List:*
+- -(E
+
+consumerIdjava.lang.StringBB@
+>com.utilitybilling.paymentservice.controller.PaymentControllerH

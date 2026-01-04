@@ -1,0 +1,236 @@
+
+1.0bhavana1312_utility-backendJavaFrontend"1767547256662*java2.BË
+T
+Otariff-service/src/main/java/com/utilitybilling/tariffservice/model/Tariff.java2
+	
+type3
+	
+MAIN4
+
+
+module-key5
+
+tarrif-service6
+
+package8
+:
+5tarrif-service:com.utilitybilling.tariffservice.model9
+3
+-com.utilitybilling.tariffservice.model.Tariff11
+
+class12
+
+access13
+
+public14
+
+
+full-range15
+
+(13:1)-(26:2)16
+
+simple-name17
+
+Tariff18
+<
+6org.springframework.data.mongodb.core.mapping.Document20
+
+unknown21
+
+annotated by22
+
+
+uses23
+
+lombok.Data25
+
+lombok.NoArgsConstructor27
+
+lombok.AllArgsConstructor29
+
+lombok.Builder31
+6
+0com.utilitybilling.tariffservice.model.Tariff.id33
+
+field34
+
+private35
+
+(20:2)-(21:20)36
+
+id37
+,
+&org.springframework.data.annotation.Id39
+?
+9com.utilitybilling.tariffservice.model.Tariff.utilityType41
+
+(23:2)-(23:34)42
+
+utilityType43
+8
+2com.utilitybilling.tariffservice.model.UtilityType45
+
+is type46
+9
+3com.utilitybilling.tariffservice.model.Tariff.plans48
+
+(25:2)-(25:39)49
+
+plans50
+=
+7com.utilitybilling.tariffservice.model.TariffPlanConfig52J%
+#
+1
+12
+
+3
+4
+
+5
+6 Z
+
+7
+7982
+
+
+5
+68jÜ
+N
+47H
+474834 *
+1! (&210:7B$
+
+
+13
+35
+
+
+15
+49
+
+
+17
+50
+
+44
+444521
+
+30
+303121
+N
+40H
+404134 *
+1 (!210:7B$
+
+
+13
+35
+
+
+15
+42
+
+
+17
+43
+
+24
+242521
+
+51
+515221
+J
+10D
+101112 *
+1 (:7B$
+
+
+13
+14
+
+
+15
+16
+
+
+17
+18
+
+28
+282921
+
+38
+383921
+N
+32H
+323334 *
+1 (210:7B$
+
+
+13
+35
+
+
+15
+36
+
+
+17
+37
+
+19
+192021
+
+26
+262721r°
+
+101922*
+1 ("
+
+101923*
+1 (
+
+
+102422*
+1 (
+
+102423*
+1 (
+
+102622*
+1 (
+
+102623*
+1 (
+
+102822*
+1 (
+
+102823*
+1 (
+
+103022*
+1 (	
+
+103023*
+1 (	
+
+323822*
+1 (
+
+323823*
+1 (
+
+404446*
+1
+ (
+
+404423*
+1
+ (
+
+404423*
+1 (!
+
+475123*
+1 (

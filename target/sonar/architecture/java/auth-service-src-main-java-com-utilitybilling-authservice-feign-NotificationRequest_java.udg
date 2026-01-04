@@ -1,0 +1,250 @@
+
+1.0bhavana1312_utility-backendJavaFrontend"1767547261203*java2.Bµ
+]
+Xauth-service/src/main/java/com/utilitybilling/authservice/feign/NotificationRequest.java2
+	
+type3
+	
+MAIN4
+
+
+module-key5
+
+auth-service6
+
+package8
+6
+1auth-service:com.utilitybilling.authservice.feign9
+>
+8com.utilitybilling.authservice.feign.NotificationRequest11
+
+class12
+
+access13
+
+public14
+
+
+full-range15
+
+(6:1)-(24:2)16
+
+simple-name17
+
+NotificationRequest18
+
+lombok.Getter20
+
+unknown21
+
+annotated by22
+
+
+uses23
+
+lombok.Setter25
+
+lombok.NoArgsConstructor27
+
+lombok.AllArgsConstructor29
+
+lombok.Builder31
+D
+>com.utilitybilling.authservice.feign.NotificationRequest.email33
+
+field34
+
+private35
+
+(13:5)-(14:26)36
+
+email37
+-
+'jakarta.validation.constraints.NotBlank39
+C
+=com.utilitybilling.authservice.feign.NotificationRequest.type41
+
+(16:5)-(17:25)42
+F
+@com.utilitybilling.authservice.feign.NotificationRequest.subject44
+
+(19:5)-(20:28)45
+
+subject46
+F
+@com.utilitybilling.authservice.feign.NotificationRequest.message48
+
+(22:5)-(23:28)49
+
+message50J%
+#
+1
+12
+
+3
+4
+
+5
+6 Z
+
+7
+7982
+
+
+5
+68jƒ
+N
+32H
+323334 *
+1 (210:7B$
+
+
+13
+35
+
+
+15
+36
+
+
+17
+37
+M
+40G
+404134 *
+1 (210:7B#
+
+
+13
+35
+
+
+15
+42
+	
+17
+3
+
+24
+242521
+N
+43H
+434434 *
+1 (210:7B$
+
+
+13
+35
+
+
+15
+45
+
+
+17
+46
+
+19
+192021
+
+30
+303121
+
+38
+383921
+
+28
+282921
+N
+47H
+474834 *
+1 (210:7B$
+
+
+13
+35
+
+
+15
+49
+
+
+17
+50
+J
+10D
+101112 *
+1 (!:7B$
+
+
+13
+14
+
+
+15
+16
+
+
+17
+18
+
+26
+262721ræ
+
+101922*
+1 (
+
+101923*
+1 (
+
+102422*
+1 (
+
+102423*
+1 (
+
+102622*
+1 (
+
+102623*
+1 (
+
+102822*
+1	 	(
+
+102823*
+1	 	(
+
+103022*
+1
+ 
+(	
+
+103023*
+1
+ 
+(	
+
+323822*
+1 (
+
+323823*
+1 (
+
+403822*
+1 (
+
+403823*
+1 (
+
+433822*
+1 (
+
+433823*
+1 (
+
+473822*
+1 (
+
+473823*
+1 (

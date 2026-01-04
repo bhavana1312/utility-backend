@@ -1,0 +1,187 @@
+
+1.0bhavana1312_utility-backendJavaFrontend"1767547262802*java2.BÀ
+Z
+Umeter-service/src/main/java/com/utilitybilling/meterservice/feign/ConsumerClient.java2
+	
+type3
+	
+MAIN4
+
+
+module-key5
+
+meter-service6
+
+package8
+8
+3meter-service:com.utilitybilling.meterservice.feign9
+:
+4com.utilitybilling.meterservice.feign.ConsumerClient11
+
+	interface12
+
+access13
+
+public14
+
+
+full-range15
+
+(7:1)-(15:2)16
+
+simple-name17
+
+ConsumerClient18
+5
+/org.springframework.cloud.openfeign.FeignClient20
+
+unknown21
+
+annotated by22
+
+
+uses23
+•
+Žcom.utilitybilling.meterservice.feign.ConsumerClient#getByUsername(Ljava/lang/String;)Lcom/utilitybilling/meterservice/feign/ConsumerResponse;25
+
+method26
+
+(10:2)-(11:76)27
+
+getByUsername28
+<
+6com.utilitybilling.meterservice.feign.ConsumerResponse30
+
+returns31
+8
+2org.springframework.web.bind.annotation.GetMapping33
+:
+4org.springframework.web.bind.annotation.PathVariable35
+‹
+„com.utilitybilling.meterservice.feign.ConsumerClient#get(Ljava/lang/String;)Lcom/utilitybilling/meterservice/feign/ConsumerResponse;37
+
+(13:2)-(14:48)38
+	
+get39J%
+#
+1
+12
+
+3
+4
+
+5
+6 Z
+
+7
+7982
+
+
+5
+68j¼
+
+34
+343521
+
+29
+293021
+N
+24H
+242526 *
+1 ( 210:7B$
+
+
+13
+14
+
+
+15
+27
+
+
+17
+28
+
+32
+323321
+J
+10D
+101112 *
+1 ( :7B$
+
+
+13
+14
+
+
+15
+16
+
+
+17
+18
+
+19
+192021
+N
+36H
+363726 *
+1 (210:7B$
+
+
+13
+14
+
+
+15
+38
+
+
+17
+39rú
+
+101922*
+1 ((
+
+101923*
+1 (
+
+242931*
+1 (
+
+243222*
+1
+ 
+(/
+
+243223*
+1
+ 
+(
+
+242923*
+1 (
+
+243422*
+1! (:
+
+243423*
+1" (.
+
+362931*
+1 (
+
+363222*
+1 ( 
+
+363223*
+1 (
+
+362923*
+1 (
+
+363422*
+1 ($
+
+363423*
+1 ($

@@ -1,0 +1,470 @@
+
+1.0bhavana1312_utility-backendJavaFrontend"1767547264674*java2.Bð
+\
+Wpayment-service/src/main/java/com/utilitybilling/paymentservice/feign/BillResponse.java2
+	
+type3
+	
+MAIN4
+
+
+module-key5
+
+payment-service6
+
+package8
+<
+7payment-service:com.utilitybilling.paymentservice.feign9
+:
+4com.utilitybilling.paymentservice.feign.BillResponse11
+
+class12
+
+access13
+
+public14
+
+
+full-range15
+
+(8:1)-(33:2)16
+
+simple-name17
+
+BillResponse18
+
+lombok.Data20
+
+unknown21
+
+annotated by22
+
+
+uses23
+=
+7com.utilitybilling.paymentservice.feign.BillResponse.id25
+
+field26
+
+private27
+
+(11:2)-(12:20)28
+
+id29
+,
+&org.springframework.data.annotation.Id31
+E
+?com.utilitybilling.paymentservice.feign.BillResponse.consumerId33
+
+(13:2)-(13:28)34
+
+
+consumerId35
+F
+@com.utilitybilling.paymentservice.feign.BillResponse.meterNumber37
+
+(14:2)-(14:29)38
+
+meterNumber39
+F
+@com.utilitybilling.paymentservice.feign.BillResponse.utilityType41
+
+(15:2)-(15:29)42
+
+utilityType43
+J
+Dcom.utilitybilling.paymentservice.feign.BillResponse.previousReading45
+
+(17:2)-(17:33)46
+
+previousReading47
+I
+Ccom.utilitybilling.paymentservice.feign.BillResponse.currentReading49
+
+(18:2)-(18:32)50
+
+currentReading51
+H
+Bcom.utilitybilling.paymentservice.feign.BillResponse.unitsConsumed53
+
+(19:2)-(19:31)54
+
+unitsConsumed55
+G
+Acom.utilitybilling.paymentservice.feign.BillResponse.energyCharge57
+
+(21:2)-(21:34)58
+
+energyCharge59
+F
+@com.utilitybilling.paymentservice.feign.BillResponse.fixedCharge61
+
+(22:2)-(22:33)62
+
+fixedCharge63
+D
+>com.utilitybilling.paymentservice.feign.BillResponse.taxAmount65
+
+(23:2)-(23:31)66
+
+	taxAmount67
+H
+Bcom.utilitybilling.paymentservice.feign.BillResponse.penaltyAmount69
+
+(25:2)-(25:35)70
+
+penaltyAmount71
+F
+@com.utilitybilling.paymentservice.feign.BillResponse.totalAmount73
+
+(26:2)-(26:33)74
+
+totalAmount75
+B
+<com.utilitybilling.paymentservice.feign.BillResponse.dueDate77
+
+(28:2)-(28:26)78
+
+dueDate79
+H
+Bcom.utilitybilling.paymentservice.feign.BillResponse.lastUpdatedAt81
+
+(29:2)-(29:32)82
+
+lastUpdatedAt83
+A
+;com.utilitybilling.paymentservice.feign.BillResponse.status85
+
+(31:2)-(31:28)86
+
+status87
+8
+2com.utilitybilling.paymentservice.feign.BillStatus89
+
+is type90
+F
+@com.utilitybilling.paymentservice.feign.BillResponse.generatedAt92
+
+(32:2)-(32:46)93
+
+generatedAt94J%
+#
+1
+12
+
+3
+4
+
+5
+6 Z
+
+7
+7982
+
+
+5
+68jˆ
+N
+32H
+323326 *
+1 (210:7B$
+
+
+13
+27
+
+
+15
+34
+
+
+17
+35
+N
+56H
+565726 *
+1 (!210:7B$
+
+
+13
+27
+
+
+15
+58
+
+
+17
+59
+N
+72H
+727326 *
+1 ( 210:7B$
+
+
+13
+27
+
+
+15
+74
+
+
+17
+75
+N
+80H
+808126 *
+1 (210:7B$
+
+
+13
+27
+
+
+15
+82
+
+
+17
+83
+N
+60H
+606126 *
+1 ( 210:7B$
+
+
+13
+27
+
+
+15
+62
+
+
+17
+63
+N
+44H
+444526 *
+1 ( 210:7B$
+
+
+13
+27
+
+
+15
+46
+
+
+17
+47
+N
+40H
+404126 *
+1 (210:7B$
+
+
+13
+27
+
+
+15
+42
+
+
+17
+43
+N
+91H
+919226 *
+1   (210:7B$
+
+
+13
+27
+
+
+15
+93
+
+
+17
+94
+N
+24H
+242526 *
+1 (210:7B$
+
+
+13
+27
+
+
+15
+28
+
+
+17
+29
+N
+48H
+484926 *
+1 (210:7B$
+
+
+13
+27
+
+
+15
+50
+
+
+17
+51
+N
+52H
+525326 *
+1 (210:7B$
+
+
+13
+27
+
+
+15
+54
+
+
+17
+55
+
+19
+192021
+
+88
+888921
+N
+64H
+646526 *
+1 (210:7B$
+
+
+13
+27
+
+
+15
+66
+
+
+17
+67
+N
+84H
+848526 *
+1 (210:7B$
+
+
+13
+27
+
+
+15
+86
+
+
+17
+87
+J
+10D
+101112 *
+1	 	(:7B$
+
+
+13
+14
+
+
+15
+16
+
+
+17
+18
+
+30
+303121
+N
+36H
+363726 *
+1 (210:7B$
+
+
+13
+27
+
+
+15
+38
+
+
+17
+39
+N
+68H
+686926 *
+1 ("210:7B$
+
+
+13
+27
+
+
+15
+70
+
+
+17
+71
+N
+76H
+767726 *
+1 (210:7B$
+
+
+13
+27
+
+
+15
+78
+
+
+17
+79r½
+
+101922*
+1 (
+
+101923*
+1 (
+
+243022*
+1 (
+
+243023*
+1 (
+
+848890*
+1
+ (
+
+848823*
+1
+ (
+
+848823*
+1 (

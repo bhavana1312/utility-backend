@@ -1,0 +1,216 @@
+
+1.0bhavana1312_utility-backendJavaFrontend"1767547263120*java2.BÇ
+a
+\meter-service/src/main/java/com/utilitybilling/meterservice/dto/CreateConnectionRequest.java2
+	
+type3
+	
+MAIN4
+
+
+module-key5
+
+meter-service6
+
+package8
+6
+1meter-service:com.utilitybilling.meterservice.dto9
+A
+;com.utilitybilling.meterservice.dto.CreateConnectionRequest11
+
+class12
+
+access13
+
+public14
+
+
+full-range15
+
+(9:1)-(20:2)16
+
+simple-name17
+
+CreateConnectionRequest18
+
+lombok.Data20
+
+unknown21
+
+annotated by22
+
+
+uses23
+L
+Fcom.utilitybilling.meterservice.dto.CreateConnectionRequest.consumerId25
+
+field26
+
+private27
+
+(12:5)-(13:31)28
+
+
+consumerId29
+-
+'jakarta.validation.constraints.NotBlank31
+M
+Gcom.utilitybilling.meterservice.dto.CreateConnectionRequest.utilityType33
+
+(15:5)-(16:37)34
+
+utilityType35
+7
+1com.utilitybilling.meterservice.model.UtilityType37
+
+is type38
+,
+&jakarta.validation.constraints.NotNull40
+L
+Fcom.utilitybilling.meterservice.dto.CreateConnectionRequest.tariffPlan42
+
+(18:5)-(19:35)43
+
+
+tariffPlan44
+6
+0com.utilitybilling.meterservice.model.TariffPlan46J%
+#
+1
+12
+
+3
+4
+
+5
+6 Z
+
+7
+7982
+
+
+5
+68j 
+N
+32H
+323326 *
+1 ($210:7B$
+
+
+13
+27
+
+
+15
+34
+
+
+17
+35
+
+45
+454621
+J
+10D
+101112 *
+1
+ 
+(%:7B$
+
+
+13
+14
+
+
+15
+16
+
+
+17
+18
+
+30
+303121
+
+36
+363721
+
+19
+192021
+
+39
+394021
+N
+24H
+242526 *
+1 (210:7B$
+
+
+13
+27
+
+
+15
+28
+
+
+17
+29
+N
+41H
+414226 *
+1 ("210:7B$
+
+
+13
+27
+
+
+15
+43
+
+
+17
+44rú
+
+101922*
+1	 	(
+
+101923*
+1	 	(
+
+243022*
+1 (1
+
+243023*
+1 (
+
+323638*
+1 (
+
+323922*
+1 (1
+
+323923*
+1 (
+
+323623*
+1 (
+
+323623*
+1 ($
+
+414538*
+1 (
+
+413922*
+1 (0
+
+413923*
+1 (
+
+414523*
+1 (
+
+414523*
+1 ("

@@ -1,0 +1,270 @@
+
+1.0bhavana1312_utility-backendJavaFrontend"1767547263892*java2.B¸
+]
+Xpayment-service/src/main/java/com/utilitybilling/paymentservice/feign/BillingClient.java2
+	
+type3
+	
+MAIN4
+
+
+module-key5
+
+payment-service6
+
+package8
+<
+7payment-service:com.utilitybilling.paymentservice.feign9
+;
+5com.utilitybilling.paymentservice.feign.BillingClient11
+
+	interface12
+
+access13
+
+public14
+
+
+full-range15
+
+(7:1)-(24:2)16
+
+simple-name17
+
+BillingClient18
+5
+/org.springframework.cloud.openfeign.FeignClient20
+
+unknown21
+
+annotated by22
+
+
+uses23
+Ž
+‡com.utilitybilling.paymentservice.feign.BillingClient#getBill(Ljava/lang/String;)Lcom/utilitybilling/paymentservice/feign/BillResponse;25
+
+method26
+
+(10:2)-(11:62)27
+
+getBill28
+:
+4com.utilitybilling.paymentservice.feign.BillResponse30
+
+returns31
+8
+2org.springframework.web.bind.annotation.GetMapping33
+:
+4org.springframework.web.bind.annotation.PathVariable35
+Y
+Scom.utilitybilling.paymentservice.feign.BillingClient#markPaid(Ljava/lang/String;)V37
+
+(13:2)-(15:55)38
+
+markPaid39
+8
+2org.springframework.web.bind.annotation.PutMapping41
+E
+?io.github.resilience4j.circuitbreaker.annotation.CircuitBreaker43
+ 
+™com.utilitybilling.paymentservice.feign.BillingClient#outstanding(Ljava/lang/String;)Lcom/utilitybilling/paymentservice/feign/OutstandingBalanceResponse;45
+
+(17:2)-(19:88)46
+
+outstanding47
+H
+Bcom.utilitybilling.paymentservice.feign.OutstandingBalanceResponse49
+n
+hcom.utilitybilling.paymentservice.feign.BillingClient#fallback(Ljava/lang/String;Ljava/lang/Throwable;)V51
+
+(21:2)-(23:3)52
+
+fallback53J%
+#
+1
+12
+
+3
+4
+
+5
+6 Z
+
+7
+7982
+
+
+5
+68j˜
+J
+10D
+101112 *
+1 (:7B$
+
+
+13
+14
+
+
+15
+16
+
+
+17
+18
+
+34
+343521
+N
+50H
+505126 *
+1 (210:7B$
+
+
+13
+14
+
+
+15
+52
+
+
+17
+53
+
+48
+484921
+
+40
+404121
+N
+44H
+444526 *
+1 ((210:7B$
+
+
+13
+14
+
+
+15
+46
+
+
+17
+47
+
+32
+323321
+N
+36H
+363726 *
+1 (210:7B$
+
+
+13
+14
+
+
+15
+38
+
+
+17
+39
+
+42
+424321
+
+19
+192021
+
+29
+293021
+N
+24H
+242526 *
+1 (210:7B$
+
+
+13
+14
+
+
+15
+27
+
+
+17
+28rÒ
+
+101922*
+1 ('
+
+101923*
+1 (
+
+242931*
+1 (
+
+243222*
+1
+ 
+(+
+
+243223*
+1
+ 
+(
+
+242923*
+1 (
+
+243422*
+1 (.
+
+243423*
+1 ($
+
+364022*
+1 (5
+
+364023*
+1 (
+
+364222*
+1 (B
+
+364223*
+1 (
+
+363422*
+1 ('
+
+363423*
+1 (
+
+444831*
+1 (
+
+443222*
+1 (D
+
+443223*
+1 (
+
+444222*
+1 (B
+
+444223*
+1 (
+
+444823*
+1 (
+
+443422*
+1) (D
+
+443423*
+1* (6

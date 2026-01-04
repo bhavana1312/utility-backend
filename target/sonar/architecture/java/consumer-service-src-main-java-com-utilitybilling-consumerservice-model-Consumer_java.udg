@@ -1,0 +1,479 @@
+
+1.0bhavana1312_utility-backendJavaFrontend"1767547258750*java2.BÇ
+Z
+Uconsumer-service/src/main/java/com/utilitybilling/consumerservice/model/Consumer.java2
+	
+type3
+	
+MAIN4
+
+
+module-key5
+
+consumer-service6
+
+package8
+>
+9consumer-service:com.utilitybilling.consumerservice.model9
+7
+1com.utilitybilling.consumerservice.model.Consumer11
+
+class12
+
+access13
+
+public14
+
+
+full-range15
+
+(10:1)-(49:2)16
+
+simple-name17
+
+Consumer18
+<
+6org.springframework.data.mongodb.core.mapping.Document20
+
+unknown21
+
+annotated by22
+
+
+uses23
+
+lombok.Data25
+
+lombok.Builder27
+
+lombok.NoArgsConstructor29
+
+lombok.AllArgsConstructor31
+:
+4com.utilitybilling.consumerservice.model.Consumer.id33
+
+field34
+
+private35
+
+(17:2)-(18:20)36
+
+id37
+,
+&org.springframework.data.annotation.Id39
+@
+:com.utilitybilling.consumerservice.model.Consumer.fullName41
+
+(20:2)-(22:26)42
+
+fullName43
+-
+'jakarta.validation.constraints.NotBlank45
+)
+#jakarta.validation.constraints.Size47
+=
+7com.utilitybilling.consumerservice.model.Consumer.email49
+
+(24:2)-(26:23)50
+
+email51
+*
+$jakarta.validation.constraints.Email53
+=
+7com.utilitybilling.consumerservice.model.Consumer.phone55
+
+(28:2)-(30:23)56
+
+phone57
+,
+&jakarta.validation.constraints.Pattern59
+D
+>com.utilitybilling.consumerservice.model.Consumer.addressLine161
+
+(32:2)-(33:30)62
+
+addressLine163
+<
+6com.utilitybilling.consumerservice.model.Consumer.city65
+
+(35:2)-(36:22)66
+
+
+city67
+=
+7com.utilitybilling.consumerservice.model.Consumer.state69
+
+(38:2)-(39:23)70
+
+state71
+B
+<com.utilitybilling.consumerservice.model.Consumer.postalCode73
+
+(41:2)-(43:28)74
+
+
+postalCode75
+>
+8com.utilitybilling.consumerservice.model.Consumer.active77
+
+(45:2)-(45:25)78
+
+active79
+A
+;com.utilitybilling.consumerservice.model.Consumer.createdAt81
+
+(47:2)-(47:28)82
+
+	createdAt83
+A
+;com.utilitybilling.consumerservice.model.Consumer.updatedAt85
+
+(48:2)-(48:28)86
+
+	updatedAt87J%
+#
+1
+12
+
+3
+4
+
+5
+6 Z
+
+7
+7982
+
+
+5
+68j„	
+N
+72H
+727334 *
+1+ +(210:7B$
+
+
+13
+35
+
+
+15
+74
+
+
+17
+75
+N
+40H
+404134 *
+1 (210:7B$
+
+
+13
+35
+
+
+15
+42
+
+
+17
+43
+
+58
+585921
+
+46
+464721
+
+52
+525321
+N
+54H
+545534 *
+1 (210:7B$
+
+
+13
+35
+
+
+15
+56
+
+
+17
+57
+
+19
+192021
+N
+80H
+808134 *
+1/ /(210:7B$
+
+
+13
+35
+
+
+15
+82
+
+
+17
+83
+N
+84H
+848534 *
+10 0(210:7B$
+
+
+13
+35
+
+
+15
+86
+
+
+17
+87
+
+26
+262721
+N
+48H
+484934 *
+1 (210:7B$
+
+
+13
+35
+
+
+15
+50
+
+
+17
+51
+
+44
+444521
+
+24
+242521
+N
+68H
+686934 *
+1' '(210:7B$
+
+
+13
+35
+
+
+15
+70
+
+
+17
+71
+N
+64H
+646534 *
+1$ $(210:7B$
+
+
+13
+35
+
+
+15
+66
+
+
+17
+67
+N
+76H
+767734 *
+1- -(210:7B$
+
+
+13
+35
+
+
+15
+78
+
+
+17
+79
+J
+10D
+101112 *
+1 (:7B$
+
+
+13
+14
+
+
+15
+16
+
+
+17
+18
+
+30
+303121
+
+38
+383921
+N
+32H
+323334 *
+1 (210:7B$
+
+
+13
+35
+
+
+15
+36
+
+
+17
+37
+N
+60H
+606134 *
+1! !(210:7B$
+
+
+13
+35
+
+
+15
+62
+
+
+17
+63
+
+28
+282921r–
+
+101922*
+1
+ 
+($
+
+101923*
+1
+ 
+(
+
+
+102422*
+1 (
+
+102423*
+1 (
+
+102622*
+1 (	
+
+102623*
+1 (	
+
+102822*
+1 (
+
+102823*
+1 (
+
+103022*
+1 (
+
+103023*
+1 (
+
+323822*
+1 (
+
+323823*
+1 (
+
+404422*
+1 (4
+
+404423*
+1 (
+
+404622*
+1 (W
+
+404623*
+1 (
+
+484422*
+1 (0
+
+484423*
+1 (
+
+485222*
+1 (9
+
+485223*
+1 (
+
+544422*
+1 (7
+
+544423*
+1 (
+
+545822*
+1 (Z
+
+545823*
+1 (
+
+
+604422*
+1   (7
+
+604423*
+1   (
+
+644422*
+1# #(/
+
+644423*
+1# #(
+
+684422*
+1& &(0
+
+684423*
+1& &(
+
+724422*
+1) )(6
+
+724423*
+1) )(
+
+725822*
+1* *(Y
+
+725823*
+1* *(

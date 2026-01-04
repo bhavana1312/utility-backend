@@ -1,0 +1,47 @@
+
+tcom.utilitybilling.billingservice.controller.InternalBillingController#getBill(Ljava/lang/String;)Ljava/lang/Object;”
+‰D:/weird/utility-billing-system/billing-service/src/main/java/com/utilitybilling/billingservice/controller/InternalBillingController.java ("startingBlock*¬
+startingBlock (@¯
+¬
+ (1
+%2"
+__annotate*T
+
+__unknown_file (86
+4org.springframework.web.bind.annotation.PathVariable*8
+
+__unknown_file (
+
+billIdjava.lang.StringZ
+X
+9 (?
+billIdjava.lang.String"__annotation*"
+
+__unknown_file (
+
+%2*
+1*Ÿ
+1 (Ï
+Ì
+ (>
+%08com.utilitybilling.billingservice.service.BillingService"__id*z
+
+__unknown_file (^*\H
+Fcom.utilitybilling.billingservice.controller.InternalBillingController"
+billingServiceûø
+ (-2
+%1,com.utilitybilling.billingservice.model.Bill"‚com.utilitybilling.billingservice.service.BillingService#getById(Ljava/lang/String;)Lcom/utilitybilling/billingservice/model/Bill;*\
+
+__unknown_file (@
+>
+%08com.utilitybilling.billingservice.service.BillingService*8
+
+__unknown_file (
+
+billIdjava.lang.String2getById(Ljava/lang/String;)"@
+ (.4
+2
+%1,com.utilitybilling.billingservice.model.Bill:&
+ (?
+billIdjava.lang.StringBJH
+Fcom.utilitybilling.billingservice.controller.InternalBillingControllerH

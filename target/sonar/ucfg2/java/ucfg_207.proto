@@ -1,0 +1,22 @@
+
+?com.utilitybilling.billingservice.model.Bill#%field_initializer
+__unknown_file ("1*ö
+1 (æ
+ã
+y
+oD:/weird/utility-billing-system/billing-service/src/main/java/com/utilitybilling/billingservice/model/Bill.java% %(,
+%0java.time.Instant"*java.time.Instant#now()Ljava/time/Instant;*!
+ ("
+java.time.Instantì
+é
+y
+oD:/weird/utility-billing-system/billing-service/src/main/java/com/utilitybilling/billingservice/model/Bill.java% %(-?.
+,com.utilitybilling.billingservice.model.Bill"
+generatedAt"__id*%
+ (
+
+%0java.time.Instant"Ž
+w
+oD:/weird/utility-billing-system/billing-service/src/main/java/com/utilitybilling/billingservice/model/Bill.java &(
+implicit returnB0.
+,com.utilitybilling.billingservice.model.Bill

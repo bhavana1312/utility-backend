@@ -1,0 +1,135 @@
+
+1.0bhavana1312_utility-backendJavaFrontend"1767547265904*java2.Bù
+h
+cbilling-service/src/main/java/com/utilitybilling/billingservice/dto/OutstandingBalanceResponse.java2
+	
+type3
+	
+MAIN4
+
+
+module-key5
+
+billing-service6
+
+package8
+:
+5billing-service:com.utilitybilling.billingservice.dto9
+F
+@com.utilitybilling.billingservice.dto.OutstandingBalanceResponse11
+
+class12
+
+access13
+
+public14
+
+
+full-range15
+
+(7:1)-(11:2)16
+
+simple-name17
+ 
+OutstandingBalanceResponse18
+
+lombok.Data20
+
+unknown21
+
+annotated by22
+
+
+uses23
+Q
+Kcom.utilitybilling.billingservice.dto.OutstandingBalanceResponse.consumerId25
+
+field26
+
+private27
+
+(9:2)-(9:28)28
+
+
+consumerId29
+X
+Rcom.utilitybilling.billingservice.dto.OutstandingBalanceResponse.outstandingAmount31
+
+(10:2)-(10:39)32
+
+outstandingAmount33J%
+#
+1
+12
+
+3
+4
+
+5
+6 Z
+
+7
+7982
+
+
+5
+68jÄ
+N
+30H
+303126 *
+1
+ 
+(&210:7B$
+
+
+13
+27
+
+
+15
+32
+
+
+17
+33
+
+19
+192021
+J
+10D
+101112 *
+1 ((:7B$
+
+
+13
+14
+
+
+15
+16
+
+
+17
+18
+N
+24H
+242526 *
+1	 	(210:7B$
+
+
+13
+27
+
+
+15
+28
+
+
+17
+29r6
+
+101922*
+1 (
+
+101923*
+1 (

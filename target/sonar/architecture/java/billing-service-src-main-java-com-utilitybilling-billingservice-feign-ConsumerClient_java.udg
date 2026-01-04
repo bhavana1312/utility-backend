@@ -1,0 +1,222 @@
+
+1.0bhavana1312_utility-backendJavaFrontend"1767547265602*java2.Bñ
+
+^
+Ybilling-service/src/main/java/com/utilitybilling/billingservice/feign/ConsumerClient.java2
+	
+type3
+	
+MAIN4
+
+
+module-key5
+
+billing-service6
+
+package8
+<
+7billing-service:com.utilitybilling.billingservice.feign9
+<
+6com.utilitybilling.billingservice.feign.ConsumerClient11
+
+	interface12
+
+access13
+
+public14
+
+
+full-range15
+
+(8:1)-(21:2)16
+
+simple-name17
+
+ConsumerClient18
+5
+/org.springframework.cloud.openfeign.FeignClient20
+
+unknown21
+
+annotated by22
+
+
+uses23
+˜
+‘com.utilitybilling.billingservice.feign.ConsumerClient#exists(Ljava/lang/String;)Lcom/utilitybilling/billingservice/feign/ConsumerExistsResponse;25
+
+method26
+
+(11:2)-(13:63)27
+
+exists28
+D
+>com.utilitybilling.billingservice.feign.ConsumerExistsResponse30
+
+returns31
+E
+?io.github.resilience4j.circuitbreaker.annotation.CircuitBreaker33
+8
+2org.springframework.web.bind.annotation.GetMapping35
+:
+4org.springframework.web.bind.annotation.PathVariable37
+
+ˆcom.utilitybilling.billingservice.feign.ConsumerClient#get(Ljava/lang/String;)Lcom/utilitybilling/billingservice/feign/ConsumerResponse;39
+
+(15:2)-(16:54)40
+	
+get41
+>
+8com.utilitybilling.billingservice.feign.ConsumerResponse43
+o
+icom.utilitybilling.billingservice.feign.ConsumerClient#fallback(Ljava/lang/String;Ljava/lang/Throwable;)Z45
+
+(18:2)-(20:3)46
+
+fallback47J%
+#
+1
+12
+
+3
+4
+
+5
+6 Z
+
+7
+7982
+
+
+5
+68j´
+
+36
+363721
+
+42
+424321
+N
+24H
+242526 *
+1 (210:7B$
+
+
+13
+14
+
+
+15
+27
+
+
+17
+28
+
+34
+343521
+N
+44H
+444526 *
+1 (210:7B$
+
+
+13
+14
+
+
+15
+46
+
+
+17
+47
+
+29
+293021
+
+32
+323321
+
+19
+192021
+J
+10D
+101112 *
+1	 	( :7B$
+
+
+13
+14
+
+
+15
+16
+
+
+17
+18
+N
+38H
+383926 *
+1 (210:7B$
+
+
+13
+14
+
+
+15
+40
+
+
+17
+41r°
+
+101922*
+1 ((
+
+101923*
+1 (
+
+242931*
+1 (
+
+243222*
+1 (H
+
+243223*
+1 (
+
+243422*
+1 ('
+
+243423*
+1 (
+
+242923*
+1 (
+
+243622*
+1  (3
+
+243623*
+1! (-
+
+384231*
+1 (
+
+383422*
+1 ( 
+
+383423*
+1 (
+
+384223*
+1 (
+
+383622*
+1 (*
+
+383623*
+1 ($

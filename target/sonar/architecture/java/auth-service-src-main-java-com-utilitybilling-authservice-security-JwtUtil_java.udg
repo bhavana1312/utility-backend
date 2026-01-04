@@ -1,0 +1,467 @@
+
+1.0bhavana1312_utility-backendJavaFrontend"1767547260649*java2.BÅ
+T
+Oauth-service/src/main/java/com/utilitybilling/authservice/security/JwtUtil.java2
+	
+type3
+	
+MAIN4
+
+
+module-key5
+
+auth-service6
+
+package8
+9
+4auth-service:com.utilitybilling.authservice.security9
+5
+/com.utilitybilling.authservice.security.JwtUtil11
+
+class12
+
+access13
+
+public14
+
+
+full-range15
+
+(18:1)-(43:2)16
+
+simple-name17
+
+JwtUtil18
+.
+(org.springframework.stereotype.Component20
+
+unknown21
+
+annotated by22
+
+
+uses23
+$
+lombok.RequiredArgsConstructor25
+<
+6com.utilitybilling.authservice.security.JwtUtil.secret27
+
+field28
+
+private29
+
+(22:2)-(23:24)30
+
+secret31
+8
+2org.springframework.beans.factory.annotation.Value33
+D
+>com.utilitybilling.authservice.security.JwtUtil.consumerClient35
+
+(24:2)-(24:46)36
+
+consumerClient37
+9
+3com.utilitybilling.authservice.feign.ConsumerClient39
+
+is type40
+]
+Wcom.utilitybilling.authservice.security.JwtUtil#getSigningKey()Ljavax/crypto/SecretKey;42
+
+method43
+
+(26:2)-(28:3)44
+
+getSigningKey45
+#
+io.jsonwebtoken.security.Keys47
+
+
+references48
+M
+Gio.jsonwebtoken.security.Keys#hmacShaKeyFor([B)Ljavax/crypto/SecretKey;50
+
+calls51
+y
+scom.utilitybilling.authservice.security.JwtUtil#generateToken(Ljava/lang/String;Ljava/util/List;)Ljava/lang/String;53
+
+(30:2)-(42:3)54
+
+generateToken55
+;
+5com.utilitybilling.authservice.feign.ConsumerResponse57
+
+returns58
+“
+Œcom.utilitybilling.authservice.feign.ConsumerClient#getByUsername(Ljava/lang/String;)Lcom/utilitybilling/authservice/feign/ConsumerResponse;60
+ 
+io.jsonwebtoken.JwtBuilder62
+[
+Uio.jsonwebtoken.JwtBuilder#setSubject(Ljava/lang/String;)Lio/jsonwebtoken/JwtBuilder;64
+
+io.jsonwebtoken.Jwts66
+@
+:io.jsonwebtoken.Jwts#builder()Lio/jsonwebtoken/JwtBuilder;68
+(
+"io.jsonwebtoken.SignatureAlgorithm70
+.
+(io.jsonwebtoken.SignatureAlgorithm.HS25672
+<
+6io.jsonwebtoken.JwtBuilder#compact()Ljava/lang/String;74
+~
+xio.jsonwebtoken.JwtBuilder#signWith(Ljava/security/Key;Lio/jsonwebtoken/SignatureAlgorithm;)Lio/jsonwebtoken/JwtBuilder;76
+\
+Vio.jsonwebtoken.JwtBuilder#setExpiration(Ljava/util/Date;)Lio/jsonwebtoken/JwtBuilder;78
+Z
+Tio.jsonwebtoken.JwtBuilder#setIssuedAt(Ljava/util/Date;)Lio/jsonwebtoken/JwtBuilder;80
+h
+bio.jsonwebtoken.JwtBuilder#claim(Ljava/lang/String;Ljava/lang/Object;)Lio/jsonwebtoken/JwtBuilder;82J%
+#
+1
+12
+
+3
+4
+
+5
+6 Z
+
+7
+7982
+
+
+5
+68jˆ
+
+71
+717221
+
+79
+798021
+N
+52H
+525343 *
+1 (210:7B$
+
+
+13
+14
+
+
+15
+54
+
+
+17
+55
+N
+26H
+262728 *
+1 (210:7B$
+
+
+13
+29
+
+
+15
+30
+
+
+17
+31
+
+24
+242521
+
+56
+565721
+
+38
+383921
+
+63
+636421
+
+32
+323321
+
+19
+192021
+
+59
+596021
+
+65
+656621
+
+46
+464721
+
+75
+757621
+
+77
+777821
+
+61
+616221
+N
+41H
+414243 *
+1 (!210:7B$
+
+
+13
+29
+
+
+15
+44
+
+
+17
+45
+
+67
+676821
+
+69
+697021
+
+49
+495021
+J
+10D
+101112 *
+1 (:7B$
+
+
+13
+14
+
+
+15
+16
+
+
+17
+18
+
+81
+818221
+N
+34H
+343528 *
+1 (-210:7B$
+
+
+13
+29
+
+
+15
+36
+
+
+17
+37
+
+73
+737421rÔ
+
+101922*
+1 (
+
+101923*
+1 (
+
+102422*
+1 (
+
+102423*
+1 (
+
+263222*
+1 (
+
+263223*
+1 (
+
+343840*
+1 (
+
+343823*
+1 (
+
+343823*
+1 (-
+
+414648*
+1
+ (
+
+414951*
+1 (
+
+414623*
+1
+ (
+
+412648*
+1 (#
+
+412648*
+1 (#
+
+525640*
+1   (
+
+525623*
+1   (
+
+525658*
+1   (5
+
+523848*
+1   (5
+
+525951*
+1 (  (5
+
+523448*
+1   ('
+
+523823*
+1   ('
+
+523448*
+1   ('
+
+526158*
+1" "($
+
+526148*
+1" "($
+
+526351*
+1" "($
+
+526158*
+1" "(
+
+526548*
+1" "(
+
+526751*
+1" "(
+
+526523*
+1" "(
+
+521048*
+1$ $(
+
+524151*
+1$ $(
+
+526923*
+1$! $(3
+
+526923*
+1$4 $(9
+
+527148*
+1$4 $(9
+
+526148*
+1'
+ )(A
+
+527351*
+1): )(A
+
+526158*
+1'
+ )(
+
+526148*
+1'
+ )(
+
+527551*
+1) )(
+
+526158*
+1'
+ ((
+
+526148*
+1'
+ ((
+
+527751*
+1( ((
+
+526158*
+1'
+ '(O
+
+526148*
+1'
+ '(O
+
+527951*
+1'D '(O
+
+526158*
+1'
+ '(3
+
+526148*
+1'
+ '(3
+
+528151*
+1'. '(3
+
+526158*
+1'
+ '(#
+
+526148*
+1'
+ '(#
+
+526351*
+1' '(#
+
+526158*
+1'
+ '(
+
+526548*
+1'
+ '(
+
+526751*
+1' '(
+
+526523*
+1'
+ '(
+
+521048*
+1) )(
+
+524151*
+1) )(
+
+526923*
+1)  )(2
+
+526923*
+1)3 )(8
+
+527148*
+1)3 )(8

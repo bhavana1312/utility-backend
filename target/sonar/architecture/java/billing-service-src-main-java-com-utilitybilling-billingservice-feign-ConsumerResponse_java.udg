@@ -1,0 +1,211 @@
+
+1.0bhavana1312_utility-backendJavaFrontend"1767547266333*java2.B¤
+`
+[billing-service/src/main/java/com/utilitybilling/billingservice/feign/ConsumerResponse.java2
+	
+type3
+	
+MAIN4
+
+
+module-key5
+
+billing-service6
+
+package8
+<
+7billing-service:com.utilitybilling.billingservice.feign9
+>
+8com.utilitybilling.billingservice.feign.ConsumerResponse11
+
+class12
+
+access13
+
+public14
+
+
+full-range15
+
+(5:1)-(13:2)16
+
+simple-name17
+
+ConsumerResponse18
+
+lombok.Data20
+
+unknown21
+
+annotated by22
+
+
+uses23
+
+lombok.Builder25
+A
+;com.utilitybilling.billingservice.feign.ConsumerResponse.id27
+
+field28
+
+private29
+
+(8:5)-(8:23)30
+
+id31
+G
+Acom.utilitybilling.billingservice.feign.ConsumerResponse.fullName33
+
+(9:5)-(9:29)34
+
+fullName35
+D
+>com.utilitybilling.billingservice.feign.ConsumerResponse.email37
+
+(10:5)-(10:26)38
+
+email39
+D
+>com.utilitybilling.billingservice.feign.ConsumerResponse.phone41
+
+(11:5)-(11:26)42
+
+phone43
+E
+?com.utilitybilling.billingservice.feign.ConsumerResponse.active45
+
+(12:5)-(12:28)46
+
+active47J%
+#
+1
+12
+
+3
+4
+
+5
+6 Z
+
+7
+7982
+
+
+5
+68j„
+J
+10D
+101112 *
+1 (:7B$
+
+
+13
+14
+
+
+15
+16
+
+
+17
+18
+N
+40H
+404128 *
+1 (210:7B$
+
+
+13
+29
+
+
+15
+42
+
+
+17
+43
+
+24
+242521
+N
+44H
+444528 *
+1 (210:7B$
+
+
+13
+29
+
+
+15
+46
+
+
+17
+47
+N
+32H
+323328 *
+1	 	(210:7B$
+
+
+13
+29
+
+
+15
+34
+
+
+17
+35
+
+19
+192021
+N
+36H
+363728 *
+1
+ 
+(210:7B$
+
+
+13
+29
+
+
+15
+38
+
+
+17
+39
+N
+26H
+262728 *
+1 (210:7B$
+
+
+13
+29
+
+
+15
+30
+
+
+17
+31rl
+
+101922*
+1 (
+
+101923*
+1 (
+
+102422*
+1 (	
+
+102423*
+1 (	

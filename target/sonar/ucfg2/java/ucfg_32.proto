@@ -1,0 +1,16 @@
+
+N__sonar_lambda_11$com.utilitybilling.apigateway.security.GatewaySecurityConfig…
+{D:/weird/utility-billing-system/api-gateway/src/main/java/com/utilitybilling/apigateway/security/GatewaySecurityConfig.java3 (I"1*õ
+1; (?‡„
+; (IN
+%2Horg.springframework.security.config.annotation.web.builders.HttpSecurity"§org.springframework.security.config.annotation.web.configurers.AbstractHttpConfigurer#disable()Lorg/springframework/security/config/annotation/web/HttpSecurityBuilder;*s
+
+__unknown_file (W
+U
+csrfMorg.springframework.security.config.annotation.web.configurers.CsrfConfigurer2	disable()"\
+; (IP
+N
+%2Horg.springframework.security.config.annotation.web.builders.HttpSecurity:a
+3 (7U
+csrfMorg.springframework.security.config.annotation.web.configurers.CsrfConfigurerB20
+.org.springframework.security.config.Customizer

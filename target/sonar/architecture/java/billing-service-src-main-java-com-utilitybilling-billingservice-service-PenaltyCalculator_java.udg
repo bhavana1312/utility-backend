@@ -1,0 +1,140 @@
+
+1.0bhavana1312_utility-backendJavaFrontend"1767547265879*java2.Bè
+c
+^billing-service/src/main/java/com/utilitybilling/billingservice/service/PenaltyCalculator.java2
+	
+type3
+	
+MAIN4
+
+
+module-key5
+
+billing-service6
+
+package8
+>
+9billing-service:com.utilitybilling.billingservice.service9
+A
+;com.utilitybilling.billingservice.service.PenaltyCalculator11
+
+class12
+
+access13
+
+public14
+
+
+full-range15
+
+(9:1)-(25:2)16
+
+simple-name17
+
+PenaltyCalculator18
+K
+Ecom.utilitybilling.billingservice.service.PenaltyCalculator#<init>()V20
+
+method21
+
+private22
+
+(11:2)-(12:3)23
+
+calls24
+’
+‹com.utilitybilling.billingservice.service.PenaltyCalculator#calculatePenalty(Ljava/math/BigDecimal;ILjava/util/List;)Ljava/math/BigDecimal;26
+
+(14:2)-(24:3)27
+
+calculatePenalty28
+@
+:com.utilitybilling.billingservice.feign.OverduePenaltySlab30
+
+unknown31
+
+
+uses32
+
+is type33J%
+#
+1
+12
+
+3
+4
+
+5
+6 Z
+
+7
+7982
+
+
+5
+68j€
+N
+25H
+252621 *
+1 (+210:7B$
+
+
+13
+14
+
+
+15
+27
+
+
+17
+28
+J
+10D
+101112 *
+1	 	(%:7B$
+
+
+13
+14
+
+
+15
+16
+
+
+17
+18
+
+29
+293031
+N
+19H
+192021 *
+1
+ (210:7B$
+
+
+13
+22
+
+
+15
+23
+
+
+17
+18rl
+
+191024*
+1
+ (
+
+252932*
+1Y (k
+
+252933*
+1 (
+
+252932*
+1 (

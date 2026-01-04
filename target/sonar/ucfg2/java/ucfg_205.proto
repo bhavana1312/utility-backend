@@ -1,0 +1,71 @@
+
+Ÿcom.utilitybilling.billingservice.service.TariffGateway#getActive(Ljava/lang/String;Ljava/lang/String;)Lcom/utilitybilling/billingservice/feign/TariffResponse;„
+zD:/weird/utility-billing-system/billing-service/src/main/java/com/utilitybilling/billingservice/service/TariffGateway.java ( "startingBlock*Ö
+startingBlock  (A¿
+¼
+ (O
+%2"
+__annotate*_
+
+__unknown_file (CA
+?io.github.resilience4j.circuitbreaker.annotation.CircuitBreaker*=
+
+__unknown_file (!
+
+utilityTypejava.lang.String_
+]
+( (3
+utilityTypejava.lang.String"__annotation*"
+
+__unknown_file (
+
+%2¸
+µ
+ (O
+%3"
+__annotate*_
+
+__unknown_file (CA
+?io.github.resilience4j.circuitbreaker.annotation.CircuitBreaker*6
+
+__unknown_file (
+
+planjava.lang.StringX
+V
+< (@
+planjava.lang.String"__annotation*"
+
+__unknown_file (
+
+%3*
+1*ÿ
+1	 (´
+±
+	 (:
+%04com.utilitybilling.billingservice.feign.TariffClient"__id*c
+
+__unknown_file (G*E9
+7com.utilitybilling.billingservice.service.TariffGateway"
+clientìé
+	 (,<
+%16com.utilitybilling.billingservice.feign.TariffResponse"œcom.utilitybilling.billingservice.feign.TariffClient#getActive(Ljava/lang/String;Ljava/lang/String;)Lcom/utilitybilling/billingservice/feign/TariffResponse;*X
+
+__unknown_file (<
+:
+%04com.utilitybilling.billingservice.feign.TariffClient*=
+
+__unknown_file (!
+
+utilityTypejava.lang.String*6
+
+__unknown_file (
+
+planjava.lang.String2/getActive(Ljava/lang/String;Ljava/lang/String;)"J
+ (->
+<
+%16com.utilitybilling.billingservice.feign.TariffResponse:+
+! (4
+utilityTypejava.lang.String:$
+5 (@
+planjava.lang.StringB;9
+7com.utilitybilling.billingservice.service.TariffGatewayH

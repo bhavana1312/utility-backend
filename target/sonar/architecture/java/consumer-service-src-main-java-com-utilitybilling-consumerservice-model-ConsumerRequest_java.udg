@@ -1,0 +1,414 @@
+
+1.0bhavana1312_utility-backendJavaFrontend"1767547259515*java2.Bñ
+a
+\consumer-service/src/main/java/com/utilitybilling/consumerservice/model/ConsumerRequest.java2
+	
+type3
+	
+MAIN4
+
+
+module-key5
+
+consumer-service6
+
+package8
+>
+9consumer-service:com.utilitybilling.consumerservice.model9
+>
+8com.utilitybilling.consumerservice.model.ConsumerRequest11
+
+class12
+
+access13
+
+public14
+
+
+full-range15
+
+(9:1)-(33:2)16
+
+simple-name17
+
+ConsumerRequest18
+<
+6org.springframework.data.mongodb.core.mapping.Document20
+
+unknown21
+
+annotated by22
+
+
+uses23
+
+lombok.Data25
+
+lombok.Builder27
+
+lombok.NoArgsConstructor29
+
+lombok.AllArgsConstructor31
+A
+;com.utilitybilling.consumerservice.model.ConsumerRequest.id33
+
+field34
+
+private35
+
+(16:5)-(17:23)36
+
+id37
+,
+&org.springframework.data.annotation.Id39
+G
+Acom.utilitybilling.consumerservice.model.ConsumerRequest.fullName41
+
+(19:5)-(19:29)42
+
+fullName43
+D
+>com.utilitybilling.consumerservice.model.ConsumerRequest.email45
+
+(20:5)-(20:26)46
+
+email47
+D
+>com.utilitybilling.consumerservice.model.ConsumerRequest.phone49
+
+(21:5)-(21:26)50
+
+phone51
+K
+Ecom.utilitybilling.consumerservice.model.ConsumerRequest.addressLine153
+
+(23:5)-(23:33)54
+
+addressLine155
+C
+=com.utilitybilling.consumerservice.model.ConsumerRequest.city57
+
+(24:5)-(24:25)58
+
+
+city59
+D
+>com.utilitybilling.consumerservice.model.ConsumerRequest.state61
+
+(25:5)-(25:26)62
+
+state63
+I
+Ccom.utilitybilling.consumerservice.model.ConsumerRequest.postalCode65
+
+(26:5)-(26:31)66
+
+
+postalCode67
+E
+?com.utilitybilling.consumerservice.model.ConsumerRequest.status69
+
+(28:5)-(28:27)70
+
+status71
+N
+Hcom.utilitybilling.consumerservice.model.ConsumerRequest.rejectionReason73
+
+(29:5)-(29:36)74
+
+rejectionReason75
+H
+Bcom.utilitybilling.consumerservice.model.ConsumerRequest.createdAt77
+
+(31:5)-(31:31)78
+
+	createdAt79
+H
+Bcom.utilitybilling.consumerservice.model.ConsumerRequest.updatedAt81
+
+(32:5)-(32:31)82
+
+	updatedAt83J%
+#
+1
+12
+
+3
+4
+
+5
+6 Z
+
+7
+7982
+
+
+5
+68j„	
+N
+48H
+484934 *
+1 (210:7B$
+
+
+13
+35
+
+
+15
+50
+
+
+17
+51
+N
+32H
+323334 *
+1 (210:7B$
+
+
+13
+35
+
+
+15
+36
+
+
+17
+37
+N
+64H
+646534 *
+1 (210:7B$
+
+
+13
+35
+
+
+15
+66
+
+
+17
+67
+N
+76H
+767734 *
+1 (210:7B$
+
+
+13
+35
+
+
+15
+78
+
+
+17
+79
+N
+40H
+404134 *
+1 (210:7B$
+
+
+13
+35
+
+
+15
+42
+
+
+17
+43
+N
+52H
+525334 *
+1 ( 210:7B$
+
+
+13
+35
+
+
+15
+54
+
+
+17
+55
+N
+56H
+565734 *
+1 (210:7B$
+
+
+13
+35
+
+
+15
+58
+
+
+17
+59
+J
+10D
+101112 *
+1 (:7B$
+
+
+13
+14
+
+
+15
+16
+
+
+17
+18
+
+19
+192021
+
+26
+262721
+N
+60H
+606134 *
+1 (210:7B$
+
+
+13
+35
+
+
+15
+62
+
+
+17
+63
+N
+72H
+727334 *
+1 (#210:7B$
+
+
+13
+35
+
+
+15
+74
+
+
+17
+75
+
+24
+242521
+N
+68H
+686934 *
+1 (210:7B$
+
+
+13
+35
+
+
+15
+70
+
+
+17
+71
+N
+44H
+444534 *
+1 (210:7B$
+
+
+13
+35
+
+
+15
+46
+
+
+17
+47
+
+30
+303121
+
+38
+383921
+N
+80H
+808134 *
+1   (210:7B$
+
+
+13
+35
+
+
+15
+82
+
+
+17
+83
+
+28
+282921rÄ
+
+101922*
+1	 	(*
+
+101923*
+1	 	(
+
+
+102422*
+1
+ 
+(
+
+102423*
+1
+ 
+(
+
+102622*
+1 (	
+
+102623*
+1 (	
+
+102822*
+1 (
+
+102823*
+1 (
+
+103022*
+1 (
+
+103023*
+1 (
+
+323822*
+1 (
+
+323823*
+1 (

@@ -1,0 +1,49 @@
+
+Xcom.utilitybilling.meterservice.service.MeterService#getLastReading(Ljava/lang/String;)DÅ
+uD:/weird/utility-billing-system/meter-service/src/main/java/com/utilitybilling/meterservice/service/MeterService.javaù ù("1*ù
+1
+û	 û(º
+π
+
+û	 û(@
+%0:com.utilitybilling.meterservice.repository.MeterRepository"__id*c
+
+__unknown_file (G*E6
+4com.utilitybilling.meterservice.service.MeterService"
+	meterRepoÀ»
+
+û	 û((
+%1java.util.Optional"corg.springframework.data.repository.CrudRepository#findById(Ljava/lang/Object;)Ljava/util/Optional;*^
+
+__unknown_file (B
+@
+%0:com.utilitybilling.meterservice.repository.MeterRepository*=
+
+__unknown_file (!
+
+meterNumberjava.lang.String2findById(Ljava/lang/Object;)≠
+™
+
+û5 û(h!
+%2java.util.function.Supplier"__declareFunction*f
+
+__unknown_file (JH
+F__sonar_lambda_32$com.utilitybilling.meterservice.service.MeterService∏µ
+
+û	 û(i1
+%6+com.utilitybilling.meterservice.model.Meter"Ojava.util.Optional#orElseThrow(Ljava/util/function/Supplier;)Ljava/lang/Object;*6
+
+__unknown_file (
+
+%1java.util.Optional*?
+
+__unknown_file (#
+!
+%2java.util.function.Supplier2*orElseThrow(Ljava/util/function/Supplier;)"
+
+û ü(
+"":-
+
+ù ù(0
+meterNumberjava.lang.StringB86
+4com.utilitybilling.meterservice.service.MeterServiceHX

@@ -1,0 +1,445 @@
+
+1.0bhavana1312_utility-backendJavaFrontend"1767547266291*java2.BÕ
+Z
+Ubilling-service/src/main/java/com/utilitybilling/billingservice/dto/BillResponse.java2
+	
+type3
+	
+MAIN4
+
+
+module-key5
+
+billing-service6
+
+package8
+:
+5billing-service:com.utilitybilling.billingservice.dto9
+8
+2com.utilitybilling.billingservice.dto.BillResponse11
+
+class12
+
+access13
+
+public14
+
+
+full-range15
+
+(9:1)-(31:2)16
+
+simple-name17
+
+BillResponse18
+
+lombok.Data20
+
+unknown21
+
+annotated by22
+
+
+uses23
+?
+9com.utilitybilling.billingservice.dto.BillResponse.billId25
+
+field26
+
+private27
+
+(12:2)-(12:24)28
+
+billId29
+C
+=com.utilitybilling.billingservice.dto.BillResponse.consumerId31
+
+(13:2)-(13:28)32
+
+
+consumerId33
+D
+>com.utilitybilling.billingservice.dto.BillResponse.meterNumber35
+
+(14:2)-(14:29)36
+
+meterNumber37
+D
+>com.utilitybilling.billingservice.dto.BillResponse.utilityType39
+
+(15:2)-(15:29)40
+
+utilityType41
+C
+=com.utilitybilling.billingservice.dto.BillResponse.tariffPlan43
+
+(16:2)-(16:28)44
+
+
+tariffPlan45
+H
+Bcom.utilitybilling.billingservice.dto.BillResponse.previousReading47
+
+(18:2)-(18:33)48
+
+previousReading49
+G
+Acom.utilitybilling.billingservice.dto.BillResponse.currentReading51
+
+(19:2)-(19:32)52
+
+currentReading53
+F
+@com.utilitybilling.billingservice.dto.BillResponse.unitsConsumed55
+
+(20:2)-(20:31)56
+
+unitsConsumed57
+E
+?com.utilitybilling.billingservice.dto.BillResponse.energyCharge59
+
+(22:2)-(22:34)60
+
+energyCharge61
+D
+>com.utilitybilling.billingservice.dto.BillResponse.fixedCharge63
+
+(23:2)-(23:33)64
+
+fixedCharge65
+B
+<com.utilitybilling.billingservice.dto.BillResponse.taxAmount67
+
+(24:2)-(24:31)68
+
+	taxAmount69
+F
+@com.utilitybilling.billingservice.dto.BillResponse.penaltyAmount71
+
+(25:2)-(25:35)72
+
+penaltyAmount73
+D
+>com.utilitybilling.billingservice.dto.BillResponse.totalAmount75
+
+(26:2)-(26:33)76
+
+totalAmount77
+@
+:com.utilitybilling.billingservice.dto.BillResponse.dueDate79
+
+(28:2)-(28:23)80
+
+dueDate81
+?
+9com.utilitybilling.billingservice.dto.BillResponse.status83
+
+(29:2)-(29:24)84
+
+status85
+D
+>com.utilitybilling.billingservice.dto.BillResponse.generatedAt87
+
+(30:2)-(30:30)88
+
+generatedAt89J%
+#
+1
+12
+
+3
+4
+
+5
+6 Z
+
+7
+7982
+
+
+5
+68jà
+
+J
+10D
+101112 *
+1
+ 
+(:7B$
+
+
+13
+14
+
+
+15
+16
+
+
+17
+18
+N
+62H
+626326 *
+1 ( 210:7B$
+
+
+13
+27
+
+
+15
+64
+
+
+17
+65
+N
+46H
+464726 *
+1 ( 210:7B$
+
+
+13
+27
+
+
+15
+48
+
+
+17
+49
+N
+50H
+505126 *
+1 (210:7B$
+
+
+13
+27
+
+
+15
+52
+
+
+17
+53
+N
+70H
+707126 *
+1 ("210:7B$
+
+
+13
+27
+
+
+15
+72
+
+
+17
+73
+N
+34H
+343526 *
+1 (210:7B$
+
+
+13
+27
+
+
+15
+36
+
+
+17
+37
+N
+30H
+303126 *
+1 (210:7B$
+
+
+13
+27
+
+
+15
+32
+
+
+17
+33
+N
+74H
+747526 *
+1 ( 210:7B$
+
+
+13
+27
+
+
+15
+76
+
+
+17
+77
+N
+42H
+424326 *
+1 (210:7B$
+
+
+13
+27
+
+
+15
+44
+
+
+17
+45
+N
+78H
+787926 *
+1 (210:7B$
+
+
+13
+27
+
+
+15
+80
+
+
+17
+81
+N
+86H
+868726 *
+1 (210:7B$
+
+
+13
+27
+
+
+15
+88
+
+
+17
+89
+N
+24H
+242526 *
+1 (210:7B$
+
+
+13
+27
+
+
+15
+28
+
+
+17
+29
+
+19
+192021
+N
+38H
+383926 *
+1 (210:7B$
+
+
+13
+27
+
+
+15
+40
+
+
+17
+41
+N
+58H
+585926 *
+1 (!210:7B$
+
+
+13
+27
+
+
+15
+60
+
+
+17
+61
+N
+66H
+666726 *
+1 (210:7B$
+
+
+13
+27
+
+
+15
+68
+
+
+17
+69
+N
+54H
+545526 *
+1 (210:7B$
+
+
+13
+27
+
+
+15
+56
+
+
+17
+57
+N
+82H
+828326 *
+1 (210:7B$
+
+
+13
+27
+
+
+15
+84
+
+
+17
+85r6
+
+101922*
+1	 	(
+
+101923*
+1	 	(

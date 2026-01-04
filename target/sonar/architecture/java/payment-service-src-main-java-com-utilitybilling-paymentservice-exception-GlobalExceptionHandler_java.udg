@@ -1,0 +1,597 @@
+
+1.0bhavana1312_utility-backendJavaFrontend"1767547263789*java2.B¿
+j
+epayment-service/src/main/java/com/utilitybilling/paymentservice/exception/GlobalExceptionHandler.java2
+	
+type3
+	
+MAIN4
+
+
+module-key5
+
+payment-service6
+
+package8
+@
+;payment-service:com.utilitybilling.paymentservice.exception9
+H
+Bcom.utilitybilling.paymentservice.exception.GlobalExceptionHandler11
+
+class12
+
+access13
+
+public14
+
+
+full-range15
+
+(10:1)-(58:2)16
+
+simple-name17
+
+GlobalExceptionHandler18
+B
+<org.springframework.web.bind.annotation.RestControllerAdvice20
+
+unknown21
+
+annotated by22
+
+
+uses23
+©
+¢com.utilitybilling.paymentservice.exception.GlobalExceptionHandler#handleBadRequest(Ljava/lang/IllegalArgumentException;)Lorg/springframework/http/ResponseEntity;25
+
+method26
+
+(13:5)-(19:6)27
+
+handleBadRequest28
+-
+'org.springframework.http.ResponseEntity30
+
+returns31
+>
+8org.springframework.web.bind.annotation.ExceptionHandler33
+?
+9com.utilitybilling.paymentservice.exception.ErrorResponse35
+
+is type36
+
+calls37
+)
+#org.springframework.http.HttpStatus39
+
+
+references40
+2
+,org.springframework.http.HttpStatus#value()I42
+5
+/org.springframework.http.HttpStatus.BAD_REQUEST44
+9
+3org.springframework.http.ResponseEntity$BodyBuilder46
+{
+uorg.springframework.http.ResponseEntity$BodyBuilder#body(Ljava/lang/Object;)Lorg/springframework/http/ResponseEntity;48
+o
+iorg.springframework.http.ResponseEntity#badRequest()Lorg/springframework/http/ResponseEntity$BodyBuilder;50
+§
+ùcom.utilitybilling.paymentservice.exception.GlobalExceptionHandler#handleConflict(Ljava/lang/IllegalStateException;)Lorg/springframework/http/ResponseEntity;52
+
+(21:5)-(27:6)53
+
+handleConflict54
+2
+,org.springframework.http.HttpStatus.CONFLICT56
+ï
+éorg.springframework.http.ResponseEntity#status(Lorg/springframework/http/HttpStatusCode;)Lorg/springframework/http/ResponseEntity$BodyBuilder;58
+û
+ócom.utilitybilling.paymentservice.exception.GlobalExceptionHandler#handleRuntime(Ljava/lang/RuntimeException;)Lorg/springframework/http/ResponseEntity;60
+
+(29:5)-(35:6)61
+
+handleRuntime62
+?
+9org.springframework.http.HttpStatus.INTERNAL_SERVER_ERROR64
+ó
+êcom.utilitybilling.paymentservice.exception.GlobalExceptionHandler#handleGeneric(Ljava/lang/Exception;)Lorg/springframework/http/ResponseEntity;66
+
+(37:5)-(43:6)67
+
+handleGeneric68
+„
+‹com.utilitybilling.paymentservice.exception.GlobalExceptionHandler#handleInvoicePdfGenerationException(Lcom/utilitybilling/paymentservice/exception/InvoicePdfGenerationException;)Lorg/springframework/http/ResponseEntity;70
+
+(45:5)-(57:6)71
+)
+#handleInvoicePdfGenerationException72
+O
+Icom.utilitybilling.paymentservice.exception.InvoicePdfGenerationException74
+
+	has param75J%
+#
+1
+12
+
+3
+4
+
+5
+6 Z
+
+7
+7982
+
+
+5
+68jÙ
+
+41
+414221
+N
+51H
+515226 *
+1* (8210:7B$
+
+
+13
+14
+
+
+15
+53
+
+
+17
+54
+
+43
+434421
+N
+24H
+242526 *
+1* (:210:7B$
+
+
+13
+14
+
+
+15
+27
+
+
+17
+28
+
+45
+454621
+
+63
+636421
+
+34
+343521
+
+38
+383921
+N
+65H
+656626 *
+1&* &(7210:7B$
+
+
+13
+14
+
+
+15
+67
+
+
+17
+68
+
+19
+192021
+
+55
+555621
+
+47
+474821
+
+32
+323321
+
+29
+293021
+N
+59H
+596026 *
+1* (7210:7B$
+
+
+13
+14
+
+
+15
+61
+
+
+17
+62
+N
+69H
+697026 *
+1./ .(R210:7B$
+
+
+13
+14
+
+
+15
+71
+
+
+17
+72
+J
+10D
+101112 *
+1 ($:7B$
+
+
+13
+14
+
+
+15
+16
+
+
+17
+18
+
+49
+495021
+
+73
+737421
+
+57
+575821rˇ
+
+101922*
+1
+ 
+(
+
+101923*
+1
+ 
+(
+
+242931*
+1 ()
+
+243222*
+1 (6
+
+243223*
+1 (
+
+242923*
+1 (
+
+243423*
+1 ((
+
+243436*
+1 (
+
+243423*
+1	 (
+
+243437*
+1 (*
+
+243840*
+1 (1
+
+244137*
+1, (1
+
+243823*
+1 (
+
+243823*
+1  (+
+
+244340*
+1  (+
+
+242931*
+1 (0
+
+244540*
+1 (0
+
+244737*
+1, (0
+
+244531*
+1 ()
+
+242940*
+1 ()
+
+244937*
+1 ()
+
+512931*
+1 ()
+
+513222*
+1 (3
+
+513223*
+1 (
+
+512923*
+1 (
+
+513423*
+1 ((
+
+513436*
+1 (
+
+513423*
+1	 (
+
+513437*
+1 (*
+
+513840*
+1 (.
+
+514137*
+1) (.
+
+513823*
+1 (
+
+513823*
+1  ((
+
+515540*
+1  ((
+
+512931*
+1 (?
+
+514540*
+1 (?
+
+514737*
+1; (?
+
+514531*
+1 (%
+
+512940*
+1 (%
+
+515737*
+1 (%
+
+513823*
+1& (0
+
+513823*
+11 (9
+
+515540*
+11 (9
+
+592931*
+1 ()
+
+593222*
+1 (.
+
+593223*
+1 (
+
+592923*
+1 (
+
+593423*
+1 ((
+
+593436*
+1 (
+
+593423*
+1	 (
+
+593437*
+1 (*
+
+593840*
+1! !(;
+
+594137*
+1!6 !(;
+
+593823*
+1! !(
+
+593823*
+1!  !(5
+
+596340*
+1!  !(5
+
+592931*
+1" "(L
+
+594540*
+1" "(L
+
+594737*
+1"H "(L
+
+594531*
+1" "(%
+
+592940*
+1" "(%
+
+595737*
+1" "(%
+
+593823*
+1"& "(0
+
+593823*
+1"1 "(F
+
+596340*
+1"1 "(F
+
+652931*
+1& &()
+
+653222*
+1% %('
+
+653223*
+1% %(
+
+652923*
+1& &(
+
+653423*
+1& &((
+
+653436*
+1' '(
+
+653423*
+1'	 '(
+
+653437*
+1' '(*
+
+653840*
+1) )(;
+
+654137*
+1)6 )(;
+
+653823*
+1) )(
+
+653823*
+1)  )(5
+
+656340*
+1)  )(5
+
+652931*
+1* *(L
+
+654540*
+1* *(L
+
+654737*
+1*H *(L
+
+654531*
+1* *(%
+
+652940*
+1* *(%
+
+655737*
+1* *(%
+
+653823*
+1*& *(0
+
+653823*
+1*1 *(F
+
+656340*
+1*1 *(F
+
+692931*
+1. .(.
+
+697375*
+1/ /(*
+
+693222*
+1- -(;
+
+693223*
+1- -(
+
+697323*
+1- -(4
+
+692923*
+1. .(
+
+697336*
+1/+ /(-
+
+697323*
+1/ /(*
+
+692931*
+11 3(
+
+694540*
+11 3(
+
+694737*
+13 3(
+
+694531*
+11 2(
+
+692940*
+11 2(
+
+695737*
+12 2(
+
+693823*
+12 2(#
+
+693823*
+12$ 2(9
+
+696340*
+12$ 2(9
+
+693840*
+15" 5(H
+
+694137*
+15C 5(H
+
+693823*
+15" 5(,
+
+693823*
+15- 5(B
+
+696340*
+15- 5(B

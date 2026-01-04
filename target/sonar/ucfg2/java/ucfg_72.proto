@@ -1,0 +1,20 @@
+
+L__sonar_lambda_18$com.utilitybilling.consumerservice.service.ConsumerServiceˆ
+~D:/weird/utility-billing-system/consumer-service/src/main/java/com/utilitybilling/consumerservice/service/ConsumerService.javaq q(I"1*ó
+1q4 q(HZX
+q q(3(
+%3"java.lang.IllegalArgumentException""java.lang.IllegalArgumentExceptionÏ
+Ì
+q q(I
+%4">java.lang.IllegalArgumentException#<init>(Ljava/lang/String;)V*F
+
+__unknown_file (*
+(
+%3"java.lang.IllegalArgumentException*2
+
+__unknown_file (
+Consumer not found"6
+q q(I*
+(
+%3"java.lang.IllegalArgumentExceptionB
+java.util.function.Supplier

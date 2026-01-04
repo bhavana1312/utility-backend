@@ -1,0 +1,632 @@
+
+1.0bhavana1312_utility-backendJavaFrontend"1767547260573*java2.B¸
+d
+_auth-service/src/main/java/com/utilitybilling/authservice/exception/GlobalExceptionHandler.java2
+	
+type3
+	
+MAIN4
+
+
+module-key5
+
+auth-service6
+
+package8
+:
+5auth-service:com.utilitybilling.authservice.exception9
+E
+?com.utilitybilling.authservice.exception.GlobalExceptionHandler11
+
+class12
+
+access13
+
+public14
+
+
+full-range15
+
+(8:1)-(43:2)16
+
+simple-name17
+
+GlobalExceptionHandler18
+>
+8org.springframework.web.bind.annotation.ControllerAdvice20
+
+unknown21
+
+annotated by22
+
+
+uses23
+Ç
+Àcom.utilitybilling.authservice.exception.GlobalExceptionHandler#handleUserExists(Lcom/utilitybilling/authservice/exception/UserAlreadyExistsException;)Lorg/springframework/http/ResponseEntity;25
+
+method26
+
+(11:2)-(14:3)27
+
+handleUserExists28
+-
+'org.springframework.http.ResponseEntity30
+
+returns31
+I
+Ccom.utilitybilling.authservice.exception.UserAlreadyExistsException33
+
+	has param34
+>
+8org.springframework.web.bind.annotation.ExceptionHandler36
+
+is type37
+9
+3org.springframework.http.ResponseEntity$BodyBuilder39
+
+
+references40
+{
+uorg.springframework.http.ResponseEntity$BodyBuilder#body(Ljava/lang/Object;)Lorg/springframework/http/ResponseEntity;42
+
+calls43
+•
+Žorg.springframework.http.ResponseEntity#status(Lorg/springframework/http/HttpStatusCode;)Lorg/springframework/http/ResponseEntity$BodyBuilder;45
+)
+#org.springframework.http.HttpStatus47
+2
+,org.springframework.http.HttpStatus.CONFLICT49
+Ä
+½com.utilitybilling.authservice.exception.GlobalExceptionHandler#handleCircuitOpen(Lio/github/resilience4j/circuitbreaker/CallNotPermittedException;)Lorg/springframework/http/ResponseEntity;51
+
+(16:2)-(20:3)52
+
+handleCircuitOpen53
+E
+?io.github.resilience4j.circuitbreaker.CallNotPermittedException55
+=
+7org.springframework.http.HttpStatus.SERVICE_UNAVAILABLE57
+“
+Œcom.utilitybilling.authservice.exception.GlobalExceptionHandler#handleFeign(Lfeign/FeignException;)Lorg/springframework/http/ResponseEntity;59
+
+(22:2)-(25:3)60
+
+handleFeign61
+
+feign.FeignException63
+Ç
+Àcom.utilitybilling.authservice.exception.GlobalExceptionHandler#handleDownstream(Lcom/utilitybilling/authservice/exception/DownstreamServiceException;)Lorg/springframework/http/ResponseEntity;65
+
+(27:2)-(30:3)66
+
+handleDownstream67
+I
+Ccom.utilitybilling.authservice.exception.DownstreamServiceException69
+‘
+Šcom.utilitybilling.authservice.exception.GlobalExceptionHandler#bad(Ljava/lang/RuntimeException;)Lorg/springframework/http/ResponseEntity;71
+
+(32:2)-(36:3)72
+	
+bad73
+D
+>com.utilitybilling.authservice.exception.UserNotFoundException75
+J
+Dcom.utilitybilling.authservice.exception.InvalidCredentialsException77
+D
+>com.utilitybilling.authservice.exception.InvalidTokenException79
+5
+/org.springframework.http.HttpStatus.BAD_REQUEST81
+”
+com.utilitybilling.authservice.exception.GlobalExceptionHandler#handleGeneric(Ljava/lang/Exception;)Lorg/springframework/http/ResponseEntity;83
+
+(38:2)-(41:3)84
+
+handleGeneric85
+?
+9org.springframework.http.HttpStatus.INTERNAL_SERVER_ERROR87J%
+#
+1
+12
+
+3
+4
+
+5
+6 Z
+
+7
+7982
+
+
+5
+68j”
+J
+10D
+101112 *
+1	 	($:7B$
+
+
+13
+14
+
+
+15
+16
+
+
+17
+18
+
+38
+383921
+
+41
+414221
+
+35
+353621
+
+32
+323321
+
+44
+444521
+
+62
+626321
+
+19
+192021
+N
+64H
+646526 *
+1  (0210:7B$
+
+
+13
+14
+
+
+15
+66
+
+
+17
+67
+
+74
+747521
+
+78
+787921
+N
+70H
+707126 *
+1"  "(#210:7B$
+
+
+13
+14
+
+
+15
+72
+
+
+17
+73
+N
+58H
+585926 *
+1  (+210:7B$
+
+
+13
+14
+
+
+15
+60
+
+
+17
+61
+
+80
+808121
+
+56
+565721
+
+86
+868721
+N
+24H
+242526 *
+1  (0210:7B$
+
+
+13
+14
+
+
+15
+27
+
+
+17
+28
+
+46
+464721
+
+68
+686921
+
+48
+484921
+
+29
+293021
+N
+50H
+505126 *
+1  (1210:7B$
+
+
+13
+14
+
+
+15
+52
+
+
+17
+53
+
+54
+545521
+
+76
+767721
+N
+82H
+828326 *
+1'  '(-210:7B$
+
+
+13
+14
+
+
+15
+84
+
+
+17
+85rñ
+
+101922*
+1 (
+
+101923*
+1 (
+
+242931*
+1	 (
+
+243234*
+11 (K
+
+243522*
+1 (5
+
+243523*
+1 (
+
+243223*
+1 (.
+
+242923*
+1	 (
+
+243237*
+1L (N
+
+243223*
+11 (K
+
+242931*
+1
+ (9
+
+243840*
+1
+ (9
+
+244143*
+15 (9
+
+243831*
+1
+ (
+
+242940*
+1
+ (
+
+244443*
+1 (
+
+244623*
+1  (*
+
+244623*
+1+ (3
+
+244840*
+1+ (3
+
+502931*
+1	 (
+
+505434*
+12 (K
+
+503522*
+1 (4
+
+503523*
+1 (
+
+505423*
+1 (-
+
+502923*
+1	 (
+
+505437*
+1L (N
+
+505423*
+12 (K
+
+502931*
+1
+ (
+
+
+503840*
+1
+ (
+
+
+504143*
+1 (
+
+
+503831*
+1
+ (
+
+502940*
+1
+ (
+
+504443*
+1 (
+
+504623*
+1  (*
+
+504623*
+1+ (>
+
+505640*
+1+ (>
+
+582931*
+1	 (
+
+586234*
+1, (:
+
+583522*
+1 ()
+
+583523*
+1 (
+
+586223*
+1 ("
+
+582923*
+1	 (
+
+586237*
+1; (=
+
+586223*
+1, (:
+
+582931*
+1
+ (D
+
+583840*
+1
+ (D
+
+584143*
+1@ (D
+
+583831*
+1
+ (
+
+582940*
+1
+ (
+
+584443*
+1 (
+
+584623*
+1  (*
+
+584623*
+1+ (>
+
+585640*
+1+ (>
+
+642931*
+1	 (
+
+646834*
+11 (K
+
+643522*
+1 (5
+
+643523*
+1 (
+
+646823*
+1 (.
+
+642923*
+1	 (
+
+646837*
+1L (N
+
+646823*
+11 (K
+
+642931*
+1
+ (D
+
+643840*
+1
+ (D
+
+644143*
+1@ (D
+
+643831*
+1
+ (
+
+642940*
+1
+ (
+
+644443*
+1 (
+
+644623*
+1  (*
+
+644623*
+1+ (>
+
+645640*
+1+ (>
+
+702931*
+1"	 "(
+
+703522*
+1  !(B
+
+703523*
+1   (
+
+707423*
+1   (+
+
+707623*
+1 3  (N
+
+707823*
+1 V  (k
+
+702923*
+1"	 "(
+
+702931*
+1#
+ #(<
+
+703840*
+1#
+ #(<
+
+704143*
+1#8 #(<
+
+703831*
+1#
+ #(
+
+702940*
+1#
+ #(
+
+704443*
+1# #(
+
+704623*
+1#  #(*
+
+704623*
+1#+ #(6
+
+708040*
+1#+ #(6
+
+822931*
+1'	 '(
+
+823522*
+1& &($
+
+823523*
+1& &(
+
+822923*
+1'	 '(
+
+822931*
+1(
+ ((F
+
+823840*
+1(
+ ((F
+
+824143*
+1(B ((F
+
+823831*
+1(
+ ((
+
+822940*
+1(
+ ((
+
+824443*
+1( ((
+
+824623*
+1(  ((*
+
+824623*
+1(+ ((@
+
+828640*
+1(+ ((@

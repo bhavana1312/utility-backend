@@ -1,0 +1,377 @@
+
+1.0bhavana1312_utility-backendJavaFrontend"1767547255713*java2.B§
+c
+^tariff-service/src/main/java/com/utilitybilling/tariffservice/dto/CreateTariffPlanRequest.java2
+	
+type3
+	
+MAIN4
+
+
+module-key5
+
+tarrif-service6
+
+package8
+8
+3tarrif-service:com.utilitybilling.tariffservice.dto9
+B
+<com.utilitybilling.tariffservice.dto.CreateTariffPlanRequest11
+
+class12
+
+access13
+
+public14
+
+
+full-range15
+
+(11:1)-(35:2)16
+
+simple-name17
+
+CreateTariffPlanRequest18
+
+lombok.Data20
+
+unknown21
+
+annotated by22
+
+
+uses23
+N
+Hcom.utilitybilling.tariffservice.dto.CreateTariffPlanRequest.utilityType25
+
+field26
+
+private27
+
+(14:2)-(15:34)28
+
+utilityType29
+8
+2com.utilitybilling.tariffservice.model.UtilityType31
+
+is type32
+,
+&jakarta.validation.constraints.NotNull34
+G
+Acom.utilitybilling.tariffservice.dto.CreateTariffPlanRequest.plan36
+
+(17:2)-(18:26)37
+
+
+plan38
+7
+1com.utilitybilling.tariffservice.model.TariffPlan40
+H
+Bcom.utilitybilling.tariffservice.dto.CreateTariffPlanRequest.slabs42
+
+(20:2)-(21:40)43
+
+slabs44
+-
+'jakarta.validation.constraints.NotEmpty46
+7
+1com.utilitybilling.tariffservice.model.TariffSlab48
+
+jakarta.validation.Valid50
+N
+Hcom.utilitybilling.tariffservice.dto.CreateTariffPlanRequest.fixedCharge52
+
+(23:2)-(24:29)53
+
+fixedCharge54
+(
+"jakarta.validation.constraints.Min56
+P
+Jcom.utilitybilling.tariffservice.dto.CreateTariffPlanRequest.taxPercentage58
+
+(26:2)-(28:31)59
+
+taxPercentage60
+(
+"jakarta.validation.constraints.Max62
+V
+Pcom.utilitybilling.tariffservice.dto.CreateTariffPlanRequest.overduePenaltySlabs64
+
+(30:2)-(31:55)65
+
+overduePenaltySlabs66
+?
+9com.utilitybilling.tariffservice.model.OverduePenaltySlab68
+P
+Jcom.utilitybilling.tariffservice.dto.CreateTariffPlanRequest.effectiveFrom70
+
+(33:2)-(34:34)71
+
+effectiveFrom72J%
+#
+1
+12
+
+3
+4
+
+5
+6 Z
+
+7
+7982
+
+
+5
+68jÄ
+N
+63H
+636426 *
+1# (6210:7B$
+
+
+13
+27
+
+
+15
+65
+
+
+17
+66
+N
+24H
+242526 *
+1 (!210:7B$
+
+
+13
+27
+
+
+15
+28
+
+
+17
+29
+
+33
+333421
+
+47
+474821
+
+49
+495021
+J
+10D
+101112 *
+1 (%:7B$
+
+
+13
+14
+
+
+15
+16
+
+
+17
+18
+N
+51H
+515226 *
+1 (210:7B$
+
+
+13
+27
+
+
+15
+53
+
+
+17
+54
+
+61
+616221
+
+30
+303121
+N
+41H
+414226 *
+1" ('210:7B$
+
+
+13
+27
+
+
+15
+43
+
+
+17
+44
+
+67
+676821
+
+39
+394021
+N
+57H
+575826 *
+1 (210:7B$
+
+
+13
+27
+
+
+15
+59
+
+
+17
+60
+
+19
+192021
+N
+69H
+697026 *
+1" "(!210:7B$
+
+
+13
+27
+
+
+15
+71
+
+
+17
+72
+
+45
+454621
+N
+35H
+353626 *
+1 (210:7B$
+
+
+13
+27
+
+
+15
+37
+
+
+17
+38
+
+55
+555621rô
+
+101922*
+1 (
+
+101923*
+1 (
+
+243032*
+1
+ (
+
+243322*
+1 (
+
+
+243323*
+1 (
+
+
+243023*
+1
+ (
+
+243023*
+1 (!
+
+353932*
+1
+ (
+
+353322*
+1 (
+
+
+353323*
+1 (
+
+
+353923*
+1
+ (
+
+353923*
+1 (
+
+414522*
+1 (
+
+414523*
+1 (
+
+414723*
+1 ( 
+
+414922*
+1 (
+
+414923*
+1 (
+
+515522*
+1 (	
+
+515523*
+1 (
+
+575522*
+1 (	
+
+575523*
+1 (
+
+576122*
+1 (
+
+576123*
+1 (
+
+634522*
+1 (
+
+634523*
+1 (
+
+636723*
+1 (!
+
+693322*
+1! !(
+
+
+693323*
+1! !(

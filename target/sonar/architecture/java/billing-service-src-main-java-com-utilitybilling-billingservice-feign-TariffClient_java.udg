@@ -1,0 +1,153 @@
+
+1.0bhavana1312_utility-backendJavaFrontend"1767547266480*java2.B¡
+\
+Wbilling-service/src/main/java/com/utilitybilling/billingservice/feign/TariffClient.java2
+	
+type3
+	
+MAIN4
+
+
+module-key5
+
+billing-service6
+
+package8
+<
+7billing-service:com.utilitybilling.billingservice.feign9
+:
+4com.utilitybilling.billingservice.feign.TariffClient11
+
+	interface12
+
+access13
+
+public14
+
+
+full-range15
+
+(7:1)-(12:2)16
+
+simple-name17
+
+TariffClient18
+5
+/org.springframework.cloud.openfeign.FeignClient20
+
+unknown21
+
+annotated by22
+
+
+uses23
+£
+œcom.utilitybilling.billingservice.feign.TariffClient#getActive(Ljava/lang/String;Ljava/lang/String;)Lcom/utilitybilling/billingservice/feign/TariffResponse;25
+
+method26
+
+(10:2)-(11:88)27
+
+	getActive28
+<
+6com.utilitybilling.billingservice.feign.TariffResponse30
+
+returns31
+8
+2org.springframework.web.bind.annotation.GetMapping33
+:
+4org.springframework.web.bind.annotation.PathVariable35J%
+#
+1
+12
+
+3
+4
+
+5
+6 Z
+
+7
+7982
+
+
+5
+68jì
+
+29
+293021
+
+34
+343521
+
+32
+323321
+J
+10D
+101112 *
+1 (:7B$
+
+
+13
+14
+
+
+15
+16
+
+
+17
+18
+
+19
+192021
+N
+24H
+242526 *
+1 (210:7B$
+
+
+13
+14
+
+
+15
+27
+
+
+17
+28rŽ
+
+101922*
+1 (&
+
+101923*
+1 (
+
+242931*
+1 (
+
+243222*
+1
+ 
+(>
+
+243223*
+1
+ 
+(
+
+242923*
+1 (
+
+243422*
+1 ((
+
+243423*
+1 ((
+
+243422*
+1= (J
+
+243423*
+1> (J

@@ -1,0 +1,304 @@
+
+1.0bhavana1312_utility-backendJavaFrontend"1767547256304*java2.Bÿ
+h
+ctariff-service/src/main/java/com/utilitybilling/tariffservice/exception/GlobalExceptionHandler.java2
+	
+type3
+	
+MAIN4
+
+
+module-key5
+
+tarrif-service6
+
+package8
+>
+9tarrif-service:com.utilitybilling.tariffservice.exception9
+G
+Acom.utilitybilling.tariffservice.exception.GlobalExceptionHandler11
+
+class12
+
+access13
+
+public14
+
+
+full-range15
+
+(6:1)-(18:2)16
+
+simple-name17
+
+GlobalExceptionHandler18
+B
+<org.springframework.web.bind.annotation.RestControllerAdvice20
+
+unknown21
+
+annotated by22
+
+
+uses23
+À
+¹com.utilitybilling.tariffservice.exception.GlobalExceptionHandler#handleBusiness(Lcom/utilitybilling/tariffservice/exception/BusinessException;)Lorg/springframework/http/ResponseEntity;25
+
+method26
+
+(9:2)-(12:3)27
+
+handleBusiness28
+-
+'org.springframework.http.ResponseEntity30
+
+returns31
+B
+<com.utilitybilling.tariffservice.exception.BusinessException33
+
+	has param34
+>
+8org.springframework.web.bind.annotation.ExceptionHandler36
+
+is type37
+9
+3org.springframework.http.ResponseEntity$BodyBuilder39
+
+
+references40
+{
+uorg.springframework.http.ResponseEntity$BodyBuilder#body(Ljava/lang/Object;)Lorg/springframework/http/ResponseEntity;42
+
+calls43
+o
+iorg.springframework.http.ResponseEntity#badRequest()Lorg/springframework/http/ResponseEntity$BodyBuilder;45
+À
+¹com.utilitybilling.tariffservice.exception.GlobalExceptionHandler#handleNotFound(Lcom/utilitybilling/tariffservice/exception/NotFoundException;)Lorg/springframework/http/ResponseEntity;47
+
+(14:2)-(17:3)48
+
+handleNotFound49
+B
+<com.utilitybilling.tariffservice.exception.NotFoundException51
+•
+Žorg.springframework.http.ResponseEntity#status(Lorg/springframework/http/HttpStatusCode;)Lorg/springframework/http/ResponseEntity$BodyBuilder;53
+)
+#org.springframework.http.HttpStatus55
+3
+-org.springframework.http.HttpStatus.NOT_FOUND57J%
+#
+1
+12
+
+3
+4
+
+5
+6 Z
+
+7
+7982
+
+
+5
+68jÈ
+
+56
+565721
+
+38
+383921
+N
+46H
+464726 *
+1  (.210:7B$
+
+
+13
+14
+
+
+15
+48
+
+
+17
+49
+
+54
+545521
+
+19
+192021
+J
+10D
+101112 *
+1 ($:7B$
+
+
+13
+14
+
+
+15
+16
+
+
+17
+18
+
+41
+414221
+
+35
+353621
+
+50
+505121
+
+29
+293021
+N
+24H
+242526 *
+1
+  
+(.210:7B$
+
+
+13
+14
+
+
+15
+27
+
+
+17
+28
+
+44
+444521
+
+32
+323321
+
+52
+525321rû
+
+101922*
+1 (
+
+101923*
+1 (
+
+242931*
+1
+	 
+(
+
+243234*
+1
+/ 
+(@
+
+243522*
+1	 	(,
+
+243523*
+1	 	(
+
+243223*
+1	 	(%
+
+242923*
+1
+	 
+(
+
+243237*
+1
+A 
+(B
+
+243223*
+1
+/ 
+(@
+
+242931*
+1
+ (*
+
+243840*
+1
+ (*
+
+244143*
+1& (*
+
+243831*
+1
+ (#
+
+242940*
+1
+ (#
+
+244443*
+1 (#
+
+462931*
+1	 (
+
+465034*
+1/ (@
+
+463522*
+1 (,
+
+463523*
+1 (
+
+465023*
+1 (%
+
+462923*
+1	 (
+
+465037*
+1A (B
+
+465023*
+1/ (@
+
+462931*
+1
+ (:
+
+463840*
+1
+ (:
+
+464143*
+16 (:
+
+463831*
+1
+ (
+
+462940*
+1
+ (
+
+465243*
+1 (
+
+465423*
+1  (*
+
+465423*
+1+ (4
+
+465640*
+1+ (4

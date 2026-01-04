@@ -1,0 +1,51 @@
+
+¨com.utilitybilling.billingservice.controller.InternalBillingController#outstanding(Ljava/lang/String;)Lcom/utilitybilling/billingservice/dto/OutstandingBalanceResponse;”
+‰D:/weird/utility-billing-system/billing-service/src/main/java/com/utilitybilling/billingservice/controller/InternalBillingController.java& (1"startingBlock*´
+startingBlock1 (`³
+°
+2 (M
+%2"
+__annotate*T
+
+__unknown_file (86
+4org.springframework.web.bind.annotation.PathVariable*<
+
+__unknown_file ( 
+
+
+consumerIdjava.lang.String^
+\
+U (_
+
+consumerIdjava.lang.String"__annotation*"
+
+__unknown_file (
+
+%2*
+1*ç
+1 (Ï
+Ì
+ (>
+%08com.utilitybilling.billingservice.service.BillingService"__id*z
+
+__unknown_file (^*\H
+Fcom.utilitybilling.billingservice.controller.InternalBillingController"
+billingService¯¬
+ (5F
+%1@com.utilitybilling.billingservice.dto.OutstandingBalanceResponse"šcom.utilitybilling.billingservice.service.BillingService#outstanding(Ljava/lang/String;)Lcom/utilitybilling/billingservice/dto/OutstandingBalanceResponse;*\
+
+__unknown_file (@
+>
+%08com.utilitybilling.billingservice.service.BillingService*<
+
+__unknown_file ( 
+
+
+consumerIdjava.lang.String2outstanding(Ljava/lang/String;)"T
+ (6H
+F
+%1@com.utilitybilling.billingservice.dto.OutstandingBalanceResponse:*
+2 (_
+
+consumerIdjava.lang.StringBJH
+Fcom.utilitybilling.billingservice.controller.InternalBillingControllerH

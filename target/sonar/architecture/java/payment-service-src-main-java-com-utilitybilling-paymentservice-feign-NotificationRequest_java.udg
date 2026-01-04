@@ -1,0 +1,285 @@
+
+1.0bhavana1312_utility-backendJavaFrontend"1767547264730*java2.B¢
+c
+^payment-service/src/main/java/com/utilitybilling/paymentservice/feign/NotificationRequest.java2
+	
+type3
+	
+MAIN4
+
+
+module-key5
+
+payment-service6
+
+package8
+<
+7payment-service:com.utilitybilling.paymentservice.feign9
+A
+;com.utilitybilling.paymentservice.feign.NotificationRequest11
+
+class12
+
+access13
+
+public14
+
+
+full-range15
+
+(5:1)-(19:2)16
+
+simple-name17
+
+NotificationRequest18
+
+lombok.Getter20
+
+unknown21
+
+annotated by22
+
+
+uses23
+
+lombok.Setter25
+
+lombok.NoArgsConstructor27
+
+lombok.AllArgsConstructor29
+
+lombok.Builder31
+G
+Acom.utilitybilling.paymentservice.feign.NotificationRequest.email33
+
+field34
+
+private35
+
+(11:2)-(11:23)36
+
+email37
+F
+@com.utilitybilling.paymentservice.feign.NotificationRequest.type39
+
+(12:2)-(12:22)40
+I
+Ccom.utilitybilling.paymentservice.feign.NotificationRequest.subject42
+
+(13:2)-(13:25)43
+
+subject44
+I
+Ccom.utilitybilling.paymentservice.feign.NotificationRequest.message46
+
+(14:2)-(14:25)47
+
+message48
+R
+Lcom.utilitybilling.paymentservice.feign.NotificationRequest.attachmentBase6450
+
+(16:2)-(16:34)51
+
+attachmentBase6452
+P
+Jcom.utilitybilling.paymentservice.feign.NotificationRequest.attachmentName54
+
+(17:2)-(17:32)55
+
+attachmentName56
+P
+Jcom.utilitybilling.paymentservice.feign.NotificationRequest.attachmentType58
+
+(18:2)-(18:32)59
+
+attachmentType60J%
+#
+1
+12
+
+3
+4
+
+5
+6 Z
+
+7
+7982
+
+
+5
+68jß
+
+24
+242521
+
+19
+192021
+N
+32H
+323334 *
+1 (210:7B$
+
+
+13
+35
+
+
+15
+36
+
+
+17
+37
+N
+57H
+575834 *
+1 (210:7B$
+
+
+13
+35
+
+
+15
+59
+
+
+17
+60
+J
+10D
+101112 *
+1
+ 
+(!:7B$
+
+
+13
+14
+
+
+15
+16
+
+
+17
+18
+N
+49H
+495034 *
+1 (!210:7B$
+
+
+13
+35
+
+
+15
+51
+
+
+17
+52
+M
+38G
+383934 *
+1 (210:7B#
+
+
+13
+35
+
+
+15
+40
+	
+17
+3
+N
+45H
+454634 *
+1 (210:7B$
+
+
+13
+35
+
+
+15
+47
+
+
+17
+48
+
+30
+303121
+N
+53H
+535434 *
+1 (210:7B$
+
+
+13
+35
+
+
+15
+55
+
+
+17
+56
+N
+41H
+414234 *
+1 (210:7B$
+
+
+13
+35
+
+
+15
+43
+
+
+17
+44
+
+28
+282921
+
+26
+262721rŽ
+
+101922*
+1 (
+
+101923*
+1 (
+
+102422*
+1 (
+
+102423*
+1 (
+
+102622*
+1 (
+
+102623*
+1 (
+
+102822*
+1 (
+
+102823*
+1 (
+
+103022*
+1	 	(	
+
+103023*
+1	 	(	

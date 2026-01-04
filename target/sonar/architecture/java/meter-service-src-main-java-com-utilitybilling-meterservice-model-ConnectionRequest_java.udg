@@ -1,0 +1,332 @@
+
+1.0bhavana1312_utility-backendJavaFrontend"1767547262741*java2.BŒ
+]
+Xmeter-service/src/main/java/com/utilitybilling/meterservice/model/ConnectionRequest.java2
+	
+type3
+	
+MAIN4
+
+
+module-key5
+
+meter-service6
+
+package8
+8
+3meter-service:com.utilitybilling.meterservice.model9
+=
+7com.utilitybilling.meterservice.model.ConnectionRequest11
+
+class12
+
+access13
+
+public14
+
+
+full-range15
+
+(9:1)-(27:2)16
+
+simple-name17
+
+ConnectionRequest18
+
+lombok.Data20
+
+unknown21
+
+annotated by22
+
+
+uses23
+<
+6org.springframework.data.mongodb.core.mapping.Document25
+@
+:com.utilitybilling.meterservice.model.ConnectionRequest.id27
+
+field28
+
+private29
+
+(13:5)-(14:23)30
+
+id31
+,
+&org.springframework.data.annotation.Id33
+H
+Bcom.utilitybilling.meterservice.model.ConnectionRequest.consumerId35
+
+(16:5)-(16:31)36
+
+
+consumerId37
+I
+Ccom.utilitybilling.meterservice.model.ConnectionRequest.utilityType39
+
+(18:5)-(18:37)40
+
+utilityType41
+7
+1com.utilitybilling.meterservice.model.UtilityType43
+
+is type44
+H
+Bcom.utilitybilling.meterservice.model.ConnectionRequest.tariffPlan46
+
+(20:5)-(20:35)47
+
+
+tariffPlan48
+6
+0com.utilitybilling.meterservice.model.TariffPlan50
+D
+>com.utilitybilling.meterservice.model.ConnectionRequest.status52
+
+(22:5)-(22:62)53
+
+status54
+<
+6com.utilitybilling.meterservice.model.ConnectionStatus56
+D
+>com.utilitybilling.meterservice.model.ConnectionStatus.PENDING58
+
+
+references59
+M
+Gcom.utilitybilling.meterservice.model.ConnectionRequest.rejectionReason61
+
+(24:5)-(24:36)62
+
+rejectionReason63
+G
+Acom.utilitybilling.meterservice.model.ConnectionRequest.createdAt65
+
+(26:5)-(26:45)66
+
+	createdAt67J%
+#
+1
+12
+
+3
+4
+
+5
+6 Z
+
+7
+7982
+
+
+5
+68jˆ
+
+49
+495021
+N
+45H
+454628 *
+1 ("210:7B$
+
+
+13
+29
+
+
+15
+47
+
+
+17
+48
+
+42
+424321
+N
+26H
+262728 *
+1 (210:7B$
+
+
+13
+29
+
+
+15
+30
+
+
+17
+31
+
+24
+242521
+N
+60H
+606128 *
+1 (#210:7B$
+
+
+13
+29
+
+
+15
+62
+
+
+17
+63
+
+55
+555621
+N
+34H
+343528 *
+1 (210:7B$
+
+
+13
+29
+
+
+15
+36
+
+
+17
+37
+N
+51H
+515228 *
+1 ($210:7B$
+
+
+13
+29
+
+
+15
+53
+
+
+17
+54
+
+19
+192021
+N
+64H
+646528 *
+1 (210:7B$
+
+
+13
+29
+
+
+15
+66
+
+
+17
+67
+
+32
+323321
+J
+10D
+101112 *
+1 (:7B$
+
+
+13
+14
+
+
+15
+16
+
+
+17
+18
+N
+38H
+383928 *
+1 ($210:7B$
+
+
+13
+29
+
+
+15
+40
+
+
+17
+41
+
+57
+575821ræ
+
+101922*
+1	 	(
+
+101923*
+1	 	(
+
+102422*
+1
+ 
+(,
+
+102423*
+1
+ 
+(
+
+
+263222*
+1 (
+
+263223*
+1 (
+
+384244*
+1 (
+
+384223*
+1 (
+
+384223*
+1 ($
+
+454944*
+1 (
+
+454923*
+1 (
+
+454923*
+1 ("
+
+515544*
+1 (
+
+515523*
+1 (
+
+515523*
+1 ($
+
+515523*
+1% (5
+
+515523*
+16 (=
+
+515759*
+16 (=
